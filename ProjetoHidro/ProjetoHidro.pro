@@ -51,4 +51,5 @@ FORMS    += janelaprincipal.ui \
     janelabarragem.ui \
     janelaopcaofb.ui
 
-OTHER_FILES +=
+OTHER_FILES += \
+    README.txt
