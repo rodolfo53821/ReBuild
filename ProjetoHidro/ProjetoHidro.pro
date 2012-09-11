@@ -50,3 +50,5 @@ FORMS    += janelaprincipal.ui \
     janelaopcaocor.ui \
     janelabarragem.ui \
     janelaopcaofb.ui
+
+OTHER_FILES +=
