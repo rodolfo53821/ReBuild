@@ -1,0 +1,35 @@
+buscaVizinho(ponto p, ponto b, ponto e)
+
+verifica os oito vizinhos p'
+
+se inclinacao p'b em relecao a be E (90,270) 
+marca como extravasou
+se inlcinacao p'b em relecao a be = 90 ou = 270
+cresce barragem
+
+
+
+bool permiteInundacaoEAumentaBarragem(Point p1,Point p2,Point p3, int **matrizDeDirecoes, int numBarragem){
+//p1 barragem fixa, p2 vizinho mais a juzante do p1, p3 elemento a ser testado
+//produto escalar produtoEscalar = p1p2.p1p3 
+// define o angulo entre os dois vetores
+int produtoEscalar = (p2.first - p1.first)*(p3.first - p1.first) + (p2.second - p1.second)*(p3.second - p1.second)
+
+//se forem perpendiculares poe barragem no p3, ou seja produtoEscalar = 0
+//e retorna falso
+if(produtoEscalar == 0){
+	matrizDeDirecoes[p3.first][p3.second] = numBarragem;
+	return false;
+}else
+	return produtoEscalar>0?true:false;
+
+
+//se produtoEscalar > 0 o angulo entre eles eh < 90
+//retorna true
+
+//se produto escalar < 90 retorne false
+
+
+}
+
+

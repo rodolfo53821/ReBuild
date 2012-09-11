@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- Inundacao.cpp -->
+  <title>Inundacao Class Reference</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <script src="scripts/jquery.js" type="text/javascript"></script>
+  <script src="scripts/functions.js" type="text/javascript"></script>
+</head>
+<body class="offline narrow creator">
+              <li><a href="modules.html">Modules</a></li>              <li>Inundacao</li>
+  <link rel="prev" href="fluxo.html" />
+  <link rel="next" href="janelabarragem.html" />
+  <link rel="start" href="All Classes" />
+<p class="naviNextPrevious headerNavi">
+[Previous: <a href="fluxo.html">Fluxo</a>]
+[Next: <a href="janelabarragem.html">janelabarragem</a>]
+</p><p/>
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#public-functions">Public Functions</a></li>
+<li class="level1"><a href="#public-variables">Public Variables</a></li>
+<li class="level1"><a href="#details">Detailed Description</a></li>
+</ul>
+</div>
+<h1 class="title">Inundacao Class Reference</h1>
+<!-- $$$Inundacao-brief -->
+<p>Class to create the resorvoir, with the dam and flooded cells <a href="#details">More...</a></p>
+<!-- @@@Inundacao -->
+<pre class="highlightedCode brush: cpp">    #include &lt;Inundacao&gt;</pre><ul>
+<li><a href="inundacao-members.html">List of all members, including inherited members</a></li>
+</ul>
+<a name="public-functions"></a>
+<h2>Public Functions</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#Inundacao">Inundacao</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#Inundacao-2">Inundacao</a></b> ( int <i>linhas</i>, int <i>colunas</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#Inundacao-3">Inundacao</a></b> ( Inundacao const &amp; <i>inundacaoCopia</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#dtor.Inundacao">~Inundacao</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#acertaTamanhoBarragem">acertaTamanhoBarragem</a></b> ( short int ** <i>matrizDeEstados</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QList&lt;PontoZ&gt; </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#algoritmoDouglasPeucker">algoritmoDouglasPeucker</a></b> ( QList&lt;PontoZ&gt; &amp; <i>lista</i>, int <i>epsilon</i>, QList&lt;PontoZ&gt; &amp; <i>resultadoLista</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#criaListaParaDouglasPeucker">criaListaParaDouglasPeucker</a></b> ( int <i>numElementos</i>, QList&lt;PontoZ&gt; &amp; <i>listaASerSimplificada</i>, short int ** <i>elevacoes</i>, bool ** <i>rio</i>, unsigned char ** <i>matrizDeDirecoes</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#defineVetorNormalABarragem">defineVetorNormalABarragem</a></b> ( int <i>op</i>, int <i>val</i>, short int ** <i>elevacoes</i>, bool ** <i>rio</i>, unsigned char ** <i>matrizDeDirecoes</i>, int <i>valEp</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> PontoZ </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#getPosicaoBarragem">getPosicaoBarragem</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#inicializaBarragem">inicializaBarragem</a></b> ( int <i>x</i>, int <i>y</i>, int <i>xAcima</i>, int <i>yAcima</i>, short int ** <i>elevacoes</i>, bool ** <i>rio</i>, unsigned char ** <i>matrizDeDirecoes</i>, int <i>opVetorNormal</i>, int <i>valorVetorNormal</i>, int <i>valEp</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#inunda">inunda</a></b> ( int <i>posX</i>, int <i>posY</i>, unsigned char ** <i>matrizDeDirecoes</i>, short int ** <i>elevacoes</i>, bool ** <i>rio</i>, int <i>opVetorNormal</i>, int <i>valorVetorNormal</i>, int <i>valEp</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#marcaBarragem">marcaBarragem</a></b> ( short int ** <i>matrizDeEstados</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#marcaMontante">marcaMontante</a></b> ( int <i>xi</i>, int <i>yi</i>, short int ** <i>matrizDeEstados</i>, unsigned char ** <i>matrizDeDirecoes</i>, short int ** <i>elevacoes</i>, bool ** <i>rio</i>, int <i>opVetorNormal</i>, int <i>valorVetorNormal</i>, int <i>valEp</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#permiteInundacaoEAumentaBarragem">permiteInundacaoEAumentaBarragem</a></b> ( PontoZ <i>pontoAvaliado</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#sobeNivelDeAgua">sobeNivelDeAgua</a></b> ( short int ** <i>matrizDeEstados</i>, short int ** <i>elevacoes</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#vetorNormalPorDouglasPeucker">vetorNormalPorDouglasPeucker</a></b> ( int <i>numElementos</i>, int <i>epsilon</i>, short int ** <i>elevacoes</i>, bool ** <i>rio</i>, unsigned char ** <i>matrizDeDirecoes</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#vetorNormalPorVizinhanca">vetorNormalPorVizinhanca</a></b> ( int <i>viz</i>, short int ** <i>elevacoes</i>, bool ** <i>rio</i>, unsigned char ** <i>matrizDeDirecoes</i> )</td></tr>
+</table>
+<a name="public-variables"></a>
+<h2>Public Variables</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#areaBarragemTocada-var">areaBarragemTocada</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#areaLaminaAgua-var">areaLaminaAgua</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#comprimentoBarragemTocada-var">comprimentoBarragemTocada</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> short int ** </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#matrizEstados-var">matrizEstados</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#nColunas-var">nColunas</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#nLinhas-var">nLinhas</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#nivelAgua-var">nivelAgua</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> PontoZ </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#posicaoBarragem-var">posicaoBarragem</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#tamanhoMaximoDaBarragem-var">tamanhoMaximoDaBarragem</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> PontoZ </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#vetorNormalABarragem-var">vetorNormalABarragem</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#volumeAgua-var">volumeAgua</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="inundacao.html#volumeAlvo-var">volumeAlvo</a></b></td></tr>
+</table>
+<a name="details"></a>
+<!-- $$$Inundacao-description -->
+<div class="descr">
+<h2>Detailed Description</h2>
+<p>Class to create the resorvoir, with the dam and flooded cells</p>
+</div>
+<!-- @@@Inundacao -->
+<div class="func">
+<h2>Member Function Documentation</h2>
+<!-- $$$Inundacao[overload1]$$$Inundacao -->
+<h3 class="fn"><a name="Inundacao"></a>Inundacao::Inundacao ()</h3>
+<!-- @@@Inundacao -->
+<!-- $$$Inundacao$$$Inundacaointint -->
+<h3 class="fn"><a name="Inundacao-2"></a>Inundacao::Inundacao ( int <i>linhas</i>, int <i>colunas</i> )</h3>
+<p>Constructor. Creates an object that have only the variables initialized, no reservoir is calculed yet.</p>
+<!-- @@@Inundacao -->
+<!-- $$$Inundacao$$$InundacaoInundacaoconst& -->
+<h3 class="fn"><a name="Inundacao-3"></a>Inundacao::Inundacao ( Inundacao const &amp; <i>inundacaoCopia</i> )</h3>
+<p>Copy Constructor. Creates an object receiving attributes from inundacaoCopia</p>
+<!-- @@@Inundacao -->
+<!-- $$$~Inundacao[overload1]$$$~Inundacao -->
+<h3 class="fn"><a name="dtor.Inundacao"></a>Inundacao::~Inundacao ()</h3>
+<p>Destructor</p>
+<!-- @@@~Inundacao -->
+<!-- $$$acertaTamanhoBarragem[overload1]$$$acertaTamanhoBarragemshortint** -->
+<h3 class="fn"><a name="acertaTamanhoBarragem"></a>void Inundacao::acertaTamanhoBarragem ( short int ** <i>matrizDeEstados</i> )</h3>
+<p>Definy the real cells that are dam`s cell. Eliminate cells that arent near a flooded cell.</p>
+<!-- @@@acertaTamanhoBarragem -->
+<!-- $$$algoritmoDouglasPeucker[overload1]$$$algoritmoDouglasPeuckerQList<PontoZ>&intQList<PontoZ>& -->
+<h3 class="fn"><a name="algoritmoDouglasPeucker"></a>QList&lt;<a href="pontoz.html">PontoZ</a>&gt; Inundacao::algoritmoDouglasPeucker ( QList&lt;<a href="pontoz.html">PontoZ</a>&gt; &amp; <i>lista</i>, int <i>epsilon</i>, QList&lt;<a href="pontoz.html">PontoZ</a>&gt; &amp; <i>resultadoLista</i> )</h3>
+<p>The Douglas-Peucker algorithm, used to simplify the isoline and obtain a vector to be the normal vector of the dam</p>
+<!-- @@@algoritmoDouglasPeucker -->
+<!-- $$$criaListaParaDouglasPeucker[overload1]$$$criaListaParaDouglasPeuckerintQList<PontoZ>&shortint**bool**unsignedchar** -->
+<h3 class="fn"><a name="criaListaParaDouglasPeucker"></a>void Inundacao::criaListaParaDouglasPeucker ( int <i>numElementos</i>, QList&lt;<a href="pontoz.html">PontoZ</a>&gt; &amp; <i>listaASerSimplificada</i>, short int ** <i>elevacoes</i>, bool ** <i>rio</i>, unsigned char ** <i>matrizDeDirecoes</i> )</h3>
+<p>Definy what points in drainage network will be in the Douglas-Peucker algorithm</p>
+<!-- @@@criaListaParaDouglasPeucker -->
+<!-- $$$defineVetorNormalABarragem[overload1]$$$defineVetorNormalABarragemintintshortint**bool**unsignedchar**int -->
+<h3 class="fn"><a name="defineVetorNormalABarragem"></a>void Inundacao::defineVetorNormalABarragem ( int <i>op</i>, int <i>val</i>, short int ** <i>elevacoes</i>, bool ** <i>rio</i>, unsigned char ** <i>matrizDeDirecoes</i>, int <i>valEp</i> )</h3>
+<p>Definy what function to call to calculate the dam`s normal vector</p>
+<!-- @@@defineVetorNormalABarragem -->
+<!-- $$$getPosicaoBarragem[overload1]$$$getPosicaoBarragem -->
+<h3 class="fn"><a name="getPosicaoBarragem"></a><a href="pontoz.html">PontoZ</a> Inundacao::getPosicaoBarragem ()</h3>
+<p>Returns the dam position.</p>
+<!-- @@@getPosicaoBarragem -->
+<!-- $$$inicializaBarragem[overload1]$$$inicializaBarragemintintintintshortint**bool**unsignedchar**intintint -->
+<h3 class="fn"><a name="inicializaBarragem"></a>void Inundacao::inicializaBarragem ( int <i>x</i>, int <i>y</i>, int <i>xAcima</i>, int <i>yAcima</i>, short int ** <i>elevacoes</i>, bool ** <i>rio</i>, unsigned char ** <i>matrizDeDirecoes</i>, int <i>opVetorNormal</i>, int <i>valorVetorNormal</i>, int <i>valEp</i> )</h3>
+<p>Initialize the variable needed to create the reservoir</p>
+<!-- @@@inicializaBarragem -->
+<!-- $$$inunda[overload1]$$$inundaintintunsignedchar**shortint**bool**intintint -->
+<h3 class="fn"><a name="inunda"></a>void Inundacao::inunda ( int <i>posX</i>, int <i>posY</i>, unsigned char ** <i>matrizDeDirecoes</i>, short int ** <i>elevacoes</i>, bool ** <i>rio</i>, int <i>opVetorNormal</i>, int <i>valorVetorNormal</i>, int <i>valEp</i> )</h3>
+<p>Function that invoque the sequence of functions to create the reservoir</p>
+<!-- @@@inunda -->
+<!-- $$$marcaBarragem[overload1]$$$marcaBarragemshortint** -->
+<h3 class="fn"><a name="marcaBarragem"></a>void Inundacao::marcaBarragem ( short int ** <i>matrizDeEstados</i> )</h3>
+<p>Mark the points in MDE that could be a dam cell</p>
+<!-- @@@marcaBarragem -->
+<!-- $$$marcaMontante[overload1]$$$marcaMontanteintintshortint**unsignedchar**shortint**bool**intintint -->
+<h3 class="fn"><a name="marcaMontante"></a>void Inundacao::marcaMontante ( int <i>xi</i>, int <i>yi</i>, short int ** <i>matrizDeEstados</i>, unsigned char ** <i>matrizDeDirecoes</i>, short int ** <i>elevacoes</i>, bool ** <i>rio</i>, int <i>opVetorNormal</i>, int <i>valorVetorNormal</i>, int <i>valEp</i> )</h3>
+<p>Initialize the process of construct the dam</p>
+<!-- @@@marcaMontante -->
+<!-- $$$permiteInundacaoEAumentaBarragem[overload1]$$$permiteInundacaoEAumentaBarragemPontoZ -->
+<h3 class="fn"><a name="permiteInundacaoEAumentaBarragem"></a>bool Inundacao::permiteInundacaoEAumentaBarragem ( <a href="pontoz.html">PontoZ</a> <i>pontoAvaliado</i> )</h3>
+<p>Function used to test if a point pontoAvaliado can be a flooded cell. If this point is in the same direction of the dam, it will grow up. If not the algorithm test if it can be or not a flooded cell.</p>
+<!-- @@@permiteInundacaoEAumentaBarragem -->
+<!-- $$$sobeNivelDeAgua[overload1]$$$sobeNivelDeAguashortint**shortint** -->
+<h3 class="fn"><a name="sobeNivelDeAgua"></a>void Inundacao::sobeNivelDeAgua ( short int ** <i>matrizDeEstados</i>, short int ** <i>elevacoes</i> )</h3>
+<p>Rise the water`s level flooding cells generated new values for variable</p>
+<!-- @@@sobeNivelDeAgua -->
+<!-- $$$vetorNormalPorDouglasPeucker[overload1]$$$vetorNormalPorDouglasPeuckerintintshortint**bool**unsignedchar** -->
+<h3 class="fn"><a name="vetorNormalPorDouglasPeucker"></a>void Inundacao::vetorNormalPorDouglasPeucker ( int <i>numElementos</i>, int <i>epsilon</i>, short int ** <i>elevacoes</i>, bool ** <i>rio</i>, unsigned char ** <i>matrizDeDirecoes</i> )</h3>
+<p>Function to prepare and call Douglas-Peucker algorithm</p>
+<!-- @@@vetorNormalPorDouglasPeucker -->
+<!-- $$$vetorNormalPorVizinhanca[overload1]$$$vetorNormalPorVizinhancaintshortint**bool**unsignedchar** -->
+<h3 class="fn"><a name="vetorNormalPorVizinhanca"></a>void Inundacao::vetorNormalPorVizinhanca ( int <i>viz</i>, short int ** <i>elevacoes</i>, bool ** <i>rio</i>, unsigned char ** <i>matrizDeDirecoes</i> )</h3>
+<p>Function to calculate the dam`s normal vector by the simple sum of vector</p>
+<!-- @@@vetorNormalPorVizinhanca -->
+</div>
+<div class="vars">
+<h2>Member Variable Documentation</h2>
+<!-- $$$areaBarragemTocada -->
+<h3 class="fn"><a name="areaBarragemTocada-var"></a>int Inundacao::areaBarragemTocada</h3>
+<p>This variable holds the value of the area for the dam.</p>
+<!-- @@@areaBarragemTocada -->
+<!-- $$$areaLaminaAgua -->
+<h3 class="fn"><a name="areaLaminaAgua-var"></a>int Inundacao::areaLaminaAgua</h3>
+<p>This variable holds the value of the flooded area in the reservoir.</p>
+<!-- @@@areaLaminaAgua -->
+<!-- $$$comprimentoBarragemTocada -->
+<h3 class="fn"><a name="comprimentoBarragemTocada-var"></a>int Inundacao::comprimentoBarragemTocada</h3>
+<p>This variable holds the value of the dam`s extent.</p>
+<!-- @@@comprimentoBarragemTocada -->
+<!-- $$$matrizEstados -->
+<h3 class="fn"><a name="matrizEstados-var"></a>short int ** Inundacao::matrizEstados</h3>
+<p>This variable holds a pointer to pointer representing the matrix of states of cell. If cell are dam, flooded, drainage network or nothing.</p>
+<!-- @@@matrizEstados -->
+<!-- $$$nColunas -->
+<h3 class="fn"><a name="nColunas-var"></a>int Inundacao::nColunas</h3>
+<p>This variable holds the number of columns of MDE.</p>
+<!-- @@@nColunas -->
+<!-- $$$nLinhas -->
+<h3 class="fn"><a name="nLinhas-var"></a>int Inundacao::nLinhas</h3>
+<p>This variable holds the number of lines of MDE.</p>
+<!-- @@@nLinhas -->
+<!-- $$$nivelAgua -->
+<h3 class="fn"><a name="nivelAgua-var"></a>int Inundacao::nivelAgua</h3>
+<p>This variable holds the value of current high of the water generated by the flooding.</p>
+<!-- @@@nivelAgua -->
+<!-- $$$posicaoBarragem -->
+<h3 class="fn"><a name="posicaoBarragem-var"></a><a href="pontoz.html">PontoZ</a> Inundacao::posicaoBarragem</h3>
+<p>This variable holds a cell representing by a point to identify the the position downstream the dam position.</p>
+<!-- @@@posicaoBarragem -->
+<!-- $$$tamanhoMaximoDaBarragem -->
+<h3 class="fn"><a name="tamanhoMaximoDaBarragem-var"></a>int Inundacao::tamanhoMaximoDaBarragem</h3>
+<p>This variable holds the maximum value of dam extent. Its not used in the algorithm yet.</p>
+<!-- @@@tamanhoMaximoDaBarragem -->
+<!-- $$$vetorNormalABarragem -->
+<h3 class="fn"><a name="vetorNormalABarragem-var"></a><a href="pontoz.html">PontoZ</a> Inundacao::vetorNormalABarragem</h3>
+<p>This variable holds a point to describe the final point of the dam`s normal vector. The start point is the dam position. with this point we can calculate the direction of the dam use simple math calcs.</p>
+<!-- @@@vetorNormalABarragem -->
+<!-- $$$volumeAgua -->
+<h3 class="fn"><a name="volumeAgua-var"></a>int Inundacao::volumeAgua</h3>
+<p>This variable holds the value of current resorvoir`s volume.</p>
+<!-- @@@volumeAgua -->
+<!-- $$$volumeAlvo -->
+<h3 class="fn"><a name="volumeAlvo-var"></a>int Inundacao::volumeAlvo</h3>
+<p>This variable holds the value volume required by user to construct the reservoir.</p>
+<!-- @@@volumeAlvo -->
+</div>
+<p class="naviNextPrevious footerNavi">
+[Previous: <a href="fluxo.html">Fluxo</a>]
+[Next: <a href="janelabarragem.html">janelabarragem</a>]
+</p>
+</body>
+</html>

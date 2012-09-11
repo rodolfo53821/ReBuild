@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="" title="teste" version="">
+    <namespace access="public" threadsafety="unspecified" status="commendable" name="" href="" location="" module="">
+        <class access="public" threadsafety="unspecified" status="commendable" name="PainelVisualizacaoOpenGL" href="painelvisualizacaoopengl.html" location="painelvisualizacaoopengl.h" bases="" module="">
+            <function access="public" threadsafety="unspecified" status="commendable" name="PainelVisualizacaoOpenGL" fullname="PainelVisualizacaoOpenGL::PainelVisualizacaoOpenGL" href="painelvisualizacaoopengl.html#PainelVisualizacaoOpenGL" location="painelvisualizacaoopengl.cpp" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="PainelVisualizacaoOpenGL(QWidget * parent)">
+                <parameter left="QWidget *" right="" name="parent" default="0"/>
+            </function>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="visualizacaoMapa" fullname="PainelVisualizacaoOpenGL::visualizacaoMapa" href="painelvisualizacaoopengl.html#visualizacaoMapa-var" location="painelvisualizacaoopengl.h" type="VisualizacaoMapa *" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="posClickX" fullname="PainelVisualizacaoOpenGL::posClickX" href="painelvisualizacaoopengl.html#posClickX-var" location="painelvisualizacaoopengl.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="posClickY" fullname="PainelVisualizacaoOpenGL::posClickY" href="painelvisualizacaoopengl.html#posClickY-var" location="painelvisualizacaoopengl.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="corAlagamento" fullname="PainelVisualizacaoOpenGL::corAlagamento" href="painelvisualizacaoopengl.html#corAlagamento-var" location="painelvisualizacaoopengl.h" type="QColor" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="corRedeDeDrenagem" fullname="PainelVisualizacaoOpenGL::corRedeDeDrenagem" href="painelvisualizacaoopengl.html#corRedeDeDrenagem-var" location="painelvisualizacaoopengl.h" type="QColor" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="corMaiorElevacao" fullname="PainelVisualizacaoOpenGL::corMaiorElevacao" href="painelvisualizacaoopengl.html#corMaiorElevacao-var" location="painelvisualizacaoopengl.h" type="QColor" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="corMenorElevacao" fullname="PainelVisualizacaoOpenGL::corMenorElevacao" href="painelvisualizacaoopengl.html#corMenorElevacao-var" location="painelvisualizacaoopengl.h" type="QColor" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="corBarragem" fullname="PainelVisualizacaoOpenGL::corBarragem" href="painelvisualizacaoopengl.html#corBarragem-var" location="painelvisualizacaoopengl.h" type="QColor" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="corPadraoAlagamento" fullname="PainelVisualizacaoOpenGL::corPadraoAlagamento" href="painelvisualizacaoopengl.html#corPadraoAlagamento-var" location="painelvisualizacaoopengl.h" type="QColor" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="corPadraoRedeDeDrenagem" fullname="PainelVisualizacaoOpenGL::corPadraoRedeDeDrenagem" href="painelvisualizacaoopengl.html#corPadraoRedeDeDrenagem-var" location="painelvisualizacaoopengl.h" type="QColor" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="corPadraoMaiorElevacao" fullname="PainelVisualizacaoOpenGL::corPadraoMaiorElevacao" href="painelvisualizacaoopengl.html#corPadraoMaiorElevacao-var" location="painelvisualizacaoopengl.h" type="QColor" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="corPadraoMenorElevacao" fullname="PainelVisualizacaoOpenGL::corPadraoMenorElevacao" href="painelvisualizacaoopengl.html#corPadraoMenorElevacao-var" location="painelvisualizacaoopengl.h" type="QColor" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="corPadraoBarragem" fullname="PainelVisualizacaoOpenGL::corPadraoBarragem" href="painelvisualizacaoopengl.html#corPadraoBarragem-var" location="painelvisualizacaoopengl.h" type="QColor" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="mapaEstaCarregado" fullname="PainelVisualizacaoOpenGL::mapaEstaCarregado" href="painelvisualizacaoopengl.html#mapaEstaCarregado-var" location="painelvisualizacaoopengl.h" type="bool" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="flagPinta" fullname="PainelVisualizacaoOpenGL::flagPinta" href="painelvisualizacaoopengl.html#flagPinta-var" location="painelvisualizacaoopengl.h" type="bool" static="false"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="zoomMapa" fullname="PainelVisualizacaoOpenGL::zoomMapa" href="painelvisualizacaoopengl.html#zoomMapa" location="painelvisualizacaoopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="zoomMapa(int zoom)">
+                <parameter left="int" right="" name="zoom" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="carregandoMapa" fullname="PainelVisualizacaoOpenGL::carregandoMapa" href="painelvisualizacaoopengl.html#carregandoMapa" location="painelvisualizacaoopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="carregandoMapa(const char * arquivo)">
+                <parameter left="const char *" right="" name="arquivo" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="pintaTudo" fullname="PainelVisualizacaoOpenGL::pintaTudo" href="painelvisualizacaoopengl.html#pintaTudo" location="painelvisualizacaoopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="pintaTudo()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="pintaEixo" fullname="PainelVisualizacaoOpenGL::pintaEixo" href="painelvisualizacaoopengl.html#pintaEixo" location="painelvisualizacaoopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="pintaEixo()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="pintaCamadas" fullname="PainelVisualizacaoOpenGL::pintaCamadas" href="painelvisualizacaoopengl.html#pintaCamadas" location="painelvisualizacaoopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="pintaCamadas()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="computaFluxo" fullname="PainelVisualizacaoOpenGL::computaFluxo" href="painelvisualizacaoopengl.html#computaFluxo" location="painelvisualizacaoopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="computaFluxo()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="mudaCores" fullname="PainelVisualizacaoOpenGL::mudaCores" href="painelvisualizacaoopengl.html#mudaCores" location="painelvisualizacaoopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="mudaCores(QStringList listaCores)">
+                <parameter left="QStringList" right="" name="listaCores" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="setCoresPadrao" fullname="PainelVisualizacaoOpenGL::setCoresPadrao" href="painelvisualizacaoopengl.html#setCoresPadrao" location="painelvisualizacaoopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="setCoresPadrao()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getCorGradient" fullname="PainelVisualizacaoOpenGL::getCorGradient" href="painelvisualizacaoopengl.html#getCorGradient" location="painelvisualizacaoopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="QColor" signature="getCorGradient(double gradientProporcao)">
+                <parameter left="double" right="" name="gradientProporcao" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="defineOrtho" fullname="PainelVisualizacaoOpenGL::defineOrtho" href="painelvisualizacaoopengl.html#defineOrtho" location="painelvisualizacaoopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="defineOrtho()"/>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="initializeGL" fullname="PainelVisualizacaoOpenGL::initializeGL" href="painelvisualizacaoopengl.html#initializeGL" location="painelvisualizacaoopengl.h" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="initializeGL()"/>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="resizeGL" fullname="PainelVisualizacaoOpenGL::resizeGL" href="painelvisualizacaoopengl.html#resizeGL" location="painelvisualizacaoopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="resizeGL(int width, int height)">
+                <parameter left="int" right="" name="width" default=""/>
+                <parameter left="int" right="" name="height" default=""/>
+            </function>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="paintGL" fullname="PainelVisualizacaoOpenGL::paintGL" href="painelvisualizacaoopengl.html#paintGL" location="painelvisualizacaoopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="paintGL()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="mouseMoveEvent" fullname="PainelVisualizacaoOpenGL::mouseMoveEvent" href="painelvisualizacaoopengl.html#mouseMoveEvent" location="painelvisualizacaoopengl.h" virtual="non" meta="signal" const="false" static="false" overload="false" type="void" signature="mouseMoveEvent(QMouseEvent * )">
+                <parameter left="QMouseEvent *" right="" name="" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="mousePressEvent" fullname="PainelVisualizacaoOpenGL::mousePressEvent" href="painelvisualizacaoopengl.html#mousePressEvent" location="painelvisualizacaoopengl.h" virtual="non" meta="signal" const="false" static="false" overload="false" type="void" signature="mousePressEvent(QMouseEvent * event)">
+                <parameter left="QMouseEvent *" right="" name="event" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="keyPressEvent" fullname="PainelVisualizacaoOpenGL::keyPressEvent" href="painelvisualizacaoopengl.html#keyPressEvent" location="painelvisualizacaoopengl.h" virtual="non" meta="signal" const="false" static="false" overload="false" type="void" signature="keyPressEvent(QKeyEvent * )">
+                <parameter left="QKeyEvent *" right="" name="" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="mouseReleaseEvent" fullname="PainelVisualizacaoOpenGL::mouseReleaseEvent" href="painelvisualizacaoopengl.html#mouseReleaseEvent" location="painelvisualizacaoopengl.h" virtual="non" meta="signal" const="false" static="false" overload="false" type="void" signature="mouseReleaseEvent(QMouseEvent * )">
+                <parameter left="QMouseEvent *" right="" name="" default=""/>
+            </function>
+        </class>
+        <class access="public" threadsafety="unspecified" status="commendable" name="VisualizacaoMapa" href="visualizacaomapa.html" location="VisualizacaoMapa.h" bases="" module="">
+            <function access="public" threadsafety="unspecified" status="commendable" name="VisualizacaoMapa" fullname="VisualizacaoMapa::VisualizacaoMapa" href="visualizacaomapa.html#VisualizacaoMapa" location="VisualizacaoMapa.cpp" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="VisualizacaoMapa()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="VisualizacaoMapa" fullname="VisualizacaoMapa::VisualizacaoMapa" href="visualizacaomapa.html#VisualizacaoMapa-2" location="VisualizacaoMapa.cpp" virtual="non" meta="constructor" const="false" static="false" overload="true" overload-number="2" type="" signature="VisualizacaoMapa(const char * caminhoMapa, int largura, int altura)">
+                <parameter left="const char *" right="" name="caminhoMapa" default=""/>
+                <parameter left="int" right="" name="largura" default=""/>
+                <parameter left="int" right="" name="altura" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="VisualizacaoMapa" fullname="VisualizacaoMapa::VisualizacaoMapa" href="visualizacaomapa.html#VisualizacaoMapa-3" location="VisualizacaoMapa.cpp" virtual="non" meta="constructor" const="false" static="false" overload="true" overload-number="3" type="" signature="VisualizacaoMapa(VisualizacaoMapa const &amp; viMapa)">
+                <parameter left="VisualizacaoMapa const &amp;" right="" name="viMapa" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="~VisualizacaoMapa" fullname="VisualizacaoMapa::~VisualizacaoMapa" href="visualizacaomapa.html#dtor.VisualizacaoMapa" location="VisualizacaoMapa.cpp" virtual="non" meta="destructor" const="false" static="false" overload="false" type="" signature="~VisualizacaoMapa()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="operator=" fullname="VisualizacaoMapa::operator=" href="visualizacaomapa.html#operator=-2" location="VisualizacaoMapa.h" virtual="non" meta="plain" const="false" static="false" overload="true" overload-number="2" type="VisualizacaoMapa &amp;" signature="operator=(VisualizacaoMapa const &amp; viMapa)">
+                <parameter left="VisualizacaoMapa const &amp;" right="" name="viMapa" default=""/>
+            </function>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="mapa" fullname="VisualizacaoMapa::mapa" href="visualizacaomapa.html#mapa-var" location="VisualizacaoMapa.h" type="MapaMDE *" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="fluxo" fullname="VisualizacaoMapa::fluxo" href="visualizacaomapa.html#fluxo-var" location="VisualizacaoMapa.h" type="Fluxo *" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="inundacao" fullname="VisualizacaoMapa::inundacao" href="visualizacaomapa.html#inundacao-var" location="VisualizacaoMapa.h" type="Inundacao *" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="listaDeCamadas" fullname="VisualizacaoMapa::listaDeCamadas" href="visualizacaomapa.html#listaDeCamadas-var" location="VisualizacaoMapa.h" type="QList&lt;Camada&gt; *" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="camadasSomadas" fullname="VisualizacaoMapa::camadasSomadas" href="visualizacaomapa.html#camadasSomadas-var" location="VisualizacaoMapa.h" type="short int **" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="vetorDeZooms" fullname="VisualizacaoMapa::vetorDeZooms" href="visualizacaomapa.html#vetorDeZooms-var" location="VisualizacaoMapa.h" type="double **" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="marcaInicioX" fullname="VisualizacaoMapa::marcaInicioX" href="visualizacaomapa.html#marcaInicioX-var" location="VisualizacaoMapa.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="marcaInicioY" fullname="VisualizacaoMapa::marcaInicioY" href="visualizacaomapa.html#marcaInicioY-var" location="VisualizacaoMapa.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="marcaFinalX" fullname="VisualizacaoMapa::marcaFinalX" href="visualizacaomapa.html#marcaFinalX-var" location="VisualizacaoMapa.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="marcaFinalY" fullname="VisualizacaoMapa::marcaFinalY" href="visualizacaomapa.html#marcaFinalY-var" location="VisualizacaoMapa.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="marcouInicio" fullname="VisualizacaoMapa::marcouInicio" href="visualizacaomapa.html#marcouInicio-var" location="VisualizacaoMapa.h" type="bool" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="marcouFim" fullname="VisualizacaoMapa::marcouFim" href="visualizacaomapa.html#marcouFim-var" location="VisualizacaoMapa.h" type="bool" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="proporcaoZoom" fullname="VisualizacaoMapa::proporcaoZoom" href="visualizacaomapa.html#proporcaoZoom-var" location="VisualizacaoMapa.h" type="double" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="constanteDeProporcaoZoom" fullname="VisualizacaoMapa::constanteDeProporcaoZoom" href="visualizacaomapa.html#constanteDeProporcaoZoom-var" location="VisualizacaoMapa.h" type="double" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="tamanhoDaBarraDeZoom" fullname="VisualizacaoMapa::tamanhoDaBarraDeZoom" href="visualizacaomapa.html#tamanhoDaBarraDeZoom-var" location="VisualizacaoMapa.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="maxPointSize" fullname="VisualizacaoMapa::maxPointSize" href="visualizacaomapa.html#maxPointSize-var" location="VisualizacaoMapa.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="estaPreSalvo" fullname="VisualizacaoMapa::estaPreSalvo" href="visualizacaomapa.html#estaPreSalvo-var" location="VisualizacaoMapa.h" type="bool" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="pesoEBarragem" fullname="VisualizacaoMapa::pesoEBarragem" href="visualizacaomapa.html#pesoEBarragem-var" location="VisualizacaoMapa.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="pesoHBarragem" fullname="VisualizacaoMapa::pesoHBarragem" href="visualizacaomapa.html#pesoHBarragem-var" location="VisualizacaoMapa.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="pesoAreaAlagada" fullname="VisualizacaoMapa::pesoAreaAlagada" href="visualizacaomapa.html#pesoAreaAlagada-var" location="VisualizacaoMapa.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="pesoVolume" fullname="VisualizacaoMapa::pesoVolume" href="visualizacaomapa.html#pesoVolume-var" location="VisualizacaoMapa.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="pesoABarragem" fullname="VisualizacaoMapa::pesoABarragem" href="visualizacaomapa.html#pesoABarragem-var" location="VisualizacaoMapa.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="pesoCamadas" fullname="VisualizacaoMapa::pesoCamadas" href="visualizacaomapa.html#pesoCamadas-var" location="VisualizacaoMapa.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="maxPontosABuscar" fullname="VisualizacaoMapa::maxPontosABuscar" href="visualizacaomapa.html#maxPontosABuscar-var" location="VisualizacaoMapa.h" type="int" static="false"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getFuncaoObjetivo" fullname="VisualizacaoMapa::getFuncaoObjetivo" href="visualizacaomapa.html#getFuncaoObjetivo" location="VisualizacaoMapa.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="int" signature="getFuncaoObjetivo()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="atualizaCamadasSomadas" fullname="VisualizacaoMapa::atualizaCamadasSomadas" href="visualizacaomapa.html#atualizaCamadasSomadas" location="VisualizacaoMapa.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="atualizaCamadasSomadas()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="atualizaPesoCamadas" fullname="VisualizacaoMapa::atualizaPesoCamadas" href="visualizacaomapa.html#atualizaPesoCamadas" location="VisualizacaoMapa.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="atualizaPesoCamadas()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="atualizaPesos" fullname="VisualizacaoMapa::atualizaPesos" href="visualizacaomapa.html#atualizaPesos" location="VisualizacaoMapa.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="atualizaPesos(int aa, int ab, int c, int eb, int hb)">
+                <parameter left="int" right="" name="aa" default=""/>
+                <parameter left="int" right="" name="ab" default=""/>
+                <parameter left="int" right="" name="c" default=""/>
+                <parameter left="int" right="" name="eb" default=""/>
+                <parameter left="int" right="" name="hb" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getIndCamada" fullname="VisualizacaoMapa::getIndCamada" href="visualizacaomapa.html#getIndCamada" location="VisualizacaoMapa.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="int" signature="getIndCamada(QString nome)">
+                <parameter left="QString" right="" name="nome" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getMapa" fullname="VisualizacaoMapa::getMapa" href="visualizacaomapa.html#getMapa" location="VisualizacaoMapa.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="MapaMDE *" signature="getMapa()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getProporcaoZoom" fullname="VisualizacaoMapa::getProporcaoZoom" href="visualizacaomapa.html#getProporcaoZoom" location="VisualizacaoMapa.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="double" signature="getProporcaoZoom()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getZoom" fullname="VisualizacaoMapa::getZoom" href="visualizacaomapa.html#getZoom" location="VisualizacaoMapa.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="int" signature="getZoom()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="setTamanhoPonto" fullname="VisualizacaoMapa::setTamanhoPonto" href="visualizacaomapa.html#setTamanhoPonto" location="VisualizacaoMapa.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="setTamanhoPonto(int larguraTela, int alturaTela)">
+                <parameter left="int" right="" name="larguraTela" default=""/>
+                <parameter left="int" right="" name="alturaTela" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="setZoom" fullname="VisualizacaoMapa::setZoom" href="visualizacaomapa.html#setZoom" location="VisualizacaoMapa.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="setZoom(int zoom)">
+                <parameter left="int" right="" name="zoom" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="setInundacao" fullname="VisualizacaoMapa::setInundacao" href="visualizacaomapa.html#setInundacao" location="VisualizacaoMapa.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="setInundacao(int posX, int posY, int op, int val, int valEp)">
+                <parameter left="int" right="" name="posX" default=""/>
+                <parameter left="int" right="" name="posY" default=""/>
+                <parameter left="int" right="" name="op" default=""/>
+                <parameter left="int" right="" name="val" default=""/>
+                <parameter left="int" right="" name="valEp" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="encontraPontosJusante" fullname="VisualizacaoMapa::encontraPontosJusante" href="visualizacaomapa.html#encontraPontosJusante" location="VisualizacaoMapa.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="encontraPontosJusante(int x, int y, bool &amp; encontrado, bool ** matrizVisitados, int &amp; pontosBuscados)">
+                <parameter left="int" right="" name="x" default=""/>
+                <parameter left="int" right="" name="y" default=""/>
+                <parameter left="bool &amp;" right="" name="encontrado" default=""/>
+                <parameter left="bool **" right="" name="matrizVisitados" default=""/>
+                <parameter left="int &amp;" right="" name="pontosBuscados" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="insereCamada" fullname="VisualizacaoMapa::insereCamada" href="visualizacaomapa.html#insereCamada" location="VisualizacaoMapa.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="insereCamada(Camada c)">
+                <parameter left="Camada" right="" name="c" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="operator=" fullname="VisualizacaoMapa::operator=" href="visualizacaomapa.html#operator=" location="VisualizacaoMapa.h" virtual="non" meta="plain" const="false" static="false" overload="false" type="QList&lt;Camada&gt; &amp;" signature="operator=(QList&lt;Camada&gt; const &amp; listaCamada)">
+                <parameter left="QList&lt;Camada&gt; const &amp;" right="" name="listaCamada" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="operator==" fullname="VisualizacaoMapa::operator==" href="visualizacaomapa.html#operator==" location="VisualizacaoMapa.h" virtual="non" meta="plain" const="false" static="false" overload="false" type="bool" signature="operator==(QList&lt;Camada&gt; const &amp; )">
+                <parameter left="QList&lt;Camada&gt; const &amp;" right="" name="" default=""/>
+            </function>
+        </class>
+        <class access="public" threadsafety="unspecified" status="commendable" name="PainelVisualizacaoBarragemOpenGL" href="painelvisualizacaobarragemopengl.html" location="painelvisualizacaobarragemopengl.h" bases="" module="">
+            <function access="public" threadsafety="unspecified" status="commendable" name="PainelVisualizacaoBarragemOpenGL" fullname="PainelVisualizacaoBarragemOpenGL::PainelVisualizacaoBarragemOpenGL" href="painelvisualizacaobarragemopengl.html#PainelVisualizacaoBarragemOpenGL" location="painelvisualizacaobarragemopengl.cpp" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="PainelVisualizacaoBarragemOpenGL(QWidget * parent)">
+                <parameter left="QWidget *" right="" name="parent" default="0"/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="carregandoInformacoes" fullname="PainelVisualizacaoBarragemOpenGL::carregandoInformacoes" href="painelvisualizacaobarragemopengl.html#carregandoInformacoes" location="painelvisualizacaobarragemopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="carregandoInformacoes(VisualizacaoMapa * )">
+                <parameter left="VisualizacaoMapa *" right="" name="" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="desenhaTerreno" fullname="PainelVisualizacaoBarragemOpenGL::desenhaTerreno" href="painelvisualizacaobarragemopengl.html#desenhaTerreno" location="painelvisualizacaobarragemopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="desenhaTerreno()"/>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="defineOrtho" fullname="PainelVisualizacaoBarragemOpenGL::defineOrtho" href="painelvisualizacaobarragemopengl.html#defineOrtho" location="painelvisualizacaobarragemopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="defineOrtho()"/>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="initializeGL" fullname="PainelVisualizacaoBarragemOpenGL::initializeGL" href="painelvisualizacaobarragemopengl.html#initializeGL" location="painelvisualizacaobarragemopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="initializeGL()"/>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="resizeGL" fullname="PainelVisualizacaoBarragemOpenGL::resizeGL" href="painelvisualizacaobarragemopengl.html#resizeGL" location="painelvisualizacaobarragemopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="resizeGL(int w, int h)">
+                <parameter left="int" right="" name="w" default=""/>
+                <parameter left="int" right="" name="h" default=""/>
+            </function>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="paintGL" fullname="PainelVisualizacaoBarragemOpenGL::paintGL" href="painelvisualizacaobarragemopengl.html#paintGL" location="painelvisualizacaobarragemopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="paintGL()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="keyPressEvent" fullname="PainelVisualizacaoBarragemOpenGL::keyPressEvent" href="painelvisualizacaobarragemopengl.html#keyPressEvent" location="painelvisualizacaobarragemopengl.cpp" virtual="non" meta="slot" const="false" static="false" overload="false" type="void" signature="keyPressEvent(QKeyEvent * )">
+                <parameter left="QKeyEvent *" right="" name="" default=""/>
+            </function>
+        </class>
+        <class access="public" threadsafety="unspecified" status="commendable" name="janelaBarragem2D" href="janelabarragem2d.html" location="janelabarragem2d.h" bases="" module="">
+            <function access="public" threadsafety="unspecified" status="commendable" name="janelaBarragem2D" fullname="janelaBarragem2D::janelaBarragem2D" href="janelabarragem2d.html#janelaBarragem2D" location="janelabarragem2d.cpp" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="janelaBarragem2D(QWidget * parent)">
+                <parameter left="QWidget *" right="" name="parent" default="0"/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="~janelaBarragem2D" fullname="janelaBarragem2D::~janelaBarragem2D" href="janelabarragem2d.html#dtor.janelaBarragem2D" location="janelabarragem2d.cpp" virtual="non" meta="destructor" const="false" static="false" overload="false" type="" signature="~janelaBarragem2D()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="recarregandoMapa" fullname="janelaBarragem2D::recarregandoMapa" href="janelabarragem2d.html#recarregandoMapa" location="janelabarragem2d.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="recarregandoMapa(VisualizacaoMapa * viMapa)">
+                <parameter left="VisualizacaoMapa *" right="" name="viMapa" default=""/>
+            </function>
+        </class>
+        <class access="public" threadsafety="unspecified" status="commendable" name="MapaMDE" href="mapamde.html" location="MapaMDE.h" bases="" module="">
+            <function access="public" threadsafety="unspecified" status="commendable" name="MapaMDE" fullname="MapaMDE::MapaMDE" href="mapamde.html#MapaMDE" location="MapaMDE.cpp" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="MapaMDE(const char * caminhoArquivo)">
+                <parameter left="const char *" right="" name="caminhoArquivo" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="MapaMDE" fullname="MapaMDE::MapaMDE" href="mapamde.html#MapaMDE-2" location="MapaMDE.cpp" virtual="non" meta="constructor" const="false" static="false" overload="true" overload-number="2" type="" signature="MapaMDE(MapaMDE const &amp; mapaCopia)">
+                <parameter left="MapaMDE const &amp;" right="" name="mapaCopia" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="MapaMDE" fullname="MapaMDE::MapaMDE" href="mapamde.html#MapaMDE-3" location="MapaMDE.cpp" virtual="non" meta="constructor" const="false" static="false" overload="true" overload-number="3" type="" signature="MapaMDE()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="~MapaMDE" fullname="MapaMDE::~MapaMDE" href="mapamde.html#dtor.MapaMDE" location="MapaMDE.cpp" virtual="non" meta="destructor" const="false" static="false" overload="false" type="" signature="~MapaMDE()"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="matrizDeElevacoes" fullname="MapaMDE::matrizDeElevacoes" href="mapamde.html#matrizDeElevacoes-var" location="MapaMDE.h" type="short int **" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="maxElev" fullname="MapaMDE::maxElev" href="mapamde.html#maxElev-var" location="MapaMDE.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="minElev" fullname="MapaMDE::minElev" href="mapamde.html#minElev-var" location="MapaMDE.h" type="int" static="false"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getNColunas" fullname="MapaMDE::getNColunas" href="mapamde.html#getNColunas" location="MapaMDE.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="int" signature="getNColunas()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getNLinhas" fullname="MapaMDE::getNLinhas" href="mapamde.html#getNLinhas" location="MapaMDE.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="int" signature="getNLinhas()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getResolucao" fullname="MapaMDE::getResolucao" href="mapamde.html#getResolucao" location="MapaMDE.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="short int" signature="getResolucao()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getDadoInvalido" fullname="MapaMDE::getDadoInvalido" href="mapamde.html#getDadoInvalido" location="MapaMDE.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="short int" signature="getDadoInvalido()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getCaminhoArquivo" fullname="MapaMDE::getCaminhoArquivo" href="mapamde.html#getCaminhoArquivo" location="MapaMDE.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="char *" signature="getCaminhoArquivo()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getNomeArquivo" fullname="MapaMDE::getNomeArquivo" href="mapamde.html#getNomeArquivo" location="MapaMDE.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="char *" signature="getNomeArquivo()"/>
+        </class>
+        <class access="public" threadsafety="unspecified" status="commendable" name="janelabarragem" href="janelabarragem.html" location="janelabarragem.h" bases="" module="">
+            <function access="public" threadsafety="unspecified" status="commendable" name="janelabarragem" fullname="janelabarragem::janelabarragem" href="janelabarragem.html#janelabarragem" location="janelabarragem.cpp" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="janelabarragem(VisualizacaoMapa * viMapa, QWidget * parent)">
+                <parameter left="VisualizacaoMapa *" right="" name="viMapa" default=""/>
+                <parameter left="QWidget *" right="" name="parent" default="0"/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="~janelabarragem" fullname="janelabarragem::~janelabarragem" href="janelabarragem.html#dtor.janelabarragem" location="janelabarragem.cpp" virtual="non" meta="destructor" const="false" static="false" overload="false" type="" signature="~janelabarragem()"/>
+        </class>
+        <class access="public" threadsafety="unspecified" status="commendable" name="janelasobre" href="janelasobre.html" location="janelasobre.h" bases="" module="">
+            <function access="public" threadsafety="unspecified" status="commendable" name="janelasobre" fullname="janelasobre::janelasobre" href="janelasobre.html#janelasobre" location="janelasobre.cpp" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="janelasobre(QWidget * parent)">
+                <parameter left="QWidget *" right="" name="parent" default="0"/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="~janelasobre" fullname="janelasobre::~janelasobre" href="janelasobre.html#dtor.janelasobre" location="janelasobre.cpp" virtual="non" meta="destructor" const="false" static="false" overload="false" type="" signature="~janelasobre()"/>
+        </class>
+        <class access="public" threadsafety="unspecified" status="commendable" name="Fluxo" href="fluxo.html" location="Fluxo.h" bases="" module="">
+            <function access="public" threadsafety="unspecified" status="commendable" name="Fluxo" fullname="Fluxo::Fluxo" href="fluxo.html#Fluxo" location="Fluxo.h" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="Fluxo()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="Fluxo" fullname="Fluxo::Fluxo" href="fluxo.html#Fluxo-2" location="Fluxo.cpp" virtual="non" meta="constructor" const="false" static="false" overload="true" overload-number="2" type="" signature="Fluxo(int nLinhas, int nColunas)">
+                <parameter left="int" right="" name="nLinhas" default=""/>
+                <parameter left="int" right="" name="nColunas" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="Fluxo" fullname="Fluxo::Fluxo" href="fluxo.html#Fluxo-3" location="Fluxo.cpp" virtual="non" meta="constructor" const="false" static="false" overload="true" overload-number="3" type="" signature="Fluxo(Fluxo const &amp; fluxoCopia)">
+                <parameter left="Fluxo const &amp;" right="" name="fluxoCopia" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="~Fluxo" fullname="Fluxo::~Fluxo" href="fluxo.html#dtor.Fluxo" location="Fluxo.cpp" virtual="non" meta="destructor" const="false" static="false" overload="false" type="" signature="~Fluxo()"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="direcao" fullname="Fluxo::direcao" href="fluxo.html#direcao-var" location="Fluxo.h" type="unsigned char **" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="fluxo" fullname="Fluxo::fluxo" href="fluxo.html#fluxo-var" location="Fluxo.h" type="int **" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="rio" fullname="Fluxo::rio" href="fluxo.html#rio-var" location="Fluxo.h" type="bool **" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="fluxoMinimo" fullname="Fluxo::fluxoMinimo" href="fluxo.html#fluxoMinimo-var" location="Fluxo.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="valorPadraoFluxo" fullname="Fluxo::valorPadraoFluxo" href="fluxo.html#valorPadraoFluxo-var" location="Fluxo.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="nLinhas" fullname="Fluxo::nLinhas" href="fluxo.html#nLinhas-var" location="Fluxo.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="nColunas" fullname="Fluxo::nColunas" href="fluxo.html#nColunas-var" location="Fluxo.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="qtdeCelulasRio" fullname="Fluxo::qtdeCelulasRio" href="fluxo.html#qtdeCelulasRio-var" location="Fluxo.h" type="int" static="false"/>
+            <typedef access="public" threadsafety="unspecified" status="commendable" name="ponto" fullname="Fluxo::ponto" href="fluxo.html#ponto-typedef" location="Fluxo.h"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="vetorDeFilasDeNiveis" fullname="Fluxo::vetorDeFilasDeNiveis" href="fluxo.html#vetorDeFilasDeNiveis-var" location="Fluxo.h" type="queue&lt;ponto&gt; [2 * limiteAltidude]" static="false"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="calculaFluxo" fullname="Fluxo::calculaFluxo" href="fluxo.html#calculaFluxo" location="Fluxo.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="calculaFluxo(short int ** elevacoes, int noData)">
+                <parameter left="short int **" right="" name="elevacoes" default=""/>
+                <parameter left="int" right="" name="noData" default=""/>
+            </function>
+        </class>
+        <class access="public" threadsafety="unspecified" status="commendable" name="JanelaPrincipal" href="janelaprincipal.html" location="janelaprincipal.h" bases="" module="">
+            <function access="public" threadsafety="unspecified" status="commendable" name="JanelaPrincipal" fullname="JanelaPrincipal::JanelaPrincipal" href="janelaprincipal.html#JanelaPrincipal" location="janelaprincipal.cpp" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="JanelaPrincipal(QWidget * parent)">
+                <parameter left="QWidget *" right="" name="parent" default="0"/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="~JanelaPrincipal" fullname="JanelaPrincipal::~JanelaPrincipal" href="janelaprincipal.html#dtor.JanelaPrincipal" location="janelaprincipal.cpp" virtual="non" meta="destructor" const="false" static="false" overload="false" type="" signature="~JanelaPrincipal()"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="mapeamentoAreaProjeto" fullname="JanelaPrincipal::mapeamentoAreaProjeto" href="janelaprincipal.html#mapeamentoAreaProjeto-var" location="janelaprincipal.h" type="map&lt;string, VisualizacaoMapa&gt;" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="stringAreaProjeto" fullname="JanelaPrincipal::stringAreaProjeto" href="janelaprincipal.html#stringAreaProjeto-var" location="janelaprincipal.h" type="QStringList" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="posXBotaoZoomMais" fullname="JanelaPrincipal::posXBotaoZoomMais" href="janelaprincipal.html#posXBotaoZoomMais-var" location="janelaprincipal.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="posYBotaoZoomMais" fullname="JanelaPrincipal::posYBotaoZoomMais" href="janelaprincipal.html#posYBotaoZoomMais-var" location="janelaprincipal.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="posXBotaoZoomMenos" fullname="JanelaPrincipal::posXBotaoZoomMenos" href="janelaprincipal.html#posXBotaoZoomMenos-var" location="janelaprincipal.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="posYBotaoZoomMenos" fullname="JanelaPrincipal::posYBotaoZoomMenos" href="janelaprincipal.html#posYBotaoZoomMenos-var" location="janelaprincipal.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="posXBarraZoom" fullname="JanelaPrincipal::posXBarraZoom" href="janelaprincipal.html#posXBarraZoom-var" location="janelaprincipal.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="posYBarraZoom" fullname="JanelaPrincipal::posYBarraZoom" href="janelaprincipal.html#posYBarraZoom-var" location="janelaprincipal.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="escolhendoPontosCamada" fullname="JanelaPrincipal::escolhendoPontosCamada" href="janelaprincipal.html#escolhendoPontosCamada-var" location="janelaprincipal.h" type="bool" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="selecaoPontos" fullname="JanelaPrincipal::selecaoPontos" href="janelaprincipal.html#selecaoPontos-var" location="janelaprincipal.h" type="bool" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="selecaoPontoBarragem" fullname="JanelaPrincipal::selecaoPontoBarragem" href="janelaprincipal.html#selecaoPontoBarragem-var" location="janelaprincipal.h" type="bool" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="listaDePosicoesMouse" fullname="JanelaPrincipal::listaDePosicoesMouse" href="janelaprincipal.html#listaDePosicoesMouse-var" location="janelaprincipal.h" type="QList&lt;Point&gt;" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="pontosContinuos" fullname="JanelaPrincipal::pontosContinuos" href="janelaprincipal.html#pontosContinuos-var" location="janelaprincipal.h" type="bool" static="false"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="setaTelaPadrao" fullname="JanelaPrincipal::setaTelaPadrao" href="janelaprincipal.html#setaTelaPadrao" location="janelaprincipal.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="setaTelaPadrao()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="setaTamanhoBarraDeZoom" fullname="JanelaPrincipal::setaTamanhoBarraDeZoom" href="janelaprincipal.html#setaTamanhoBarraDeZoom" location="janelaprincipal.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="setaTamanhoBarraDeZoom()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="habilitandoBotoes" fullname="JanelaPrincipal::habilitandoBotoes" href="janelaprincipal.html#habilitandoBotoes" location="janelaprincipal.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="habilitandoBotoes()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="desAbilitandoBotoes" fullname="JanelaPrincipal::desAbilitandoBotoes" href="janelaprincipal.html#desAbilitandoBotoes" location="janelaprincipal.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="desAbilitandoBotoes()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="atualizaCamposSaida" fullname="JanelaPrincipal::atualizaCamposSaida" href="janelaprincipal.html#atualizaCamposSaida" location="janelaprincipal.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="atualizaCamposSaida()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="deletaListaComCamadas" fullname="JanelaPrincipal::deletaListaComCamadas" href="janelaprincipal.html#deletaListaComCamadas" location="janelaprincipal.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="deletaListaComCamadas()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="criaListaComCamadas" fullname="JanelaPrincipal::criaListaComCamadas" href="janelaprincipal.html#criaListaComCamadas" location="janelaprincipal.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="criaListaComCamadas()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="preenchePontosContinuo" fullname="JanelaPrincipal::preenchePontosContinuo" href="janelaprincipal.html#preenchePontosContinuo" location="janelaprincipal.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="preenchePontosContinuo(Point pIni, Point pFim, int indCamada)">
+                <parameter left="Point" right="" name="pIni" default=""/>
+                <parameter left="Point" right="" name="pFim" default=""/>
+                <parameter left="int" right="" name="indCamada" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="pontoDoRioMaisProximo" fullname="JanelaPrincipal::pontoDoRioMaisProximo" href="janelaprincipal.html#pontoDoRioMaisProximo" location="janelaprincipal.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="bool" signature="pontoDoRioMaisProximo(int posX, int posY, int raio)">
+                <parameter left="int" right="" name="posX" default=""/>
+                <parameter left="int" right="" name="posY" default=""/>
+                <parameter left="int" right="" name="raio" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="criaVisualizacaoBarragem" fullname="JanelaPrincipal::criaVisualizacaoBarragem" href="janelaprincipal.html#criaVisualizacaoBarragem" location="janelaprincipal.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="criaVisualizacaoBarragem()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="preencheSolido" fullname="JanelaPrincipal::preencheSolido" href="janelaprincipal.html#preencheSolido" location="janelaprincipal.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="preencheSolido(int posClickY, int posClickX, int indCamada)">
+                <parameter left="int" right="" name="posClickY" default=""/>
+                <parameter left="int" right="" name="posClickX" default=""/>
+                <parameter left="int" right="" name="indCamada" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="buscaMelhorPonto" fullname="JanelaPrincipal::buscaMelhorPonto" href="janelaprincipal.html#buscaMelhorPonto" location="janelaprincipal.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="QPoint" signature="buscaMelhorPonto(VisualizacaoMapa viMapa, QList&lt;QPoint&gt; listaPontos, double volumeDesejado)">
+                <parameter left="VisualizacaoMapa" right="" name="viMapa" default=""/>
+                <parameter left="QList&lt;QPoint&gt;" right="" name="listaPontos" default=""/>
+                <parameter left="double" right="" name="volumeDesejado" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="mousePressionadoParaCamada" fullname="JanelaPrincipal::mousePressionadoParaCamada" href="janelaprincipal.html#mousePressionadoParaCamada" location="janelaprincipal.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="mousePressionadoParaCamada(QMouseEvent * ev)">
+                <parameter left="QMouseEvent *" right="" name="ev" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="mousePressionadoParaBarragem" fullname="JanelaPrincipal::mousePressionadoParaBarragem" href="janelaprincipal.html#mousePressionadoParaBarragem" location="janelaprincipal.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="mousePressionadoParaBarragem(QMouseEvent * ev)">
+                <parameter left="QMouseEvent *" right="" name="ev" default=""/>
+            </function>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="on_actionAbrir_mapa_triggered" fullname="JanelaPrincipal::on_actionAbrir_mapa_triggered" href="janelaprincipal.html#on_actionAbrir_mapa_triggered" location="janelaprincipal.cpp" virtual="non" meta="slot" const="false" static="false" overload="false" type="void" signature="on_actionAbrir_mapa_triggered()"/>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="on_barraZoom_sliderMoved" fullname="JanelaPrincipal::on_barraZoom_sliderMoved" href="janelaprincipal.html#on_barraZoom_sliderMoved" location="janelaprincipal.cpp" virtual="non" meta="slot" const="false" static="false" overload="false" type="void" signature="on_barraZoom_sliderMoved(int position)">
+                <parameter left="int" right="" name="position" default=""/>
+            </function>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="on_botaoZoomMais_clicked" fullname="JanelaPrincipal::on_botaoZoomMais_clicked" href="janelaprincipal.html#on_botaoZoomMais_clicked" location="janelaprincipal.cpp" virtual="non" meta="slot" const="false" static="false" overload="false" type="void" signature="on_botaoZoomMais_clicked()"/>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="on_botaoZoomMenos_clicked" fullname="JanelaPrincipal::on_botaoZoomMenos_clicked" href="janelaprincipal.html#on_botaoZoomMenos_clicked" location="janelaprincipal.cpp" virtual="non" meta="slot" const="false" static="false" overload="false" type="void" signature="on_botaoZoomMenos_clicked()"/>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="on_botaoAtualizarFluxoMinimo_clicked" fullname="JanelaPrincipal::on_botaoAtualizarFluxoMinimo_clicked" href="janelaprincipal.html#on_botaoAtualizarFluxoMinimo_clicked" location="janelaprincipal.cpp" virtual="non" meta="slot" const="false" static="false" overload="false" type="void" signature="on_botaoAtualizarFluxoMinimo_clicked()"/>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="trocaCoordenadas" fullname="JanelaPrincipal::trocaCoordenadas" href="janelaprincipal.html#trocaCoordenadas" location="janelaprincipal.cpp" virtual="non" meta="slot" const="false" static="false" overload="false" type="void" signature="trocaCoordenadas(QMouseEvent * q)">
+                <parameter left="QMouseEvent *" right="" name="q" default=""/>
+            </function>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="defineCamada" fullname="JanelaPrincipal::defineCamada" href="janelaprincipal.html#defineCamada" location="janelaprincipal.cpp" virtual="non" meta="slot" const="false" static="false" overload="false" type="void" signature="defineCamada(int a, int b)">
+                <parameter left="int" right="" name="a" default=""/>
+                <parameter left="int" right="" name="b" default=""/>
+            </function>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="defineInundacao" fullname="JanelaPrincipal::defineInundacao" href="janelaprincipal.html#defineInundacao" location="janelaprincipal.cpp" virtual="non" meta="slot" const="false" static="false" overload="false" type="void" signature="defineInundacao(QMouseEvent * ev)">
+                <parameter left="QMouseEvent *" right="" name="ev" default=""/>
+            </function>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="adicionandoPontosACamada" fullname="JanelaPrincipal::adicionandoPontosACamada" href="janelaprincipal.html#adicionandoPontosACamada" location="janelaprincipal.cpp" virtual="non" meta="slot" const="false" static="false" overload="false" type="void" signature="adicionandoPontosACamada(QMouseEvent * evM)">
+                <parameter left="QMouseEvent *" right="" name="evM" default=""/>
+            </function>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="movendoMouse" fullname="JanelaPrincipal::movendoMouse" href="janelaprincipal.html#movendoMouse" location="janelaprincipal.cpp" virtual="non" meta="slot" const="false" static="false" overload="false" type="void" signature="movendoMouse(QMouseEvent * ev)">
+                <parameter left="QMouseEvent *" right="" name="ev" default=""/>
+            </function>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="moveBarragem" fullname="JanelaPrincipal::moveBarragem" href="janelaprincipal.html#moveBarragem" location="janelaprincipal.cpp" virtual="non" meta="slot" const="false" static="false" overload="false" type="void" signature="moveBarragem(QKeyEvent * kev)">
+                <parameter left="QKeyEvent *" right="" name="kev" default=""/>
+            </function>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="imprimeBarragem" fullname="JanelaPrincipal::imprimeBarragem" href="janelaprincipal.html#imprimeBarragem" location="janelaprincipal.cpp" virtual="non" meta="slot" const="false" static="false" overload="false" type="void" signature="imprimeBarragem(VisualizacaoMapa viMapa, int indBarragem)">
+                <parameter left="VisualizacaoMapa" right="" name="viMapa" default=""/>
+                <parameter left="int" right="" name="indBarragem" default=""/>
+            </function>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="eEntruncamentoDeRios" fullname="JanelaPrincipal::eEntruncamentoDeRios" href="janelaprincipal.html#eEntruncamentoDeRios" location="janelaprincipal.cpp" virtual="non" meta="slot" const="false" static="false" overload="false" type="bool" signature="eEntruncamentoDeRios(int posx, int posy)">
+                <parameter left="int" right="" name="posx" default=""/>
+                <parameter left="int" right="" name="posy" default=""/>
+            </function>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="exporCamada" fullname="JanelaPrincipal::exporCamada" href="janelaprincipal.html#exporCamada" location="janelaprincipal.cpp" virtual="non" meta="slot" const="false" static="false" overload="false" type="void" signature="exporCamada(QTableWidgetItem * qtwItem)">
+                <parameter left="QTableWidgetItem *" right="" name="qtwItem" default=""/>
+            </function>
+        </class>
+        <class access="public" threadsafety="unspecified" status="commendable" name="Camada" href="camada.html" location="Camada.h" bases="" module="">
+            <function access="public" threadsafety="unspecified" status="commendable" name="Camada" fullname="Camada::Camada" href="camada.html#Camada" location="Camada.cpp" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="Camada()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="Camada" fullname="Camada::Camada" href="camada.html#Camada-2" location="Camada.cpp" virtual="non" meta="constructor" const="false" static="false" overload="true" overload-number="2" type="" signature="Camada(QString n, double p, QColor c, int nLinha, int nColun)">
+                <parameter left="QString" right="" name="n" default=""/>
+                <parameter left="double" right="" name="p" default=""/>
+                <parameter left="QColor" right="" name="c" default=""/>
+                <parameter left="int" right="" name="nLinha" default=""/>
+                <parameter left="int" right="" name="nColun" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="Camada" fullname="Camada::Camada" href="camada.html#Camada-3" location="Camada.cpp" virtual="non" meta="constructor" const="false" static="false" overload="true" overload-number="3" type="" signature="Camada(Camada const &amp; c)">
+                <parameter left="Camada const &amp;" right="" name="c" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="~Camada" fullname="Camada::~Camada" href="camada.html#dtor.Camada" location="Camada.cpp" virtual="non" meta="destructor" const="false" static="false" overload="false" type="" signature="~Camada()"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="pontos" fullname="Camada::pontos" href="camada.html#pontos-var" location="Camada.h" type="bool **" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="listaDePontos" fullname="Camada::listaDePontos" href="camada.html#listaDePontos-var" location="Camada.h" type="QList&lt;Point&gt;" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="nLinhas" fullname="Camada::nLinhas" href="camada.html#nLinhas-var" location="Camada.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="nColunas" fullname="Camada::nColunas" href="camada.html#nColunas-var" location="Camada.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="estaIncluidoNoAlgoritmo" fullname="Camada::estaIncluidoNoAlgoritmo" href="camada.html#estaIncluidoNoAlgoritmo-var" location="Camada.h" type="bool" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="estaVisivel" fullname="Camada::estaVisivel" href="camada.html#estaVisivel-var" location="Camada.h" type="bool" static="false"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getNome" fullname="Camada::getNome" href="camada.html#getNome" location="Camada.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="QString" signature="getNome()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="setNome" fullname="Camada::setNome" href="camada.html#setNome" location="Camada.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="setNome(QString n)">
+                <parameter left="QString" right="" name="n" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getPeso" fullname="Camada::getPeso" href="camada.html#getPeso" location="Camada.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="double" signature="getPeso()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="setPeso" fullname="Camada::setPeso" href="camada.html#setPeso" location="Camada.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="setPeso(double p)">
+                <parameter left="double" right="" name="p" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getCorCamada" fullname="Camada::getCorCamada" href="camada.html#getCorCamada" location="Camada.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="QColor" signature="getCorCamada()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="setCorCamada" fullname="Camada::setCorCamada" href="camada.html#setCorCamada" location="Camada.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="setCorCamada(QColor c)">
+                <parameter left="QColor" right="" name="c" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getEstaIncluidoNoAlgoritmo" fullname="Camada::getEstaIncluidoNoAlgoritmo" href="camada.html#getEstaIncluidoNoAlgoritmo" location="Camada.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="bool" signature="getEstaIncluidoNoAlgoritmo()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="setEstaIncluidoNoAlgoritmo" fullname="Camada::setEstaIncluidoNoAlgoritmo" href="camada.html#setEstaIncluidoNoAlgoritmo" location="Camada.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="setEstaIncluidoNoAlgoritmo(bool op)">
+                <parameter left="bool" right="" name="op" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="alteraPonto" fullname="Camada::alteraPonto" href="camada.html#alteraPonto" location="Camada.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="alteraPonto(Point p, bool add)">
+                <parameter left="Point" right="" name="p" default=""/>
+                <parameter left="bool" right="" name="add" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="operator=" fullname="Camada::operator=" href="camada.html#operator=" location="Camada.h" virtual="non" meta="plain" const="false" static="false" overload="false" type="Camada &amp;" signature="operator=(Camada const &amp; c)">
+                <parameter left="Camada const &amp;" right="" name="c" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="operator==" fullname="Camada::operator==" href="camada.html#operator==" location="Camada.h" virtual="non" meta="plain" const="true" static="false" overload="false" type="bool" signature="operator==(Camada const &amp; c) const">
+                <parameter left="Camada const &amp;" right="" name="c" default=""/>
+            </function>
+        </class>
+        <class access="public" threadsafety="unspecified" status="commendable" name="painelvisualizacaobarragem2dopengl" href="painelvisualizacaobarragem2dopengl.html" location="painelvisualizacaobarragem2dopengl.h" bases="" module="">
+            <function access="public" threadsafety="unspecified" status="commendable" name="painelvisualizacaobarragem2dopengl" fullname="painelvisualizacaobarragem2dopengl::painelvisualizacaobarragem2dopengl" href="painelvisualizacaobarragem2dopengl.html#painelvisualizacaobarragem2dopengl" location="painelvisualizacaobarragem2dopengl.cpp" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="painelvisualizacaobarragem2dopengl(QWidget * parent)">
+                <parameter left="QWidget *" right="" name="parent" default="0"/>
+            </function>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="visualizacaoMapa" fullname="painelvisualizacaobarragem2dopengl::visualizacaoMapa" href="painelvisualizacaobarragem2dopengl.html#visualizacaoMapa-var" location="painelvisualizacaobarragem2dopengl.h" type="VisualizacaoMapa *" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="pontosDaBarragem" fullname="painelvisualizacaobarragem2dopengl::pontosDaBarragem" href="painelvisualizacaobarragem2dopengl.html#pontosDaBarragem-var" location="painelvisualizacaobarragem2dopengl.h" type="QList&lt;Point&gt;" static="false"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="carregandoInformacoes" fullname="painelvisualizacaobarragem2dopengl::carregandoInformacoes" href="painelvisualizacaobarragem2dopengl.html#carregandoInformacoes" location="painelvisualizacaobarragem2dopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="carregandoInformacoes(VisualizacaoMapa * viMapa)">
+                <parameter left="VisualizacaoMapa *" right="" name="viMapa" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="defineBarragem" fullname="painelvisualizacaobarragem2dopengl::defineBarragem" href="painelvisualizacaobarragem2dopengl.html#defineBarragem" location="painelvisualizacaobarragem2dopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="defineBarragem()"/>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="defineOrtho" fullname="painelvisualizacaobarragem2dopengl::defineOrtho" href="painelvisualizacaobarragem2dopengl.html#defineOrtho" location="painelvisualizacaobarragem2dopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="defineOrtho()"/>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="initializeGL" fullname="painelvisualizacaobarragem2dopengl::initializeGL" href="painelvisualizacaobarragem2dopengl.html#initializeGL" location="painelvisualizacaobarragem2dopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="initializeGL()"/>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="resizeGL" fullname="painelvisualizacaobarragem2dopengl::resizeGL" href="painelvisualizacaobarragem2dopengl.html#resizeGL" location="painelvisualizacaobarragem2dopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="resizeGL(int w, int h)">
+                <parameter left="int" right="" name="w" default=""/>
+                <parameter left="int" right="" name="h" default=""/>
+            </function>
+            <function access="protected" threadsafety="unspecified" status="commendable" name="paintGL" fullname="painelvisualizacaobarragem2dopengl::paintGL" href="painelvisualizacaobarragem2dopengl.html#paintGL" location="painelvisualizacaobarragem2dopengl.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="paintGL()"/>
+        </class>
+        <class access="public" threadsafety="unspecified" status="commendable" name="janelaCamadas" href="janelacamadas.html" location="janelacamadas.h" bases="" module="">
+            <function access="public" threadsafety="unspecified" status="commendable" name="janelaCamadas" fullname="janelaCamadas::janelaCamadas" href="janelacamadas.html#janelaCamadas" location="janelacamadas.cpp" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="janelaCamadas(QWidget * parent)">
+                <parameter left="QWidget *" right="" name="parent" default="0"/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="~janelaCamadas" fullname="janelaCamadas::~janelaCamadas" href="janelacamadas.html#dtor.janelaCamadas" location="janelacamadas.cpp" virtual="non" meta="destructor" const="false" static="false" overload="false" type="" signature="~janelaCamadas()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getValores" fullname="janelaCamadas::getValores" href="janelacamadas.html#getValores" location="janelacamadas.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="QStringList" signature="getValores(bool &amp; )">
+                <parameter left="bool &amp;" right="" name="" default=""/>
+            </function>
+        </class>
+        <class access="public" threadsafety="unspecified" status="commendable" name="janelaopcaofb" href="janelaopcaofb.html" location="janelaopcaofb.h" bases="" module="">
+            <function access="public" threadsafety="unspecified" status="commendable" name="janelaopcaofb" fullname="janelaopcaofb::janelaopcaofb" href="janelaopcaofb.html#janelaopcaofb" location="janelaopcaofb.cpp" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="janelaopcaofb(QWidget * parent)">
+                <parameter left="QWidget *" right="" name="parent" default="0"/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="~janelaopcaofb" fullname="janelaopcaofb::~janelaopcaofb" href="janelaopcaofb.html#dtor.janelaopcaofb" location="janelaopcaofb.cpp" virtual="non" meta="destructor" const="false" static="false" overload="false" type="" signature="~janelaopcaofb()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getValores" fullname="janelaopcaofb::getValores" href="janelaopcaofb.html#getValores" location="janelaopcaofb.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="QStringList" signature="getValores(bool &amp; ok)">
+                <parameter left="bool &amp;" right="" name="ok" default=""/>
+            </function>
+        </class>
+        <class access="public" threadsafety="unspecified" status="commendable" name="janelaOpcaoCor" href="janelaopcaocor.html" location="janelaopcaocor.h" bases="" module="">
+            <function access="public" threadsafety="unspecified" status="commendable" name="janelaOpcaoCor" fullname="janelaOpcaoCor::janelaOpcaoCor" href="janelaopcaocor.html#janelaOpcaoCor" location="janelaopcaocor.cpp" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="janelaOpcaoCor(QWidget * parent)">
+                <parameter left="QWidget *" right="" name="parent" default="0"/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="~janelaOpcaoCor" fullname="janelaOpcaoCor::~janelaOpcaoCor" href="janelaopcaocor.html#dtor.janelaOpcaoCor" location="janelaopcaocor.cpp" virtual="non" meta="destructor" const="false" static="false" overload="false" type="" signature="~janelaOpcaoCor()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getValores" fullname="janelaOpcaoCor::getValores" href="janelaopcaocor.html#getValores" location="janelaopcaocor.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="QStringList" signature="getValores(bool &amp; ok)">
+                <parameter left="bool &amp;" right="" name="ok" default=""/>
+            </function>
+        </class>
+        <class access="public" threadsafety="unspecified" status="commendable" name="PontoZ" href="pontoz.html" location="Inundacao.h" bases="" module="">
+            <variable access="public" threadsafety="unspecified" status="commendable" name="z" fullname="PontoZ::z" href="pontoz.html#z-var" location="Inundacao.h" type="short int" static="false"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="PontoZ" fullname="PontoZ::PontoZ" href="pontoz.html#PontoZ" location="Inundacao.h" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="PontoZ(const short int y1, const short int x1, const short int z1)">
+                <parameter left="const short int" right="" name="y1" default=""/>
+                <parameter left="const short int" right="" name="x1" default=""/>
+                <parameter left="const short int" right="" name="z1" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="PontoZ" fullname="PontoZ::PontoZ" href="pontoz.html#PontoZ-2" location="Inundacao.h" virtual="non" meta="constructor" const="false" static="false" overload="true" overload-number="2" type="" signature="PontoZ()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="operator&lt;" fullname="PontoZ::operator&lt;" href="pontoz.html#operator&lt;" location="Inundacao.h" virtual="non" meta="plain" const="true" static="false" overload="false" type="bool" signature="operator&lt;(const PontoZ &amp; p1) const">
+                <parameter left="const PontoZ &amp;" right="" name="p1" default=""/>
+            </function>
+        </class>
+        <class access="public" threadsafety="unspecified" status="commendable" name="Inundacao" href="inundacao.html" location="Inundacao.h" bases="" module="">
+            <function access="public" threadsafety="unspecified" status="commendable" name="Inundacao" fullname="Inundacao::Inundacao" href="inundacao.html#Inundacao" location="Inundacao.h" virtual="non" meta="constructor" const="false" static="false" overload="false" type="" signature="Inundacao()"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="Inundacao" fullname="Inundacao::Inundacao" href="inundacao.html#Inundacao-2" location="Inundacao.cpp" virtual="non" meta="constructor" const="false" static="false" overload="true" overload-number="2" type="" signature="Inundacao(int linhas, int colunas)">
+                <parameter left="int" right="" name="linhas" default=""/>
+                <parameter left="int" right="" name="colunas" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="Inundacao" fullname="Inundacao::Inundacao" href="inundacao.html#Inundacao-3" location="Inundacao.cpp" virtual="non" meta="constructor" const="false" static="false" overload="true" overload-number="3" type="" signature="Inundacao(Inundacao const &amp; inundacaoCopia)">
+                <parameter left="Inundacao const &amp;" right="" name="inundacaoCopia" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="~Inundacao" fullname="Inundacao::~Inundacao" href="inundacao.html#dtor.Inundacao" location="Inundacao.cpp" virtual="non" meta="destructor" const="false" static="false" overload="false" type="" signature="~Inundacao()"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="matrizEstados" fullname="Inundacao::matrizEstados" href="inundacao.html#matrizEstados-var" location="Inundacao.h" type="short int **" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="posicaoBarragem" fullname="Inundacao::posicaoBarragem" href="inundacao.html#posicaoBarragem-var" location="Inundacao.h" type="PontoZ" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="posicaoAcimaBarragem" fullname="Inundacao::posicaoAcimaBarragem" href="inundacao.html#posicaoAcimaBarragem-var" location="Inundacao.h" type="PontoZ" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="vetorNormalABarragem" fullname="Inundacao::vetorNormalABarragem" href="inundacao.html#vetorNormalABarragem-var" location="Inundacao.h" type="PontoZ" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="nLinhas" fullname="Inundacao::nLinhas" href="inundacao.html#nLinhas-var" location="Inundacao.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="nColunas" fullname="Inundacao::nColunas" href="inundacao.html#nColunas-var" location="Inundacao.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="tamanhoMaximoDaBarragem" fullname="Inundacao::tamanhoMaximoDaBarragem" href="inundacao.html#tamanhoMaximoDaBarragem-var" location="Inundacao.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="volumeAgua" fullname="Inundacao::volumeAgua" href="inundacao.html#volumeAgua-var" location="Inundacao.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="volumeAlvo" fullname="Inundacao::volumeAlvo" href="inundacao.html#volumeAlvo-var" location="Inundacao.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="nivelAgua" fullname="Inundacao::nivelAgua" href="inundacao.html#nivelAgua-var" location="Inundacao.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="areaLaminaAgua" fullname="Inundacao::areaLaminaAgua" href="inundacao.html#areaLaminaAgua-var" location="Inundacao.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="areaBarragemTocada" fullname="Inundacao::areaBarragemTocada" href="inundacao.html#areaBarragemTocada-var" location="Inundacao.h" type="int" static="false"/>
+            <variable access="public" threadsafety="unspecified" status="commendable" name="comprimentoBarragemTocada" fullname="Inundacao::comprimentoBarragemTocada" href="inundacao.html#comprimentoBarragemTocada-var" location="Inundacao.h" type="int" static="false"/>
+            <function access="public" threadsafety="unspecified" status="commendable" name="permiteInundacaoEAumentaBarragem" fullname="Inundacao::permiteInundacaoEAumentaBarragem" href="inundacao.html#permiteInundacaoEAumentaBarragem" location="Inundacao.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="bool" signature="permiteInundacaoEAumentaBarragem(PontoZ pontoAvaliado)">
+                <parameter left="PontoZ" right="" name="pontoAvaliado" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="inicializaBarragem" fullname="Inundacao::inicializaBarragem" href="inundacao.html#inicializaBarragem" location="Inundacao.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="inicializaBarragem(int x, int y, int xAcima, int yAcima, short int ** elevacoes, bool ** rio, unsigned char ** matrizDeDirecoes, int opVetorNormal, int valorVetorNormal, int valEp)">
+                <parameter left="int" right="" name="x" default=""/>
+                <parameter left="int" right="" name="y" default=""/>
+                <parameter left="int" right="" name="xAcima" default=""/>
+                <parameter left="int" right="" name="yAcima" default=""/>
+                <parameter left="short int **" right="" name="elevacoes" default=""/>
+                <parameter left="bool **" right="" name="rio" default=""/>
+                <parameter left="unsigned char **" right="" name="matrizDeDirecoes" default=""/>
+                <parameter left="int" right="" name="opVetorNormal" default=""/>
+                <parameter left="int" right="" name="valorVetorNormal" default=""/>
+                <parameter left="int" right="" name="valEp" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="marcaMontante" fullname="Inundacao::marcaMontante" href="inundacao.html#marcaMontante" location="Inundacao.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="marcaMontante(int xi, int yi, short int ** matrizDeEstados, unsigned char ** matrizDeDirecoes, short int ** elevacoes, bool ** rio, int opVetorNormal, int valorVetorNormal, int valEp)">
+                <parameter left="int" right="" name="xi" default=""/>
+                <parameter left="int" right="" name="yi" default=""/>
+                <parameter left="short int **" right="" name="matrizDeEstados" default=""/>
+                <parameter left="unsigned char **" right="" name="matrizDeDirecoes" default=""/>
+                <parameter left="short int **" right="" name="elevacoes" default=""/>
+                <parameter left="bool **" right="" name="rio" default=""/>
+                <parameter left="int" right="" name="opVetorNormal" default=""/>
+                <parameter left="int" right="" name="valorVetorNormal" default=""/>
+                <parameter left="int" right="" name="valEp" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="sobeNivelDeAgua" fullname="Inundacao::sobeNivelDeAgua" href="inundacao.html#sobeNivelDeAgua" location="Inundacao.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="sobeNivelDeAgua(short int ** matrizDeEstados, short int ** elevacoes)">
+                <parameter left="short int **" right="" name="matrizDeEstados" default=""/>
+                <parameter left="short int **" right="" name="elevacoes" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="inunda" fullname="Inundacao::inunda" href="inundacao.html#inunda" location="Inundacao.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="inunda(int posX, int posY, unsigned char ** matrizDeDirecoes, short int ** elevacoes, bool ** rio, int opVetorNormal, int valorVetorNormal, int valEp)">
+                <parameter left="int" right="" name="posX" default=""/>
+                <parameter left="int" right="" name="posY" default=""/>
+                <parameter left="unsigned char **" right="" name="matrizDeDirecoes" default=""/>
+                <parameter left="short int **" right="" name="elevacoes" default=""/>
+                <parameter left="bool **" right="" name="rio" default=""/>
+                <parameter left="int" right="" name="opVetorNormal" default=""/>
+                <parameter left="int" right="" name="valorVetorNormal" default=""/>
+                <parameter left="int" right="" name="valEp" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="defineVetorNormalABarragem" fullname="Inundacao::defineVetorNormalABarragem" href="inundacao.html#defineVetorNormalABarragem" location="Inundacao.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="defineVetorNormalABarragem(int op, int val, short int ** elevacoes, bool ** rio, unsigned char ** matrizDeDirecoes, int valEp)">
+                <parameter left="int" right="" name="op" default=""/>
+                <parameter left="int" right="" name="val" default=""/>
+                <parameter left="short int **" right="" name="elevacoes" default=""/>
+                <parameter left="bool **" right="" name="rio" default=""/>
+                <parameter left="unsigned char **" right="" name="matrizDeDirecoes" default=""/>
+                <parameter left="int" right="" name="valEp" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="vetorNormalPorVizinhanca" fullname="Inundacao::vetorNormalPorVizinhanca" href="inundacao.html#vetorNormalPorVizinhanca" location="Inundacao.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="vetorNormalPorVizinhanca(int viz, short int ** elevacoes, bool ** rio, unsigned char ** matrizDeDirecoes)">
+                <parameter left="int" right="" name="viz" default=""/>
+                <parameter left="short int **" right="" name="elevacoes" default=""/>
+                <parameter left="bool **" right="" name="rio" default=""/>
+                <parameter left="unsigned char **" right="" name="matrizDeDirecoes" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="vetorNormalPorDouglasPeucker" fullname="Inundacao::vetorNormalPorDouglasPeucker" href="inundacao.html#vetorNormalPorDouglasPeucker" location="Inundacao.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="vetorNormalPorDouglasPeucker(int numElementos, int epsilon, short int ** elevacoes, bool ** rio, unsigned char ** matrizDeDirecoes)">
+                <parameter left="int" right="" name="numElementos" default=""/>
+                <parameter left="int" right="" name="epsilon" default=""/>
+                <parameter left="short int **" right="" name="elevacoes" default=""/>
+                <parameter left="bool **" right="" name="rio" default=""/>
+                <parameter left="unsigned char **" right="" name="matrizDeDirecoes" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="criaListaParaDouglasPeucker" fullname="Inundacao::criaListaParaDouglasPeucker" href="inundacao.html#criaListaParaDouglasPeucker" location="Inundacao.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="criaListaParaDouglasPeucker(int numElementos, QList&lt;PontoZ&gt; &amp; listaASerSimplificada, short int ** elevacoes, bool ** rio, unsigned char ** matrizDeDirecoes)">
+                <parameter left="int" right="" name="numElementos" default=""/>
+                <parameter left="QList&lt;PontoZ&gt; &amp;" right="" name="listaASerSimplificada" default=""/>
+                <parameter left="short int **" right="" name="elevacoes" default=""/>
+                <parameter left="bool **" right="" name="rio" default=""/>
+                <parameter left="unsigned char **" right="" name="matrizDeDirecoes" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="algoritmoDouglasPeucker" fullname="Inundacao::algoritmoDouglasPeucker" href="inundacao.html#algoritmoDouglasPeucker" location="Inundacao.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="QList&lt;PontoZ&gt;" signature="algoritmoDouglasPeucker(QList&lt;PontoZ&gt; &amp; lista, int epsilon, QList&lt;PontoZ&gt; &amp; resultadoLista)">
+                <parameter left="QList&lt;PontoZ&gt; &amp;" right="" name="lista" default=""/>
+                <parameter left="int" right="" name="epsilon" default=""/>
+                <parameter left="QList&lt;PontoZ&gt; &amp;" right="" name="resultadoLista" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="marcaBarragem" fullname="Inundacao::marcaBarragem" href="inundacao.html#marcaBarragem" location="Inundacao.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="marcaBarragem(short int ** matrizDeEstados)">
+                <parameter left="short int **" right="" name="matrizDeEstados" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="acertaTamanhoBarragem" fullname="Inundacao::acertaTamanhoBarragem" href="inundacao.html#acertaTamanhoBarragem" location="Inundacao.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="void" signature="acertaTamanhoBarragem(short int ** matrizDeEstados)">
+                <parameter left="short int **" right="" name="matrizDeEstados" default=""/>
+            </function>
+            <function access="public" threadsafety="unspecified" status="commendable" name="getPosicaoBarragem" fullname="Inundacao::getPosicaoBarragem" href="inundacao.html#getPosicaoBarragem" location="Inundacao.cpp" virtual="non" meta="plain" const="false" static="false" overload="false" type="PontoZ" signature="getPosicaoBarragem()"/>
+        </class>
+    </namespace>
+</INDEX>

@@ -1,0 +1,1515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qtPageIndex>
+    <page id="{a6940838-430d-43a2-be7c-a73530563dd5}">
+        <pageWords>PainelVisualizacaoOpenGL class reference</pageWords>
+        <pageTitle>PainelVisualizacaoOpenGL Class Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{d7f4fbfd-2392-459f-bc87-a44f4988620a}">
+        <pageWords>PainelVisualizacaoOpenGL function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>PainelVisualizacaoOpenGL Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#PainelVisualizacaoOpenGL</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{bc934278-c638-4d9a-8fb0-292700ddac60}">
+        <pageWords>visualizacaoMapa PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>visualizacaoMapa</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{733ea269-5c1a-403e-99ac-2e1a1e4380e6}">
+        <pageWords>posClickX PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>posClickX</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{84fbfe8c-5548-4fe6-bc3b-466ff143409f}">
+        <pageWords>posClickY PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>posClickY</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{35b237e5-68de-46a7-8c07-38a6c826649a}">
+        <pageWords>corAlagamento PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>corAlagamento</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{b4ad31f1-d9d4-478f-9da1-74bc04f00c21}">
+        <pageWords>corRedeDeDrenagem PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>corRedeDeDrenagem</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{2b701544-9484-43cc-a2cc-5e0f7244e925}">
+        <pageWords>corMaiorElevacao PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>corMaiorElevacao</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{cc664b92-5387-4257-9b34-abbbf80819a3}">
+        <pageWords>corMenorElevacao PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>corMenorElevacao</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{d77e2d4d-4464-4864-ad1c-2fd168c63e12}">
+        <pageWords>corBarragem PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>corBarragem</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{00b07374-93ae-4c27-a4e7-363d79816860}">
+        <pageWords>corPadraoAlagamento PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>corPadraoAlagamento</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{0f9c6f16-2fe6-41fa-b890-4710bd61a84d}">
+        <pageWords>corPadraoRedeDeDrenagem PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>corPadraoRedeDeDrenagem</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{cc3e0290-ed94-437b-862f-c43c54857019}">
+        <pageWords>corPadraoMaiorElevacao PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>corPadraoMaiorElevacao</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{6fc5cff9-ed7a-45f9-928c-fb851f9696cd}">
+        <pageWords>corPadraoMenorElevacao PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>corPadraoMenorElevacao</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{ca2707e9-43b0-4828-9cd2-17c74e221ca7}">
+        <pageWords>corPadraoBarragem PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>corPadraoBarragem</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{e91a78a2-04cf-4ded-81fa-7ec10f9e3df6}">
+        <pageWords>mapaEstaCarregado PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>mapaEstaCarregado</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{44044631-72ad-4606-a774-080a3212aee7}">
+        <pageWords>flagPinta PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>flagPinta</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{37d8676a-dce7-43a3-aeef-3bb0a4e574ac}">
+        <pageWords>zoomMapa function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>zoomMapa Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#zoomMapa</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{01832c4c-321e-4392-8cb7-b7db79cddb79}">
+        <pageWords>carregandoMapa function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>carregandoMapa Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#carregandoMapa</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{9d6745ed-44e7-4ea9-a242-653557555af4}">
+        <pageWords>pintaTudo function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>pintaTudo Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#pintaTudo</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{6fb2f5ff-0ba5-49ba-9f7b-81f769ced031}">
+        <pageWords>pintaEixo function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>pintaEixo Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#pintaEixo</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{62b3db2b-0ed2-475e-848b-12d592020416}">
+        <pageWords>pintaCamadas function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>pintaCamadas Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#pintaCamadas</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{241d9912-135c-4d07-a284-59c96a4a1106}">
+        <pageWords>computaFluxo function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>computaFluxo Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#computaFluxo</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{20a9596d-8023-410d-b7f3-eba2bd26808c}">
+        <pageWords>mudaCores function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>mudaCores Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#mudaCores</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{0de896c3-ec72-4668-92db-96689295a340}">
+        <pageWords>setCoresPadrao function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>setCoresPadrao Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#setCoresPadrao</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{b8d88c13-8ba7-4797-8af4-24093d54cf4e}">
+        <pageWords>getCorGradient function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>getCorGradient Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#getCorGradient</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{095de215-60c1-4de2-a7fb-f7e8f247b094}">
+        <pageWords>defineOrtho function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>defineOrtho Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#defineOrtho</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{56cc4604-482c-40e6-86a6-c5b055d24098}">
+        <pageWords>initializeGL function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>initializeGL Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#initializeGL</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{70318807-e5c8-45a6-905d-b944e087e384}">
+        <pageWords>resizeGL function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>resizeGL Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#resizeGL</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{5b0c8c77-0d60-490d-9b00-7b2793a231aa}">
+        <pageWords>paintGL function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>paintGL Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#paintGL</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{9ab6a338-deaf-4130-8afb-8ce5032ccd14}">
+        <pageWords>mouseMoveEvent function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>mouseMoveEvent Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#mouseMoveEvent</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{83139a07-40cb-46cb-84ea-c3d0dfe95baf}">
+        <pageWords>mousePressEvent function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>mousePressEvent Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#mousePressEvent</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{166e1cc4-059e-418b-a20b-ff57e4d45574}">
+        <pageWords>keyPressEvent function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>keyPressEvent Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#keyPressEvent</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{07dbc11d-0827-419d-a91f-ad1dd9e947ac}">
+        <pageWords>mouseReleaseEvent function PainelVisualizacaoOpenGL</pageWords>
+        <pageTitle>mouseReleaseEvent Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaoopengl.html#mouseReleaseEvent</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{e061bf29-8cc1-48bf-a754-9be631a52e1e}">
+        <pageWords>VisualizacaoMapa class reference</pageWords>
+        <pageTitle>VisualizacaoMapa Class Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{b325e00c-5111-4855-9bed-aee89a1c514e}">
+        <pageWords>VisualizacaoMapa function VisualizacaoMapa</pageWords>
+        <pageTitle>VisualizacaoMapa Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#VisualizacaoMapa</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{49934900-8fa8-4a4f-bfbc-808665951ab1}">
+        <pageWords>VisualizacaoMapa function VisualizacaoMapa</pageWords>
+        <pageTitle>VisualizacaoMapa Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#VisualizacaoMapa</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{faeaba55-a45b-4abe-8e7e-840b397984c4}">
+        <pageWords>VisualizacaoMapa function VisualizacaoMapa</pageWords>
+        <pageTitle>VisualizacaoMapa Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#VisualizacaoMapa</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{eae6a2b1-08b5-4fc3-948d-26897f72e251}">
+        <pageWords>~VisualizacaoMapa function VisualizacaoMapa</pageWords>
+        <pageTitle>~VisualizacaoMapa Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#~VisualizacaoMapa</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{5077a9fa-4d25-4c7e-9a61-b08891f31761}">
+        <pageWords>operator= function VisualizacaoMapa</pageWords>
+        <pageTitle>operator= Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#operator=</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{bd129f79-1cb5-4238-ab86-ab47a3d29776}">
+        <pageWords>mapa VisualizacaoMapa</pageWords>
+        <pageTitle>mapa</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{16d0cdde-75fb-4080-86af-4d93977418b7}">
+        <pageWords>fluxo VisualizacaoMapa</pageWords>
+        <pageTitle>fluxo</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{b9c0a5a7-8a25-4535-ac7b-730306d666d8}">
+        <pageWords>inundacao VisualizacaoMapa</pageWords>
+        <pageTitle>inundacao</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{78e0b8bd-789b-4e0e-9f6e-1f2d94707b2c}">
+        <pageWords>listaDeCamadas VisualizacaoMapa</pageWords>
+        <pageTitle>listaDeCamadas</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{98e25345-db80-435c-a626-846a74a868a2}">
+        <pageWords>camadasSomadas VisualizacaoMapa</pageWords>
+        <pageTitle>camadasSomadas</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{7bbc2571-934e-47ff-b17f-ad617e504a74}">
+        <pageWords>vetorDeZooms VisualizacaoMapa</pageWords>
+        <pageTitle>vetorDeZooms</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{2b6e9582-645f-48e3-82ec-38d79309dcd9}">
+        <pageWords>marcaInicioX VisualizacaoMapa</pageWords>
+        <pageTitle>marcaInicioX</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{edeb9aa6-ee65-4e9b-9777-82b72bc95b76}">
+        <pageWords>marcaInicioY VisualizacaoMapa</pageWords>
+        <pageTitle>marcaInicioY</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{298b7705-df7a-462f-ba29-dfd121338477}">
+        <pageWords>marcaFinalX VisualizacaoMapa</pageWords>
+        <pageTitle>marcaFinalX</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{9761079a-890f-4086-b949-fcdbed9de5f5}">
+        <pageWords>marcaFinalY VisualizacaoMapa</pageWords>
+        <pageTitle>marcaFinalY</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{4192283f-a663-49a7-9f41-bc2a5b7cc8f1}">
+        <pageWords>marcouInicio VisualizacaoMapa</pageWords>
+        <pageTitle>marcouInicio</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{2f843a6f-2950-4805-bf56-8b3088367988}">
+        <pageWords>marcouFim VisualizacaoMapa</pageWords>
+        <pageTitle>marcouFim</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{7b2b8c1c-4bf3-4669-8ca9-d4faffd0d92d}">
+        <pageWords>proporcaoZoom VisualizacaoMapa</pageWords>
+        <pageTitle>proporcaoZoom</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{d5543107-6beb-4616-803a-4e912cbd4017}">
+        <pageWords>constanteDeProporcaoZoom VisualizacaoMapa</pageWords>
+        <pageTitle>constanteDeProporcaoZoom</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{3067e0bc-619d-4571-97f5-31548221aaeb}">
+        <pageWords>tamanhoDaBarraDeZoom VisualizacaoMapa</pageWords>
+        <pageTitle>tamanhoDaBarraDeZoom</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{db49c621-0deb-42f7-972d-aeda19315263}">
+        <pageWords>maxPointSize VisualizacaoMapa</pageWords>
+        <pageTitle>maxPointSize</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{6830a51a-61fb-4f8f-be11-b4ea2958922b}">
+        <pageWords>estaPreSalvo VisualizacaoMapa</pageWords>
+        <pageTitle>estaPreSalvo</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{b460fb4d-dc03-421c-adcd-97616d6dd616}">
+        <pageWords>pesoEBarragem VisualizacaoMapa</pageWords>
+        <pageTitle>pesoEBarragem</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{677c81ec-7b7a-4ac9-a18b-620c70003bf8}">
+        <pageWords>pesoHBarragem VisualizacaoMapa</pageWords>
+        <pageTitle>pesoHBarragem</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{70cc6f12-bec9-418e-b133-b2410ec43906}">
+        <pageWords>pesoAreaAlagada VisualizacaoMapa</pageWords>
+        <pageTitle>pesoAreaAlagada</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{4c98494b-014c-4c14-910f-b7cd8559bcc5}">
+        <pageWords>pesoVolume VisualizacaoMapa</pageWords>
+        <pageTitle>pesoVolume</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{93e7dfb5-08ec-4513-8892-56fdeec2a1c4}">
+        <pageWords>pesoABarragem VisualizacaoMapa</pageWords>
+        <pageTitle>pesoABarragem</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{4df0e790-0ba7-4bdd-9c28-8c6a868cf30d}">
+        <pageWords>pesoCamadas VisualizacaoMapa</pageWords>
+        <pageTitle>pesoCamadas</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{6bdb819a-b2c4-4fe5-a794-4827c9295428}">
+        <pageWords>maxPontosABuscar VisualizacaoMapa</pageWords>
+        <pageTitle>maxPontosABuscar</pageTitle>
+        <pageUrl>visualizacaomapa.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{65e35f3d-d6c4-4f42-8142-07f86df9ab4b}">
+        <pageWords>getFuncaoObjetivo function VisualizacaoMapa</pageWords>
+        <pageTitle>getFuncaoObjetivo Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#getFuncaoObjetivo</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{f0d04f0c-6964-478a-84c7-e329ba4a3e13}">
+        <pageWords>atualizaCamadasSomadas function VisualizacaoMapa</pageWords>
+        <pageTitle>atualizaCamadasSomadas Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#atualizaCamadasSomadas</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{2efe50cb-c68c-48a7-89a7-c79ac93672ae}">
+        <pageWords>atualizaPesoCamadas function VisualizacaoMapa</pageWords>
+        <pageTitle>atualizaPesoCamadas Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#atualizaPesoCamadas</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{ad353df6-7940-4ead-8624-f07c8ee727b1}">
+        <pageWords>atualizaPesos function VisualizacaoMapa</pageWords>
+        <pageTitle>atualizaPesos Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#atualizaPesos</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{6117d760-0fd1-453c-8157-0955e5dce22f}">
+        <pageWords>getIndCamada function VisualizacaoMapa</pageWords>
+        <pageTitle>getIndCamada Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#getIndCamada</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{3955afb1-a2f7-475a-8955-e10fcf9a8f5f}">
+        <pageWords>getMapa function VisualizacaoMapa</pageWords>
+        <pageTitle>getMapa Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#getMapa</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{a8802903-56c1-4a16-8f1c-3579ffcafa34}">
+        <pageWords>getProporcaoZoom function VisualizacaoMapa</pageWords>
+        <pageTitle>getProporcaoZoom Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#getProporcaoZoom</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{25b71a76-4664-4470-b6e5-cbd708db03b4}">
+        <pageWords>getZoom function VisualizacaoMapa</pageWords>
+        <pageTitle>getZoom Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#getZoom</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{24fe2071-ace1-4a76-9bc5-0aa37d0aff6b}">
+        <pageWords>setTamanhoPonto function VisualizacaoMapa</pageWords>
+        <pageTitle>setTamanhoPonto Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#setTamanhoPonto</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{5fb43dda-f6a5-4125-8b26-a599b179011c}">
+        <pageWords>setZoom function VisualizacaoMapa</pageWords>
+        <pageTitle>setZoom Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#setZoom</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{9cea0ef6-3f2b-4f14-8546-de65e381e908}">
+        <pageWords>setInundacao function VisualizacaoMapa</pageWords>
+        <pageTitle>setInundacao Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#setInundacao</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{e3fcafbb-35af-405c-9e79-5452db4f5b61}">
+        <pageWords>encontraPontosJusante function VisualizacaoMapa</pageWords>
+        <pageTitle>encontraPontosJusante Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#encontraPontosJusante</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{2da5db24-99d1-4171-b126-86aaed57faa5}">
+        <pageWords>insereCamada function VisualizacaoMapa</pageWords>
+        <pageTitle>insereCamada Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#insereCamada</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{d1f6b341-9aff-439b-a551-9b05295140b9}">
+        <pageWords>operator= function VisualizacaoMapa</pageWords>
+        <pageTitle>operator= Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#operator=</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{538c4b8b-17a1-40cc-a8c5-d02998c41f14}">
+        <pageWords>operator== function VisualizacaoMapa</pageWords>
+        <pageTitle>operator== Function Reference</pageTitle>
+        <pageUrl>visualizacaomapa.html#operator==</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{03100e76-50f5-4157-be0e-d4653589dc57}">
+        <pageWords>PainelVisualizacaoBarragemOpenGL class reference</pageWords>
+        <pageTitle>PainelVisualizacaoBarragemOpenGL Class Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragemopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{761e0f2f-ed5c-4622-8a13-ae93d8b2f133}">
+        <pageWords>PainelVisualizacaoBarragemOpenGL function PainelVisualizacaoBarragemOpenGL</pageWords>
+        <pageTitle>PainelVisualizacaoBarragemOpenGL Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragemopengl.html#PainelVisualizacaoBarragemOpenGL</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{20d9fb77-fb65-43be-9c38-01a50508d6ed}">
+        <pageWords>carregandoInformacoes function PainelVisualizacaoBarragemOpenGL</pageWords>
+        <pageTitle>carregandoInformacoes Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragemopengl.html#carregandoInformacoes</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{95ade911-7345-46b0-8e41-9542394642b7}">
+        <pageWords>desenhaTerreno function PainelVisualizacaoBarragemOpenGL</pageWords>
+        <pageTitle>desenhaTerreno Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragemopengl.html#desenhaTerreno</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{a456cbbd-4a31-4a93-a9ea-fd8d44e0298f}">
+        <pageWords>defineOrtho function PainelVisualizacaoBarragemOpenGL</pageWords>
+        <pageTitle>defineOrtho Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragemopengl.html#defineOrtho</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{f736eaf0-df29-43bf-b778-1170b7154983}">
+        <pageWords>initializeGL function PainelVisualizacaoBarragemOpenGL</pageWords>
+        <pageTitle>initializeGL Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragemopengl.html#initializeGL</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{a69b7c06-bd94-4162-8382-478b9c6c4bf1}">
+        <pageWords>resizeGL function PainelVisualizacaoBarragemOpenGL</pageWords>
+        <pageTitle>resizeGL Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragemopengl.html#resizeGL</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{9ded1e00-06c6-4e03-a6d4-8ca9ad3d12b5}">
+        <pageWords>paintGL function PainelVisualizacaoBarragemOpenGL</pageWords>
+        <pageTitle>paintGL Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragemopengl.html#paintGL</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{70105137-547c-4bb0-b27a-c99ab87180ee}">
+        <pageWords>keyPressEvent function PainelVisualizacaoBarragemOpenGL</pageWords>
+        <pageTitle>keyPressEvent Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragemopengl.html#keyPressEvent</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{0628ad64-fb50-4c8b-8b93-b386f06ec302}">
+        <pageWords>janelaBarragem2D class reference</pageWords>
+        <pageTitle>janelaBarragem2D Class Reference</pageTitle>
+        <pageUrl>janelabarragem2d.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{f6b9ca40-83f7-4672-84e0-affb71fec982}">
+        <pageWords>janelaBarragem2D function janelaBarragem2D</pageWords>
+        <pageTitle>janelaBarragem2D Function Reference</pageTitle>
+        <pageUrl>janelabarragem2d.html#janelaBarragem2D</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{9fe13483-033d-4a72-826f-40055b147b54}">
+        <pageWords>~janelaBarragem2D function janelaBarragem2D</pageWords>
+        <pageTitle>~janelaBarragem2D Function Reference</pageTitle>
+        <pageUrl>janelabarragem2d.html#~janelaBarragem2D</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{6ec64f2f-db25-4ddc-95d1-4cd8b49f98b0}">
+        <pageWords>recarregandoMapa function janelaBarragem2D</pageWords>
+        <pageTitle>recarregandoMapa Function Reference</pageTitle>
+        <pageUrl>janelabarragem2d.html#recarregandoMapa</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{a7cf2ea4-ba78-48b3-84ef-69c614b01bf1}">
+        <pageWords>MapaMDE class reference</pageWords>
+        <pageTitle>MapaMDE Class Reference</pageTitle>
+        <pageUrl>mapamde.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{826d5dfe-eec3-4d6c-9303-3b1fa98a63ec}">
+        <pageWords>MapaMDE function MapaMDE</pageWords>
+        <pageTitle>MapaMDE Function Reference</pageTitle>
+        <pageUrl>mapamde.html#MapaMDE</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{59996156-952e-4e32-82a7-2597a7329ef3}">
+        <pageWords>MapaMDE function MapaMDE</pageWords>
+        <pageTitle>MapaMDE Function Reference</pageTitle>
+        <pageUrl>mapamde.html#MapaMDE</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{fd5e8931-0387-4085-905c-a40fef557fcf}">
+        <pageWords>MapaMDE function MapaMDE</pageWords>
+        <pageTitle>MapaMDE Function Reference</pageTitle>
+        <pageUrl>mapamde.html#MapaMDE</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{08fa0a3c-a8e9-4e4e-b38c-8470d2403e6a}">
+        <pageWords>~MapaMDE function MapaMDE</pageWords>
+        <pageTitle>~MapaMDE Function Reference</pageTitle>
+        <pageUrl>mapamde.html#~MapaMDE</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{122642de-a7eb-4e29-9516-579304161a01}">
+        <pageWords>matrizDeElevacoes MapaMDE</pageWords>
+        <pageTitle>matrizDeElevacoes</pageTitle>
+        <pageUrl>mapamde.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{74e28d69-85b3-4f90-96ae-a105ea90f34d}">
+        <pageWords>maxElev MapaMDE</pageWords>
+        <pageTitle>maxElev</pageTitle>
+        <pageUrl>mapamde.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{57129f8f-2a2a-46db-9f65-cbea5fd2a9b9}">
+        <pageWords>minElev MapaMDE</pageWords>
+        <pageTitle>minElev</pageTitle>
+        <pageUrl>mapamde.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{d6323278-0e18-474f-8439-09374e149778}">
+        <pageWords>getNColunas function MapaMDE</pageWords>
+        <pageTitle>getNColunas Function Reference</pageTitle>
+        <pageUrl>mapamde.html#getNColunas</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{d5ceb358-cfa8-4e03-b756-6c2c7f9c4460}">
+        <pageWords>getNLinhas function MapaMDE</pageWords>
+        <pageTitle>getNLinhas Function Reference</pageTitle>
+        <pageUrl>mapamde.html#getNLinhas</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{04b853b3-1cd0-47e2-a65c-e4c8ae2ad44c}">
+        <pageWords>getResolucao function MapaMDE</pageWords>
+        <pageTitle>getResolucao Function Reference</pageTitle>
+        <pageUrl>mapamde.html#getResolucao</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{57bffd05-d5f0-4960-97e6-29e9c596be3a}">
+        <pageWords>getDadoInvalido function MapaMDE</pageWords>
+        <pageTitle>getDadoInvalido Function Reference</pageTitle>
+        <pageUrl>mapamde.html#getDadoInvalido</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{2e45d016-3934-4e19-b325-5e2fe8263c30}">
+        <pageWords>getCaminhoArquivo function MapaMDE</pageWords>
+        <pageTitle>getCaminhoArquivo Function Reference</pageTitle>
+        <pageUrl>mapamde.html#getCaminhoArquivo</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{f821fce1-2d84-4de1-bfed-706895743f36}">
+        <pageWords>getNomeArquivo function MapaMDE</pageWords>
+        <pageTitle>getNomeArquivo Function Reference</pageTitle>
+        <pageUrl>mapamde.html#getNomeArquivo</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{29dc5c0c-c16d-471f-81bd-70b10b4b76d3}">
+        <pageWords>janelabarragem class reference</pageWords>
+        <pageTitle>janelabarragem Class Reference</pageTitle>
+        <pageUrl>janelabarragem.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{2281dc12-1985-429c-8303-8f0180e44490}">
+        <pageWords>janelabarragem function janelabarragem</pageWords>
+        <pageTitle>janelabarragem Function Reference</pageTitle>
+        <pageUrl>janelabarragem.html#janelabarragem</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{77930fce-9258-46f2-b06e-3a6e1a77ba6b}">
+        <pageWords>~janelabarragem function janelabarragem</pageWords>
+        <pageTitle>~janelabarragem Function Reference</pageTitle>
+        <pageUrl>janelabarragem.html#~janelabarragem</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{0bd1aa65-ae19-4bdc-936e-fd584a3a3ee6}">
+        <pageWords>janelasobre class reference</pageWords>
+        <pageTitle>janelasobre Class Reference</pageTitle>
+        <pageUrl>janelasobre.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{833b7382-830e-4291-9cbe-e7e3d3bd2f4b}">
+        <pageWords>janelasobre function janelasobre</pageWords>
+        <pageTitle>janelasobre Function Reference</pageTitle>
+        <pageUrl>janelasobre.html#janelasobre</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{cbe8081f-147c-43c8-b0fa-128cc2cca681}">
+        <pageWords>~janelasobre function janelasobre</pageWords>
+        <pageTitle>~janelasobre Function Reference</pageTitle>
+        <pageUrl>janelasobre.html#~janelasobre</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{45c306d5-ae47-4904-9c68-3336f60d17f6}">
+        <pageWords>Fluxo class reference</pageWords>
+        <pageTitle>Fluxo Class Reference</pageTitle>
+        <pageUrl>fluxo.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{2c96616a-8d07-4513-a2c0-e42cbf79185c}">
+        <pageWords>Fluxo function Fluxo</pageWords>
+        <pageTitle>Fluxo Function Reference</pageTitle>
+        <pageUrl>fluxo.html#Fluxo</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{2f750c8f-4922-40b7-82bf-56f5e0849269}">
+        <pageWords>Fluxo function Fluxo</pageWords>
+        <pageTitle>Fluxo Function Reference</pageTitle>
+        <pageUrl>fluxo.html#Fluxo</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{d83e7bb6-0b7c-4271-80fa-ce8d50d1420b}">
+        <pageWords>Fluxo function Fluxo</pageWords>
+        <pageTitle>Fluxo Function Reference</pageTitle>
+        <pageUrl>fluxo.html#Fluxo</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{bbe34449-ed9c-4a86-969f-a3ea3dc42f3f}">
+        <pageWords>~Fluxo function Fluxo</pageWords>
+        <pageTitle>~Fluxo Function Reference</pageTitle>
+        <pageUrl>fluxo.html#~Fluxo</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{629e67df-3396-4d58-a21e-afdf2a4dda48}">
+        <pageWords>direcao Fluxo</pageWords>
+        <pageTitle>direcao</pageTitle>
+        <pageUrl>fluxo.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{605088b4-7e70-47c0-baec-31c75afb6816}">
+        <pageWords>fluxo Fluxo</pageWords>
+        <pageTitle>fluxo</pageTitle>
+        <pageUrl>fluxo.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{c6eccd72-25ad-4905-8522-96c01f75c744}">
+        <pageWords>rio Fluxo</pageWords>
+        <pageTitle>rio</pageTitle>
+        <pageUrl>fluxo.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{019b874b-d6e4-41fa-a17f-5af62ad2b2fb}">
+        <pageWords>fluxoMinimo Fluxo</pageWords>
+        <pageTitle>fluxoMinimo</pageTitle>
+        <pageUrl>fluxo.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{736d1450-be69-4a0b-8d18-f57136c0590e}">
+        <pageWords>valorPadraoFluxo Fluxo</pageWords>
+        <pageTitle>valorPadraoFluxo</pageTitle>
+        <pageUrl>fluxo.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{db33cc94-335a-440c-bad9-8ff7a7431e02}">
+        <pageWords>nLinhas Fluxo</pageWords>
+        <pageTitle>nLinhas</pageTitle>
+        <pageUrl>fluxo.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{6c4c8063-1c80-4c3f-8a5c-a8be95fc6b2f}">
+        <pageWords>nColunas Fluxo</pageWords>
+        <pageTitle>nColunas</pageTitle>
+        <pageUrl>fluxo.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{dfdd6579-3ac4-4f6f-89a3-15b8d50e560d}">
+        <pageWords>qtdeCelulasRio Fluxo</pageWords>
+        <pageTitle>qtdeCelulasRio</pageTitle>
+        <pageUrl>fluxo.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{92d3560e-20d6-4ba4-a115-c1c21f9b6d20}">
+        <pageWords>ponto typedef type Fluxo</pageWords>
+        <pageTitle>ponto Type Reference</pageTitle>
+        <pageUrl>fluxo.html#ponto</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{5962299a-8d89-44b0-86b2-d0b877953a06}">
+        <pageWords>vetorDeFilasDeNiveis Fluxo</pageWords>
+        <pageTitle>vetorDeFilasDeNiveis</pageTitle>
+        <pageUrl>fluxo.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{24f87abc-f55f-472c-a1d7-6c518b177a75}">
+        <pageWords>calculaFluxo function Fluxo</pageWords>
+        <pageTitle>calculaFluxo Function Reference</pageTitle>
+        <pageUrl>fluxo.html#calculaFluxo</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{9b311f39-b996-463b-b1f5-60c75f8dc7e5}">
+        <pageWords>JanelaPrincipal class reference</pageWords>
+        <pageTitle>JanelaPrincipal Class Reference</pageTitle>
+        <pageUrl>janelaprincipal.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{7d522eba-c28e-4e12-bea6-6a2baf46c4ab}">
+        <pageWords>JanelaPrincipal function JanelaPrincipal</pageWords>
+        <pageTitle>JanelaPrincipal Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#JanelaPrincipal</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{be154f74-bd4a-4521-9506-c753b640c6f1}">
+        <pageWords>~JanelaPrincipal function JanelaPrincipal</pageWords>
+        <pageTitle>~JanelaPrincipal Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#~JanelaPrincipal</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{18224ed9-e026-4544-8b9b-c7e6b2b5f7bb}">
+        <pageWords>mapeamentoAreaProjeto JanelaPrincipal</pageWords>
+        <pageTitle>mapeamentoAreaProjeto</pageTitle>
+        <pageUrl>janelaprincipal.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{3ab46e76-2f03-4da7-9079-43ccac351d30}">
+        <pageWords>stringAreaProjeto JanelaPrincipal</pageWords>
+        <pageTitle>stringAreaProjeto</pageTitle>
+        <pageUrl>janelaprincipal.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{03c7f7c8-ad33-49e9-961a-17b6b980fd17}">
+        <pageWords>posXBotaoZoomMais JanelaPrincipal</pageWords>
+        <pageTitle>posXBotaoZoomMais</pageTitle>
+        <pageUrl>janelaprincipal.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{b93a5899-2fdb-4391-bdf5-ea83e91e6e6e}">
+        <pageWords>posYBotaoZoomMais JanelaPrincipal</pageWords>
+        <pageTitle>posYBotaoZoomMais</pageTitle>
+        <pageUrl>janelaprincipal.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{19f9f342-d539-4779-a9de-2098b52df029}">
+        <pageWords>posXBotaoZoomMenos JanelaPrincipal</pageWords>
+        <pageTitle>posXBotaoZoomMenos</pageTitle>
+        <pageUrl>janelaprincipal.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{42977729-5793-4de6-8bec-7326b7e6e015}">
+        <pageWords>posYBotaoZoomMenos JanelaPrincipal</pageWords>
+        <pageTitle>posYBotaoZoomMenos</pageTitle>
+        <pageUrl>janelaprincipal.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{7f7ed1f9-1e26-4255-97c1-1df7fb7f243a}">
+        <pageWords>posXBarraZoom JanelaPrincipal</pageWords>
+        <pageTitle>posXBarraZoom</pageTitle>
+        <pageUrl>janelaprincipal.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{44df4ac3-b95f-4923-b40c-1e5d46e266b4}">
+        <pageWords>posYBarraZoom JanelaPrincipal</pageWords>
+        <pageTitle>posYBarraZoom</pageTitle>
+        <pageUrl>janelaprincipal.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{c34c87b1-6717-4f67-8f74-919a9f2bb8dd}">
+        <pageWords>escolhendoPontosCamada JanelaPrincipal</pageWords>
+        <pageTitle>escolhendoPontosCamada</pageTitle>
+        <pageUrl>janelaprincipal.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{29e34112-69cf-4029-8e15-8075bc98464c}">
+        <pageWords>selecaoPontos JanelaPrincipal</pageWords>
+        <pageTitle>selecaoPontos</pageTitle>
+        <pageUrl>janelaprincipal.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{ffa1b8f1-e660-483d-95e9-cfb5ae6843fe}">
+        <pageWords>selecaoPontoBarragem JanelaPrincipal</pageWords>
+        <pageTitle>selecaoPontoBarragem</pageTitle>
+        <pageUrl>janelaprincipal.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{dcc5a106-c9aa-4187-98d8-cedf165fead3}">
+        <pageWords>listaDePosicoesMouse JanelaPrincipal</pageWords>
+        <pageTitle>listaDePosicoesMouse</pageTitle>
+        <pageUrl>janelaprincipal.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{75bdf2a2-e11a-4ab1-869f-d33423d6bb9d}">
+        <pageWords>pontosContinuos JanelaPrincipal</pageWords>
+        <pageTitle>pontosContinuos</pageTitle>
+        <pageUrl>janelaprincipal.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{e9b87357-7867-43a7-af41-596f00d2577a}">
+        <pageWords>setaTelaPadrao function JanelaPrincipal</pageWords>
+        <pageTitle>setaTelaPadrao Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#setaTelaPadrao</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{6aa6dc45-4602-4c92-998a-94951ec435de}">
+        <pageWords>setaTamanhoBarraDeZoom function JanelaPrincipal</pageWords>
+        <pageTitle>setaTamanhoBarraDeZoom Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#setaTamanhoBarraDeZoom</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{c518d198-0a1f-46f8-8ec5-cbcca3284861}">
+        <pageWords>habilitandoBotoes function JanelaPrincipal</pageWords>
+        <pageTitle>habilitandoBotoes Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#habilitandoBotoes</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{c5509d75-aa24-44c4-a3b5-14ec39ad13f4}">
+        <pageWords>desAbilitandoBotoes function JanelaPrincipal</pageWords>
+        <pageTitle>desAbilitandoBotoes Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#desAbilitandoBotoes</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{dc0ac57e-56b0-4d9b-9ed6-9b4f42621e73}">
+        <pageWords>atualizaCamposSaida function JanelaPrincipal</pageWords>
+        <pageTitle>atualizaCamposSaida Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#atualizaCamposSaida</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{11ed26f5-0095-4c2d-85f7-c092784dba55}">
+        <pageWords>deletaListaComCamadas function JanelaPrincipal</pageWords>
+        <pageTitle>deletaListaComCamadas Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#deletaListaComCamadas</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{074dd71f-1beb-4193-b152-1b9b8494e65a}">
+        <pageWords>criaListaComCamadas function JanelaPrincipal</pageWords>
+        <pageTitle>criaListaComCamadas Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#criaListaComCamadas</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{0446cc03-ba9e-4eff-9f15-33fdadc7d7f1}">
+        <pageWords>preenchePontosContinuo function JanelaPrincipal</pageWords>
+        <pageTitle>preenchePontosContinuo Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#preenchePontosContinuo</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{f1cc7ad7-b210-4db7-89ba-f281aeb1d452}">
+        <pageWords>pontoDoRioMaisProximo function JanelaPrincipal</pageWords>
+        <pageTitle>pontoDoRioMaisProximo Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#pontoDoRioMaisProximo</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{a592a316-5f5e-4d23-bdfc-31e084db587d}">
+        <pageWords>criaVisualizacaoBarragem function JanelaPrincipal</pageWords>
+        <pageTitle>criaVisualizacaoBarragem Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#criaVisualizacaoBarragem</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{251b3201-664e-42f3-871f-121fb14cc07e}">
+        <pageWords>preencheSolido function JanelaPrincipal</pageWords>
+        <pageTitle>preencheSolido Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#preencheSolido</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{1c8541e9-ed67-4f12-a800-b9bca77c4224}">
+        <pageWords>buscaMelhorPonto function JanelaPrincipal</pageWords>
+        <pageTitle>buscaMelhorPonto Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#buscaMelhorPonto</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{0dbeaecf-a77d-4007-8dc7-b1718b147583}">
+        <pageWords>mousePressionadoParaCamada function JanelaPrincipal</pageWords>
+        <pageTitle>mousePressionadoParaCamada Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#mousePressionadoParaCamada</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{b35b3b99-2e59-473f-84a5-c67543efb650}">
+        <pageWords>mousePressionadoParaBarragem function JanelaPrincipal</pageWords>
+        <pageTitle>mousePressionadoParaBarragem Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#mousePressionadoParaBarragem</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{5fbfaedd-e89f-4e42-be58-9a3eca455518}">
+        <pageWords>on_actionAbrir_mapa_triggered function JanelaPrincipal</pageWords>
+        <pageTitle>on_actionAbrir_mapa_triggered Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#on_actionAbrir_mapa_triggered</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{9c8ff50a-2d26-4c99-96e6-899d044c97d0}">
+        <pageWords>on_barraZoom_sliderMoved function JanelaPrincipal</pageWords>
+        <pageTitle>on_barraZoom_sliderMoved Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#on_barraZoom_sliderMoved</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{4b015998-bf03-44fc-8d33-19cfe02ebe4c}">
+        <pageWords>on_botaoZoomMais_clicked function JanelaPrincipal</pageWords>
+        <pageTitle>on_botaoZoomMais_clicked Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#on_botaoZoomMais_clicked</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{977c32b1-fdaf-414f-b317-254ca9c1bfc5}">
+        <pageWords>on_botaoZoomMenos_clicked function JanelaPrincipal</pageWords>
+        <pageTitle>on_botaoZoomMenos_clicked Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#on_botaoZoomMenos_clicked</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{b36bf9bb-f2b7-467c-b031-84f0aa170b52}">
+        <pageWords>on_botaoAtualizarFluxoMinimo_clicked function JanelaPrincipal</pageWords>
+        <pageTitle>on_botaoAtualizarFluxoMinimo_clicked Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#on_botaoAtualizarFluxoMinimo_clicked</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{d6fbc38e-1ea8-452d-ad92-557ce89abb2e}">
+        <pageWords>trocaCoordenadas function JanelaPrincipal</pageWords>
+        <pageTitle>trocaCoordenadas Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#trocaCoordenadas</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{abb33f68-af1a-45df-a3ff-402ca86628c2}">
+        <pageWords>defineCamada function JanelaPrincipal</pageWords>
+        <pageTitle>defineCamada Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#defineCamada</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{3ce46da5-3712-418b-b51b-5bd9e08ad3d6}">
+        <pageWords>defineInundacao function JanelaPrincipal</pageWords>
+        <pageTitle>defineInundacao Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#defineInundacao</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{7a7b9648-667b-4324-a3ac-8bb0ea251a2f}">
+        <pageWords>adicionandoPontosACamada function JanelaPrincipal</pageWords>
+        <pageTitle>adicionandoPontosACamada Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#adicionandoPontosACamada</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{694a9f65-221a-4016-9f02-104f68de450f}">
+        <pageWords>movendoMouse function JanelaPrincipal</pageWords>
+        <pageTitle>movendoMouse Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#movendoMouse</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{d3b1c746-aace-4b7c-8218-271de7ba39f9}">
+        <pageWords>moveBarragem function JanelaPrincipal</pageWords>
+        <pageTitle>moveBarragem Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#moveBarragem</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{c60ed99b-b30f-40a8-91f8-661b81895048}">
+        <pageWords>imprimeBarragem function JanelaPrincipal</pageWords>
+        <pageTitle>imprimeBarragem Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#imprimeBarragem</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{96423f18-427e-4b0a-b5bd-ab55bbb87c4a}">
+        <pageWords>eEntruncamentoDeRios function JanelaPrincipal</pageWords>
+        <pageTitle>eEntruncamentoDeRios Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#eEntruncamentoDeRios</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{ced5364c-912f-4b0d-a6b4-133ea965802e}">
+        <pageWords>exporCamada function JanelaPrincipal</pageWords>
+        <pageTitle>exporCamada Function Reference</pageTitle>
+        <pageUrl>janelaprincipal.html#exporCamada</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{d8f9335e-24a4-433d-ad3f-4da03812814b}">
+        <pageWords>Camada class reference</pageWords>
+        <pageTitle>Camada Class Reference</pageTitle>
+        <pageUrl>camada.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{9cff2c77-a6e1-4736-b785-b84d2d543e8a}">
+        <pageWords>Camada function Camada</pageWords>
+        <pageTitle>Camada Function Reference</pageTitle>
+        <pageUrl>camada.html#Camada</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{d003d75a-93e7-4dc9-8ce3-569d2754a1aa}">
+        <pageWords>Camada function Camada</pageWords>
+        <pageTitle>Camada Function Reference</pageTitle>
+        <pageUrl>camada.html#Camada</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{c4baba03-7d86-46ab-89fd-8746f09fba6e}">
+        <pageWords>Camada function Camada</pageWords>
+        <pageTitle>Camada Function Reference</pageTitle>
+        <pageUrl>camada.html#Camada</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{a3a1302e-baef-4587-8fb8-032661d6a119}">
+        <pageWords>~Camada function Camada</pageWords>
+        <pageTitle>~Camada Function Reference</pageTitle>
+        <pageUrl>camada.html#~Camada</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{9bc92fd0-e6a1-43c1-a276-d0d7c286ac87}">
+        <pageWords>pontos Camada</pageWords>
+        <pageTitle>pontos</pageTitle>
+        <pageUrl>camada.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{d1ade1c8-4e80-4df1-81ed-6058fe89cfe3}">
+        <pageWords>listaDePontos Camada</pageWords>
+        <pageTitle>listaDePontos</pageTitle>
+        <pageUrl>camada.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{207feb11-c328-440f-9a56-797626d2cb99}">
+        <pageWords>nLinhas Camada</pageWords>
+        <pageTitle>nLinhas</pageTitle>
+        <pageUrl>camada.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{eb4ad5d7-14ba-4673-84e6-efb82d1313ca}">
+        <pageWords>nColunas Camada</pageWords>
+        <pageTitle>nColunas</pageTitle>
+        <pageUrl>camada.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{110e4ff6-6212-493f-8471-6fbcb01d7825}">
+        <pageWords>estaIncluidoNoAlgoritmo Camada</pageWords>
+        <pageTitle>estaIncluidoNoAlgoritmo</pageTitle>
+        <pageUrl>camada.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{c7f054a7-94ce-40a6-9be0-d8e931736eaf}">
+        <pageWords>estaVisivel Camada</pageWords>
+        <pageTitle>estaVisivel</pageTitle>
+        <pageUrl>camada.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{c339511e-5999-48f0-b9c1-6e6aadcde751}">
+        <pageWords>getNome function Camada</pageWords>
+        <pageTitle>getNome Function Reference</pageTitle>
+        <pageUrl>camada.html#getNome</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{71084811-2509-428a-ac49-3dddd3eceb46}">
+        <pageWords>setNome function Camada</pageWords>
+        <pageTitle>setNome Function Reference</pageTitle>
+        <pageUrl>camada.html#setNome</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{0256faf8-3941-4acb-b374-257354a3acd6}">
+        <pageWords>getPeso function Camada</pageWords>
+        <pageTitle>getPeso Function Reference</pageTitle>
+        <pageUrl>camada.html#getPeso</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{0ce87125-81b5-470b-a926-bc6df8a53e0b}">
+        <pageWords>setPeso function Camada</pageWords>
+        <pageTitle>setPeso Function Reference</pageTitle>
+        <pageUrl>camada.html#setPeso</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{5a8564b4-c0f7-4fb8-879c-9e5da191174e}">
+        <pageWords>getCorCamada function Camada</pageWords>
+        <pageTitle>getCorCamada Function Reference</pageTitle>
+        <pageUrl>camada.html#getCorCamada</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{d9efe5ec-8a15-4ae0-9fb8-b46d44b75d22}">
+        <pageWords>setCorCamada function Camada</pageWords>
+        <pageTitle>setCorCamada Function Reference</pageTitle>
+        <pageUrl>camada.html#setCorCamada</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{6248fd9b-39a8-4fc0-9b7e-98bc81e494f3}">
+        <pageWords>getEstaIncluidoNoAlgoritmo function Camada</pageWords>
+        <pageTitle>getEstaIncluidoNoAlgoritmo Function Reference</pageTitle>
+        <pageUrl>camada.html#getEstaIncluidoNoAlgoritmo</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{f0d628a8-bc2d-470f-83f4-40cc8e97ef2a}">
+        <pageWords>setEstaIncluidoNoAlgoritmo function Camada</pageWords>
+        <pageTitle>setEstaIncluidoNoAlgoritmo Function Reference</pageTitle>
+        <pageUrl>camada.html#setEstaIncluidoNoAlgoritmo</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{accd6ef9-eee7-4974-b88f-8d8e63accda5}">
+        <pageWords>alteraPonto function Camada</pageWords>
+        <pageTitle>alteraPonto Function Reference</pageTitle>
+        <pageUrl>camada.html#alteraPonto</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{2f607171-cccf-4780-a7f9-c5e6efb19ef8}">
+        <pageWords>operator= function Camada</pageWords>
+        <pageTitle>operator= Function Reference</pageTitle>
+        <pageUrl>camada.html#operator=</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{4282b5bd-0a87-4ff5-b6bb-7e3a91998165}">
+        <pageWords>operator== function Camada</pageWords>
+        <pageTitle>operator== Function Reference</pageTitle>
+        <pageUrl>camada.html#operator==</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{b032182c-9fea-49c0-89e7-9be615b21496}">
+        <pageWords>painelvisualizacaobarragem2dopengl class reference</pageWords>
+        <pageTitle>painelvisualizacaobarragem2dopengl Class Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragem2dopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{6c530160-fc46-4dd6-a174-67c291e562f3}">
+        <pageWords>painelvisualizacaobarragem2dopengl function painelvisualizacaobarragem2dopengl</pageWords>
+        <pageTitle>painelvisualizacaobarragem2dopengl Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragem2dopengl.html#painelvisualizacaobarragem2dopengl</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{decb7b48-1cf7-4b54-b43b-d9d7d4910c4f}">
+        <pageWords>visualizacaoMapa painelvisualizacaobarragem2dopengl</pageWords>
+        <pageTitle>visualizacaoMapa</pageTitle>
+        <pageUrl>painelvisualizacaobarragem2dopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{e015aed0-3bd2-492c-80fb-31c43400664b}">
+        <pageWords>pontosDaBarragem painelvisualizacaobarragem2dopengl</pageWords>
+        <pageTitle>pontosDaBarragem</pageTitle>
+        <pageUrl>painelvisualizacaobarragem2dopengl.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{8e528bc7-51e4-4493-bb79-6828d5c7341f}">
+        <pageWords>carregandoInformacoes function painelvisualizacaobarragem2dopengl</pageWords>
+        <pageTitle>carregandoInformacoes Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragem2dopengl.html#carregandoInformacoes</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{e2961659-1757-4fd6-9bb8-001b73e2443d}">
+        <pageWords>defineBarragem function painelvisualizacaobarragem2dopengl</pageWords>
+        <pageTitle>defineBarragem Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragem2dopengl.html#defineBarragem</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{fb882c29-2016-4593-8c8c-6099398d16bd}">
+        <pageWords>defineOrtho function painelvisualizacaobarragem2dopengl</pageWords>
+        <pageTitle>defineOrtho Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragem2dopengl.html#defineOrtho</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{e943d0d2-5620-46e0-a621-dd31a4c15a34}">
+        <pageWords>initializeGL function painelvisualizacaobarragem2dopengl</pageWords>
+        <pageTitle>initializeGL Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragem2dopengl.html#initializeGL</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{e426bc08-6007-49a1-8439-8a32ba79275d}">
+        <pageWords>resizeGL function painelvisualizacaobarragem2dopengl</pageWords>
+        <pageTitle>resizeGL Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragem2dopengl.html#resizeGL</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{582fe0bf-c8ab-4a00-afc6-25c707fb45e3}">
+        <pageWords>paintGL function painelvisualizacaobarragem2dopengl</pageWords>
+        <pageTitle>paintGL Function Reference</pageTitle>
+        <pageUrl>painelvisualizacaobarragem2dopengl.html#paintGL</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{2fa215a5-a6e8-4e16-8b27-1aa0c30ad23a}">
+        <pageWords>janelaCamadas class reference</pageWords>
+        <pageTitle>janelaCamadas Class Reference</pageTitle>
+        <pageUrl>janelacamadas.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{2834364c-2d9f-4f8e-9e22-a84a11d661c1}">
+        <pageWords>janelaCamadas function janelaCamadas</pageWords>
+        <pageTitle>janelaCamadas Function Reference</pageTitle>
+        <pageUrl>janelacamadas.html#janelaCamadas</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{917c0034-4e0e-4c26-a5e5-116621944eca}">
+        <pageWords>~janelaCamadas function janelaCamadas</pageWords>
+        <pageTitle>~janelaCamadas Function Reference</pageTitle>
+        <pageUrl>janelacamadas.html#~janelaCamadas</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{dd02ee24-3f95-4045-9198-eb5c63b42d87}">
+        <pageWords>getValores function janelaCamadas</pageWords>
+        <pageTitle>getValores Function Reference</pageTitle>
+        <pageUrl>janelacamadas.html#getValores</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{db644f1f-7626-4dff-b3e1-491fb99e2dbc}">
+        <pageWords>janelaopcaofb class reference</pageWords>
+        <pageTitle>janelaopcaofb Class Reference</pageTitle>
+        <pageUrl>janelaopcaofb.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{17c19c3b-b3a5-46dc-bfa4-be92f1aca312}">
+        <pageWords>janelaopcaofb function janelaopcaofb</pageWords>
+        <pageTitle>janelaopcaofb Function Reference</pageTitle>
+        <pageUrl>janelaopcaofb.html#janelaopcaofb</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{62ad2813-9d4f-4432-ad85-3e287db19853}">
+        <pageWords>~janelaopcaofb function janelaopcaofb</pageWords>
+        <pageTitle>~janelaopcaofb Function Reference</pageTitle>
+        <pageUrl>janelaopcaofb.html#~janelaopcaofb</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{ba7b3351-1bd0-4829-8a7d-a69d59401f86}">
+        <pageWords>getValores function janelaopcaofb</pageWords>
+        <pageTitle>getValores Function Reference</pageTitle>
+        <pageUrl>janelaopcaofb.html#getValores</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{a6b1b74b-f03b-4e60-88a5-c90022fe9b41}">
+        <pageWords>janelaOpcaoCor class reference</pageWords>
+        <pageTitle>janelaOpcaoCor Class Reference</pageTitle>
+        <pageUrl>janelaopcaocor.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{b0197de3-c3b9-4da6-9ac5-d2c88ea0cf72}">
+        <pageWords>janelaOpcaoCor function janelaOpcaoCor</pageWords>
+        <pageTitle>janelaOpcaoCor Function Reference</pageTitle>
+        <pageUrl>janelaopcaocor.html#janelaOpcaoCor</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{b9984b20-d430-47a4-a1d1-3f64ca63109a}">
+        <pageWords>~janelaOpcaoCor function janelaOpcaoCor</pageWords>
+        <pageTitle>~janelaOpcaoCor Function Reference</pageTitle>
+        <pageUrl>janelaopcaocor.html#~janelaOpcaoCor</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{7b5bd6a1-7821-430c-ab4b-12103408a663}">
+        <pageWords>getValores function janelaOpcaoCor</pageWords>
+        <pageTitle>getValores Function Reference</pageTitle>
+        <pageUrl>janelaopcaocor.html#getValores</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{4436e058-7591-4755-a6fa-fb0fc7dcf8fb}">
+        <pageWords>PontoZ class reference</pageWords>
+        <pageTitle>PontoZ Class Reference</pageTitle>
+        <pageUrl>pontoz.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{a2b0b590-7052-4cd3-b9e5-3a857e862984}">
+        <pageWords>z PontoZ</pageWords>
+        <pageTitle>z</pageTitle>
+        <pageUrl>pontoz.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{a28cf9e0-2238-44ad-ac91-5f42d8404186}">
+        <pageWords>PontoZ function PontoZ</pageWords>
+        <pageTitle>PontoZ Function Reference</pageTitle>
+        <pageUrl>pontoz.html#PontoZ</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{a96ef6bd-bef2-48bc-85fa-e1b90c8a835b}">
+        <pageWords>PontoZ function PontoZ</pageWords>
+        <pageTitle>PontoZ Function Reference</pageTitle>
+        <pageUrl>pontoz.html#PontoZ</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{af157cf1-5d52-4843-bd7a-12865d9307d1}">
+        <pageWords>operator&lt; function PontoZ</pageWords>
+        <pageTitle>operator&lt; Function Reference</pageTitle>
+        <pageUrl>pontoz.html#operator&lt;</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{85f3bdfa-0db4-4fd1-827f-072e7be3e77d}">
+        <pageWords>Inundacao class reference</pageWords>
+        <pageTitle>Inundacao Class Reference</pageTitle>
+        <pageUrl>inundacao.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{a29b7522-5584-4f63-aeb3-54cbb87989a1}">
+        <pageWords>Inundacao function Inundacao</pageWords>
+        <pageTitle>Inundacao Function Reference</pageTitle>
+        <pageUrl>inundacao.html#Inundacao</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{7c3ae8bd-6869-49ca-b90a-d6bbe99aae70}">
+        <pageWords>Inundacao function Inundacao</pageWords>
+        <pageTitle>Inundacao Function Reference</pageTitle>
+        <pageUrl>inundacao.html#Inundacao</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{6371ba98-1dab-4ac6-bf45-2a5bad764225}">
+        <pageWords>Inundacao function Inundacao</pageWords>
+        <pageTitle>Inundacao Function Reference</pageTitle>
+        <pageUrl>inundacao.html#Inundacao</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{ebe85c54-a13f-4139-ae61-008ee71757e4}">
+        <pageWords>~Inundacao function Inundacao</pageWords>
+        <pageTitle>~Inundacao Function Reference</pageTitle>
+        <pageUrl>inundacao.html#~Inundacao</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{015b8bd4-4598-4b41-b9e4-a46d99b0060e}">
+        <pageWords>matrizEstados Inundacao</pageWords>
+        <pageTitle>matrizEstados</pageTitle>
+        <pageUrl>inundacao.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{5da4ef9b-e8e4-4594-9c7c-2e6a2a81168c}">
+        <pageWords>posicaoBarragem Inundacao</pageWords>
+        <pageTitle>posicaoBarragem</pageTitle>
+        <pageUrl>inundacao.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{519cec0d-5cd5-4e77-8f9d-543565bf11a5}">
+        <pageWords>posicaoAcimaBarragem Inundacao</pageWords>
+        <pageTitle>posicaoAcimaBarragem</pageTitle>
+        <pageUrl>inundacao.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{3935c4b2-6134-43a1-b47a-0213566b754f}">
+        <pageWords>vetorNormalABarragem Inundacao</pageWords>
+        <pageTitle>vetorNormalABarragem</pageTitle>
+        <pageUrl>inundacao.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{417390ad-0fd4-485a-b03e-0c43756d29a5}">
+        <pageWords>nLinhas Inundacao</pageWords>
+        <pageTitle>nLinhas</pageTitle>
+        <pageUrl>inundacao.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{c2c167b6-a1f3-41e7-986a-94735b661f42}">
+        <pageWords>nColunas Inundacao</pageWords>
+        <pageTitle>nColunas</pageTitle>
+        <pageUrl>inundacao.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{e1b3578c-13b1-4318-aa01-2fde41177dfd}">
+        <pageWords>tamanhoMaximoDaBarragem Inundacao</pageWords>
+        <pageTitle>tamanhoMaximoDaBarragem</pageTitle>
+        <pageUrl>inundacao.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{30df168a-696c-4a0d-a7b4-0b17c2ddcea9}">
+        <pageWords>volumeAgua Inundacao</pageWords>
+        <pageTitle>volumeAgua</pageTitle>
+        <pageUrl>inundacao.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{c7b0015d-7e06-4e61-a6e7-383a04995b80}">
+        <pageWords>volumeAlvo Inundacao</pageWords>
+        <pageTitle>volumeAlvo</pageTitle>
+        <pageUrl>inundacao.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{8141a3ae-0b20-43be-9826-e73db3cb8760}">
+        <pageWords>nivelAgua Inundacao</pageWords>
+        <pageTitle>nivelAgua</pageTitle>
+        <pageUrl>inundacao.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{ae5dfac5-f961-4a02-bbd4-2eca37083ecb}">
+        <pageWords>areaLaminaAgua Inundacao</pageWords>
+        <pageTitle>areaLaminaAgua</pageTitle>
+        <pageUrl>inundacao.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{3dd96cea-96cd-47df-a88f-866fc516de05}">
+        <pageWords>areaBarragemTocada Inundacao</pageWords>
+        <pageTitle>areaBarragemTocada</pageTitle>
+        <pageUrl>inundacao.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{4f55203a-f15a-4c39-85e3-f6de2476bf7d}">
+        <pageWords>comprimentoBarragemTocada Inundacao</pageWords>
+        <pageTitle>comprimentoBarragemTocada</pageTitle>
+        <pageUrl>inundacao.html</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{169c924f-fac1-4694-8e2a-744865bb7847}">
+        <pageWords>permiteInundacaoEAumentaBarragem function Inundacao</pageWords>
+        <pageTitle>permiteInundacaoEAumentaBarragem Function Reference</pageTitle>
+        <pageUrl>inundacao.html#permiteInundacaoEAumentaBarragem</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{68a58c7b-63fc-4c93-a008-80dafa7509b8}">
+        <pageWords>inicializaBarragem function Inundacao</pageWords>
+        <pageTitle>inicializaBarragem Function Reference</pageTitle>
+        <pageUrl>inundacao.html#inicializaBarragem</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{1cda1e5f-5851-44d8-b561-e7d0004aa52b}">
+        <pageWords>marcaMontante function Inundacao</pageWords>
+        <pageTitle>marcaMontante Function Reference</pageTitle>
+        <pageUrl>inundacao.html#marcaMontante</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{51024703-eb2b-48d3-8101-c145fec0b9bd}">
+        <pageWords>sobeNivelDeAgua function Inundacao</pageWords>
+        <pageTitle>sobeNivelDeAgua Function Reference</pageTitle>
+        <pageUrl>inundacao.html#sobeNivelDeAgua</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{cf9aa135-5a21-4716-8325-9895c05512f5}">
+        <pageWords>inunda function Inundacao</pageWords>
+        <pageTitle>inunda Function Reference</pageTitle>
+        <pageUrl>inundacao.html#inunda</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{049c4bb1-344d-4bb6-9645-f453b2dabf28}">
+        <pageWords>defineVetorNormalABarragem function Inundacao</pageWords>
+        <pageTitle>defineVetorNormalABarragem Function Reference</pageTitle>
+        <pageUrl>inundacao.html#defineVetorNormalABarragem</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{400bdcbe-f6df-47a3-a4d8-de05a6f85acc}">
+        <pageWords>vetorNormalPorVizinhanca function Inundacao</pageWords>
+        <pageTitle>vetorNormalPorVizinhanca Function Reference</pageTitle>
+        <pageUrl>inundacao.html#vetorNormalPorVizinhanca</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{5c4ee34d-913f-4e31-8a56-a75825987fad}">
+        <pageWords>vetorNormalPorDouglasPeucker function Inundacao</pageWords>
+        <pageTitle>vetorNormalPorDouglasPeucker Function Reference</pageTitle>
+        <pageUrl>inundacao.html#vetorNormalPorDouglasPeucker</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{5210426a-a96f-4b51-9e7d-5f15525bcc78}">
+        <pageWords>criaListaParaDouglasPeucker function Inundacao</pageWords>
+        <pageTitle>criaListaParaDouglasPeucker Function Reference</pageTitle>
+        <pageUrl>inundacao.html#criaListaParaDouglasPeucker</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{b31cc4f2-6a10-418b-bac4-2515da4c38c2}">
+        <pageWords>algoritmoDouglasPeucker function Inundacao</pageWords>
+        <pageTitle>algoritmoDouglasPeucker Function Reference</pageTitle>
+        <pageUrl>inundacao.html#algoritmoDouglasPeucker</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{b9d9bfa6-db28-426d-b11e-2fcb69f51668}">
+        <pageWords>marcaBarragem function Inundacao</pageWords>
+        <pageTitle>marcaBarragem Function Reference</pageTitle>
+        <pageUrl>inundacao.html#marcaBarragem</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{9f8cf854-766a-4184-94d3-83929ef448bb}">
+        <pageWords>acertaTamanhoBarragem function Inundacao</pageWords>
+        <pageTitle>acertaTamanhoBarragem Function Reference</pageTitle>
+        <pageUrl>inundacao.html#acertaTamanhoBarragem</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+    <page id="{a4851a8d-bc3c-4437-bcee-64fbd5916cee}">
+        <pageWords>getPosicaoBarragem function Inundacao</pageWords>
+        <pageTitle>getPosicaoBarragem Function Reference</pageTitle>
+        <pageUrl>inundacao.html#getPosicaoBarragem</pageUrl>
+        <pageType>APIPage</pageType>
+    </page>
+</qtPageIndex>

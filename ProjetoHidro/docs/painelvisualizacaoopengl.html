@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- painelvisualizacaoopengl.cpp -->
+  <title>PainelVisualizacaoOpenGL Class Reference</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <script src="scripts/jquery.js" type="text/javascript"></script>
+  <script src="scripts/functions.js" type="text/javascript"></script>
+</head>
+<body class="offline narrow creator">
+              <li><a href="modules.html">Modules</a></li>              <li>PainelVisualizacaoOpenGL</li>
+  <link rel="prev" href="painelvisualizacaobarragemopengl.html" />
+  <link rel="next" href="visualizacaomapa.html" />
+  <link rel="start" href="All Classes" />
+<p class="naviNextPrevious headerNavi">
+[Previous: <a href="painelvisualizacaobarragemopengl.html">PainelVisualizacaoBarragemOpenGL</a>]
+[Next: <a href="visualizacaomapa.html">VisualizacaoMapa</a>]
+</p><p/>
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#public-functions">Public Functions</a></li>
+<li class="level1"><a href="#signals">Signals</a></li>
+<li class="level1"><a href="#public-variables">Public Variables</a></li>
+<li class="level1"><a href="#protected-functions">Protected Functions</a></li>
+<li class="level1"><a href="#details">Detailed Description</a></li>
+</ul>
+</div>
+<h1 class="title">PainelVisualizacaoOpenGL Class Reference</h1>
+<pre class="highlightedCode brush: cpp">    #include &lt;PainelVisualizacaoOpenGL&gt;</pre><ul>
+<li><a href="painelvisualizacaoopengl-members.html">List of all members, including inherited members</a></li>
+</ul>
+<a name="public-functions"></a>
+<h2>Public Functions</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#PainelVisualizacaoOpenGL">PainelVisualizacaoOpenGL</a></b> ( QWidget * <i>parent</i> = 0 )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#carregandoMapa">carregandoMapa</a></b> ( const char * <i>arquivo</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#computaFluxo">computaFluxo</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#defineOrtho">defineOrtho</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QColor </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#getCorGradient">getCorGradient</a></b> ( double <i>gradientProporcao</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#mudaCores">mudaCores</a></b> ( QStringList <i>listaCores</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#pintaCamadas">pintaCamadas</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#pintaEixo">pintaEixo</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#pintaTudo">pintaTudo</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#setCoresPadrao">setCoresPadrao</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#zoomMapa">zoomMapa</a></b> ( int <i>zoom</i> )</td></tr>
+</table>
+<a name="signals"></a>
+<h2>Signals</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#keyPressEvent">keyPressEvent</a></b> ( QKeyEvent * )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#mouseMoveEvent">mouseMoveEvent</a></b> ( QMouseEvent * )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#mousePressEvent">mousePressEvent</a></b> ( QMouseEvent * <i>event</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#mouseReleaseEvent">mouseReleaseEvent</a></b> ( QMouseEvent * )</td></tr>
+</table>
+<a name="public-variables"></a>
+<h2>Public Variables</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> QColor </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#corAlagamento-var">corAlagamento</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QColor </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#corBarragem-var">corBarragem</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QColor </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#corMaiorElevacao-var">corMaiorElevacao</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QColor </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#corMenorElevacao-var">corMenorElevacao</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QColor </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#corPadraoAlagamento-var">corPadraoAlagamento</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QColor </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#corPadraoBarragem-var">corPadraoBarragem</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QColor </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#corPadraoMaiorElevacao-var">corPadraoMaiorElevacao</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QColor </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#corPadraoMenorElevacao-var">corPadraoMenorElevacao</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QColor </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#corPadraoRedeDeDrenagem-var">corPadraoRedeDeDrenagem</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QColor </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#corRedeDeDrenagem-var">corRedeDeDrenagem</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#flagPinta-var">flagPinta</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#mapaEstaCarregado-var">mapaEstaCarregado</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#posClickX-var">posClickX</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#posClickY-var">posClickY</a></b></td></tr>
+</table>
+<a name="protected-functions"></a>
+<h2>Protected Functions</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#initializeGL">initializeGL</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#paintGL">paintGL</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="painelvisualizacaoopengl.html#resizeGL">resizeGL</a></b> ( int <i>width</i>, int <i>height</i> )</td></tr>
+</table>
+<a name="details"></a>
+<!-- $$$PainelVisualizacaoOpenGL-description -->
+<div class="descr">
+<h2>Detailed Description</h2>
+<p>Class to create a opengl painel to show user the MDE</p>
+</div>
+<!-- @@@PainelVisualizacaoOpenGL -->
+<div class="func">
+<h2>Member Function Documentation</h2>
+<!-- $$$PainelVisualizacaoOpenGL[overload1]$$$PainelVisualizacaoOpenGLQWidget* -->
+<h3 class="fn"><a name="PainelVisualizacaoOpenGL"></a>PainelVisualizacaoOpenGL::PainelVisualizacaoOpenGL ( QWidget * <i>parent</i> = 0 )</h3>
+<p>Constructor</p>
+<!-- @@@PainelVisualizacaoOpenGL -->
+<!-- $$$carregandoMapa[overload1]$$$carregandoMapaconstchar* -->
+<h3 class="fn"><a name="carregandoMapa"></a>void PainelVisualizacaoOpenGL::carregandoMapa ( const char * <i>arquivo</i> )</h3>
+<p>Function to create and load a new MDE to show user.</p>
+<!-- @@@carregandoMapa -->
+<!-- $$$computaFluxo[overload1]$$$computaFluxo -->
+<h3 class="fn"><a name="computaFluxo"></a>void PainelVisualizacaoOpenGL::computaFluxo ()</h3>
+<p>Function to call the function for calculate the flow</p>
+<!-- @@@computaFluxo -->
+<!-- $$$defineOrtho[overload1]$$$defineOrtho -->
+<h3 class="fn"><a name="defineOrtho"></a>void PainelVisualizacaoOpenGL::defineOrtho ()</h3>
+<p>Function to definy the ortho of opengl painel</p>
+<!-- @@@defineOrtho -->
+<!-- $$$getCorGradient[overload1]$$$getCorGradientdouble -->
+<h3 class="fn"><a name="getCorGradient"></a>QColor PainelVisualizacaoOpenGL::getCorGradient ( double <i>gradientProporcao</i> )</h3>
+<p>Function to discovery a color from a gradient made by the maximum and minimum cell`s elevation</p>
+<!-- @@@getCorGradient -->
+<!-- $$$initializeGL[overload1]$$$initializeGL -->
+<h3 class="fn"><a name="initializeGL"></a>void PainelVisualizacaoOpenGL::initializeGL ()<tt> [protected]</tt></h3>
+<p>This function overloads PainelVisualizacaoOpenGL::initializeGL().</p>
+<p>Opengl functions needed. It is the init function of opengl painel</p>
+<!-- @@@initializeGL -->
+<!-- $$$keyPressEvent[overload1]$$$keyPressEventQKeyEvent* -->
+<h3 class="fn"><a name="keyPressEvent"></a>void PainelVisualizacaoOpenGL::keyPressEvent ( QKeyEvent * )<tt> [signal]</tt></h3>
+<p>Signal for keyPressEvent. The slot <a href="janelaprincipal.html#moveBarragem">JanelaPrincipal::moveBarragem(QKeyEvent *)</a> catch this signal</p>
+<!-- @@@keyPressEvent -->
+<!-- $$$mouseMoveEvent[overload1]$$$mouseMoveEventQMouseEvent* -->
+<h3 class="fn"><a name="mouseMoveEvent"></a>void PainelVisualizacaoOpenGL::mouseMoveEvent ( QMouseEvent * )<tt> [signal]</tt></h3>
+<p>Signal for mouseMoveEvent. The slot <a href="janelaprincipal.html#trocaCoordenadas">JanelaPrincipal::trocaCoordenadas(QMouseEvent *)</a> and <a href="janelaprincipal.html#movendoMouse">JanelaPrincipal::movendoMouse(QMouseEvent *)</a> catch this signal</p>
+<!-- @@@mouseMoveEvent -->
+<!-- $$$mousePressEvent[overload1]$$$mousePressEventQMouseEvent* -->
+<h3 class="fn"><a name="mousePressEvent"></a>void PainelVisualizacaoOpenGL::mousePressEvent ( QMouseEvent * <i>event</i> )<tt> [signal]</tt></h3>
+<p>Signal for mousePressEvent. The slot <a href="janelaprincipal.html#defineInundacao">JanelaPrincipal::defineInundacao(QMouseEvent *)</a> catch this signal</p>
+<!-- @@@mousePressEvent -->
+<!-- $$$mouseReleaseEvent[overload1]$$$mouseReleaseEventQMouseEvent* -->
+<h3 class="fn"><a name="mouseReleaseEvent"></a>void PainelVisualizacaoOpenGL::mouseReleaseEvent ( QMouseEvent * )<tt> [signal]</tt></h3>
+<p>Signal for mouseReleaseEvent. The slot <a href="janelaprincipal.html#adicionandoPontosACamada">JanelaPrincipal::adicionandoPontosACamada(QKeyEvent *)</a> catch this signal</p>
+<!-- @@@mouseReleaseEvent -->
+<!-- $$$mudaCores[overload1]$$$mudaCoresQStringList -->
+<h3 class="fn"><a name="mudaCores"></a>void PainelVisualizacaoOpenGL::mudaCores ( QStringList <i>listaCores</i> )</h3>
+<p>Function to modify the color`s variable. The new colors is stored by its name in the list listaCores.</p>
+<!-- @@@mudaCores -->
+<!-- $$$paintGL[overload1]$$$paintGL -->
+<h3 class="fn"><a name="paintGL"></a>void PainelVisualizacaoOpenGL::paintGL ()<tt> [protected]</tt></h3>
+<p>Opengl functions needed. For opengl painting. Decide here if it will paint all or a part of scenario.</p>
+<!-- @@@paintGL -->
+<!-- $$$pintaCamadas[overload1]$$$pintaCamadas -->
+<h3 class="fn"><a name="pintaCamadas"></a>void PainelVisualizacaoOpenGL::pintaCamadas ()</h3>
+<p>Function to draw only the Camadas in listaDeCamadas</p>
+<!-- @@@pintaCamadas -->
+<!-- $$$pintaEixo[overload1]$$$pintaEixo -->
+<h3 class="fn"><a name="pintaEixo"></a>void PainelVisualizacaoOpenGL::pintaEixo ()</h3>
+<p>Function to draw a guidance axis</p>
+<!-- @@@pintaEixo -->
+<!-- $$$pintaTudo[overload1]$$$pintaTudo -->
+<h3 class="fn"><a name="pintaTudo"></a>void PainelVisualizacaoOpenGL::pintaTudo ()</h3>
+<p>Function to draw everything</p>
+<!-- @@@pintaTudo -->
+<!-- $$$resizeGL[overload1]$$$resizeGLintint -->
+<h3 class="fn"><a name="resizeGL"></a>void PainelVisualizacaoOpenGL::resizeGL ( int <i>width</i>, int <i>height</i> )<tt> [protected]</tt></h3>
+<p>Opengl functions needed. For when painel is resized or changed</p>
+<!-- @@@resizeGL -->
+<!-- $$$setCoresPadrao[overload1]$$$setCoresPadrao -->
+<h3 class="fn"><a name="setCoresPadrao"></a>void PainelVisualizacaoOpenGL::setCoresPadrao ()</h3>
+<p>Function to set the default colors to the color`s variable</p>
+<!-- @@@setCoresPadrao -->
+<!-- $$$zoomMapa[overload1]$$$zoomMapaint -->
+<h3 class="fn"><a name="zoomMapa"></a>void PainelVisualizacaoOpenGL::zoomMapa ( int <i>zoom</i> )</h3>
+<p>Function to update the zoom in the opengl painel</p>
+<!-- @@@zoomMapa -->
+</div>
+<div class="vars">
+<h2>Member Variable Documentation</h2>
+<!-- $$$corAlagamento -->
+<h3 class="fn"><a name="corAlagamento-var"></a>QColor PainelVisualizacaoOpenGL::corAlagamento</h3>
+<p>This variable holds the color value for the flooded area.</p>
+<!-- @@@corAlagamento -->
+<!-- $$$corBarragem -->
+<h3 class="fn"><a name="corBarragem-var"></a>QColor PainelVisualizacaoOpenGL::corBarragem</h3>
+<p>This variable holds the color value for the dam.</p>
+<!-- @@@corBarragem -->
+<!-- $$$corMaiorElevacao -->
+<h3 class="fn"><a name="corMaiorElevacao-var"></a>QColor PainelVisualizacaoOpenGL::corMaiorElevacao</h3>
+<p>This variable holds the color value for the higher cell`s elevation.</p>
+<!-- @@@corMaiorElevacao -->
+<!-- $$$corMenorElevacao -->
+<h3 class="fn"><a name="corMenorElevacao-var"></a>QColor PainelVisualizacaoOpenGL::corMenorElevacao</h3>
+<p>This variable holds the color value for the higher cell`s elevation.</p>
+<!-- @@@corMenorElevacao -->
+<!-- $$$corPadraoAlagamento -->
+<h3 class="fn"><a name="corPadraoAlagamento-var"></a>QColor PainelVisualizacaoOpenGL::corPadraoAlagamento</h3>
+<p>This variable holds the default color value for the flooded area.</p>
+<!-- @@@corPadraoAlagamento -->
+<!-- $$$corPadraoBarragem -->
+<h3 class="fn"><a name="corPadraoBarragem-var"></a>QColor PainelVisualizacaoOpenGL::corPadraoBarragem</h3>
+<p>This variable holds the color value for the dam.</p>
+<!-- @@@corPadraoBarragem -->
+<!-- $$$corPadraoMaiorElevacao -->
+<h3 class="fn"><a name="corPadraoMaiorElevacao-var"></a>QColor PainelVisualizacaoOpenGL::corPadraoMaiorElevacao</h3>
+<p>This variable holds the default color value for the higher cell`s elevation.</p>
+<!-- @@@corPadraoMaiorElevacao -->
+<!-- $$$corPadraoMenorElevacao -->
+<h3 class="fn"><a name="corPadraoMenorElevacao-var"></a>QColor PainelVisualizacaoOpenGL::corPadraoMenorElevacao</h3>
+<p>This variable holds the default color value for the higher cell`s elevation.</p>
+<!-- @@@corPadraoMenorElevacao -->
+<!-- $$$corPadraoRedeDeDrenagem -->
+<h3 class="fn"><a name="corPadraoRedeDeDrenagem-var"></a>QColor PainelVisualizacaoOpenGL::corPadraoRedeDeDrenagem</h3>
+<p>This variable holds the defaultcolor value for the drainage network.</p>
+<!-- @@@corPadraoRedeDeDrenagem -->
+<!-- $$$corRedeDeDrenagem -->
+<h3 class="fn"><a name="corRedeDeDrenagem-var"></a>QColor PainelVisualizacaoOpenGL::corRedeDeDrenagem</h3>
+<p>This variable holds the color value for the drainage network.</p>
+<!-- @@@corRedeDeDrenagem -->
+<!-- $$$flagPinta -->
+<h3 class="fn"><a name="flagPinta-var"></a>bool PainelVisualizacaoOpenGL::flagPinta</h3>
+<p>This variable holds the flag to control the opengl painel need to be all painted or only Camadas painted.</p>
+<!-- @@@flagPinta -->
+<!-- $$$mapaEstaCarregado -->
+<h3 class="fn"><a name="mapaEstaCarregado-var"></a>bool PainelVisualizacaoOpenGL::mapaEstaCarregado</h3>
+<p>This variable holds the flag to control if the MDE is open.</p>
+<!-- @@@mapaEstaCarregado -->
+<!-- $$$posClickX -->
+<h3 class="fn"><a name="posClickX-var"></a>int PainelVisualizacaoOpenGL::posClickX</h3>
+<p>This variable holds the value in axis-x for click position.</p>
+<!-- @@@posClickX -->
+<!-- $$$posClickY -->
+<h3 class="fn"><a name="posClickY-var"></a>int PainelVisualizacaoOpenGL::posClickY</h3>
+<p>This variable holds the value in axis-y for click position.</p>
+<!-- @@@posClickY -->
+</div>
+<p class="naviNextPrevious footerNavi">
+[Previous: <a href="painelvisualizacaobarragemopengl.html">PainelVisualizacaoBarragemOpenGL</a>]
+[Next: <a href="visualizacaomapa.html">VisualizacaoMapa</a>]
+</p>
+</body>
+</html>

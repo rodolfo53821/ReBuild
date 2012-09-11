@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- MapaMDE.cpp -->
+  <title>MapaMDE Class Reference</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <script src="scripts/jquery.js" type="text/javascript"></script>
+  <script src="scripts/functions.js" type="text/javascript"></script>
+</head>
+<body class="offline narrow creator">
+              <li><a href="modules.html">Modules</a></li>              <li>MapaMDE</li>
+  <link rel="prev" href="janelasobre.html" />
+  <link rel="next" href="painelvisualizacaobarragem2dopengl.html" />
+  <link rel="start" href="All Classes" />
+<p class="naviNextPrevious headerNavi">
+[Previous: <a href="janelasobre.html">janelasobre</a>]
+[Next: <a href="painelvisualizacaobarragem2dopengl.html">painelvisualizacaobarragem2dopengl</a>]
+</p><p/>
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#public-functions">Public Functions</a></li>
+<li class="level1"><a href="#public-variables">Public Variables</a></li>
+<li class="level1"><a href="#details">Detailed Description</a></li>
+</ul>
+</div>
+<h1 class="title">MapaMDE Class Reference</h1>
+<!-- $$$MapaMDE-brief -->
+<p>Class for create the MDE of terrain <a href="#details">More...</a></p>
+<!-- @@@MapaMDE -->
+<pre class="highlightedCode brush: cpp">    #include &lt;MapaMDE&gt;</pre><ul>
+<li><a href="mapamde-members.html">List of all members, including inherited members</a></li>
+</ul>
+<a name="public-functions"></a>
+<h2>Public Functions</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="mapamde.html#MapaMDE">MapaMDE</a></b> ( const char * <i>caminhoArquivo</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="mapamde.html#MapaMDE-2">MapaMDE</a></b> ( MapaMDE const &amp; <i>mapaCopia</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="mapamde.html#MapaMDE-3">MapaMDE</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="mapamde.html#dtor.MapaMDE">~MapaMDE</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> char * </td><td class="memItemRight bottomAlign"><b><a href="mapamde.html#getCaminhoArquivo">getCaminhoArquivo</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> short int </td><td class="memItemRight bottomAlign"><b><a href="mapamde.html#getDadoInvalido">getDadoInvalido</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="mapamde.html#getNColunas">getNColunas</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="mapamde.html#getNLinhas">getNLinhas</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> char * </td><td class="memItemRight bottomAlign"><b><a href="mapamde.html#getNomeArquivo">getNomeArquivo</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> short int </td><td class="memItemRight bottomAlign"><b><a href="mapamde.html#getResolucao">getResolucao</a></b> ()</td></tr>
+</table>
+<a name="public-variables"></a>
+<h2>Public Variables</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> short int ** </td><td class="memItemRight bottomAlign"><b><a href="mapamde.html#matrizDeElevacoes-var">matrizDeElevacoes</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="mapamde.html#maxElev-var">maxElev</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="mapamde.html#minElev-var">minElev</a></b></td></tr>
+</table>
+<a name="details"></a>
+<!-- $$$MapaMDE-description -->
+<div class="descr">
+<h2>Detailed Description</h2>
+<p>Class for create the MDE of terrain</p>
+</div>
+<!-- @@@MapaMDE -->
+<div class="func">
+<h2>Member Function Documentation</h2>
+<!-- $$$MapaMDE[overload1]$$$MapaMDEconstchar* -->
+<h3 class="fn"><a name="MapaMDE"></a>MapaMDE::MapaMDE ( const char * <i>caminhoArquivo</i> )</h3>
+<p>Constructor. Creates a object (MDE) for especified caminhoArquivo path</p>
+<!-- @@@MapaMDE -->
+<!-- $$$MapaMDE$$$MapaMDEMapaMDEconst& -->
+<h3 class="fn"><a name="MapaMDE-2"></a>MapaMDE::MapaMDE ( MapaMDE const &amp; <i>mapaCopia</i> )</h3>
+<p>Copy Constructor. Creates an object receiving attributes from mapaCopia</p>
+<!-- @@@MapaMDE -->
+<!-- $$$MapaMDE$$$MapaMDE -->
+<h3 class="fn"><a name="MapaMDE-3"></a>MapaMDE::MapaMDE ()</h3>
+<p>Constructor. Default Constructor. Do nothing</p>
+<!-- @@@MapaMDE -->
+<!-- $$$~MapaMDE[overload1]$$$~MapaMDE -->
+<h3 class="fn"><a name="dtor.MapaMDE"></a>MapaMDE::~MapaMDE ()</h3>
+<p>Destructor.</p>
+<!-- @@@~MapaMDE -->
+<!-- $$$getCaminhoArquivo[overload1]$$$getCaminhoArquivo -->
+<h3 class="fn"><a name="getCaminhoArquivo"></a>char * MapaMDE::getCaminhoArquivo ()</h3>
+<p>Returns the full path of file contain the MDE</p>
+<!-- @@@getCaminhoArquivo -->
+<!-- $$$getDadoInvalido[overload1]$$$getDadoInvalido -->
+<h3 class="fn"><a name="getDadoInvalido"></a>short int MapaMDE::getDadoInvalido ()</h3>
+<p>Returns the value of invalid data</p>
+<!-- @@@getDadoInvalido -->
+<!-- $$$getNColunas[overload1]$$$getNColunas -->
+<h3 class="fn"><a name="getNColunas"></a>int MapaMDE::getNColunas ()</h3>
+<p>Returns the number of columns</p>
+<!-- @@@getNColunas -->
+<!-- $$$getNLinhas[overload1]$$$getNLinhas -->
+<h3 class="fn"><a name="getNLinhas"></a>int MapaMDE::getNLinhas ()</h3>
+<p>Returns the number of lines</p>
+<!-- @@@getNLinhas -->
+<!-- $$$getNomeArquivo[overload1]$$$getNomeArquivo -->
+<h3 class="fn"><a name="getNomeArquivo"></a>char * MapaMDE::getNomeArquivo ()</h3>
+<p>Returns the name of the file MDE</p>
+<!-- @@@getNomeArquivo -->
+<!-- $$$getResolucao[overload1]$$$getResolucao -->
+<h3 class="fn"><a name="getResolucao"></a>short int MapaMDE::getResolucao ()</h3>
+<p>Returns the resolution of the cell</p>
+<!-- @@@getResolucao -->
+</div>
+<div class="vars">
+<h2>Member Variable Documentation</h2>
+<!-- $$$matrizDeElevacoes -->
+<h3 class="fn"><a name="matrizDeElevacoes-var"></a>short int ** MapaMDE::matrizDeElevacoes</h3>
+<p>This variable holds a pointer to pointer, representing a matrix of status of the cell. If it is dam, drainage network, flooded or nothing.</p>
+<!-- @@@matrizDeElevacoes -->
+<!-- $$$maxElev -->
+<h3 class="fn"><a name="maxElev-var"></a>int MapaMDE::maxElev</h3>
+<p>This variable holds the maximum cell's elevation.</p>
+<!-- @@@maxElev -->
+<!-- $$$minElev -->
+<h3 class="fn"><a name="minElev-var"></a>int MapaMDE::minElev</h3>
+<p>This variable holds the minimun cell's elevation.</p>
+<!-- @@@minElev -->
+</div>
+<p class="naviNextPrevious footerNavi">
+[Previous: <a href="janelasobre.html">janelasobre</a>]
+[Next: <a href="painelvisualizacaobarragem2dopengl.html">painelvisualizacaobarragem2dopengl</a>]
+</p>
+</body>
+</html>

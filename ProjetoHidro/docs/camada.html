@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- Camada.cpp -->
+  <title>Camada Class Reference</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <script src="scripts/jquery.js" type="text/javascript"></script>
+  <script src="scripts/functions.js" type="text/javascript"></script>
+</head>
+<body class="offline narrow creator">
+              <li><a href="modules.html">Modules</a></li>              <li>Camada</li>
+  <link rel="prev" href="All Classes" />
+  <link rel="next" href="fluxo.html" />
+  <link rel="start" href="All Classes" />
+<p class="naviNextPrevious headerNavi">
+[Previous: <a href="All Classes">All Classes</a>]
+[Next: <a href="fluxo.html">Fluxo</a>]
+</p><p/>
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#public-functions">Public Functions</a></li>
+<li class="level1"><a href="#public-variables">Public Variables</a></li>
+<li class="level1"><a href="#details">Detailed Description</a></li>
+</ul>
+</div>
+<h1 class="title">Camada Class Reference</h1>
+<!-- $$$Camada-brief -->
+<p>Class for creating critical points. <a href="#details">More...</a></p>
+<!-- @@@Camada -->
+<pre class="highlightedCode brush: cpp">    #include &lt;Camada&gt;</pre><ul>
+<li><a href="camada-members.html">List of all members, including inherited members</a></li>
+</ul>
+<a name="public-functions"></a>
+<h2>Public Functions</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="camada.html#Camada">Camada</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="camada.html#Camada-2">Camada</a></b> ( QString <i>n</i>, double <i>p</i>, QColor <i>c</i>, int <i>nLinha</i>, int <i>nColun</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="camada.html#Camada-3">Camada</a></b> ( Camada const &amp; <i>c</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="camada.html#dtor.Camada">~Camada</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="camada.html#alteraPonto">alteraPonto</a></b> ( Point <i>p</i>, bool <i>add</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QColor </td><td class="memItemRight bottomAlign"><b><a href="camada.html#getCorCamada">getCorCamada</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="camada.html#getEstaIncluidoNoAlgoritmo">getEstaIncluidoNoAlgoritmo</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QString </td><td class="memItemRight bottomAlign"><b><a href="camada.html#getNome">getNome</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> double </td><td class="memItemRight bottomAlign"><b><a href="camada.html#getPeso">getPeso</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="camada.html#setCorCamada">setCorCamada</a></b> ( QColor <i>c</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="camada.html#setEstaIncluidoNoAlgoritmo">setEstaIncluidoNoAlgoritmo</a></b> ( bool <i>op</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="camada.html#setNome">setNome</a></b> ( QString <i>n</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="camada.html#setPeso">setPeso</a></b> ( double <i>p</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> Camada &amp; </td><td class="memItemRight bottomAlign"><b><a href="camada.html#operator-eq">operator=</a></b> ( Camada const &amp; <i>c</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="camada.html#operator-eq-eq">operator==</a></b> ( Camada const &amp; <i>c</i> ) const</td></tr>
+</table>
+<a name="public-variables"></a>
+<h2>Public Variables</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="camada.html#estaIncluidoNoAlgoritmo-var">estaIncluidoNoAlgoritmo</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="camada.html#estaVisivel-var">estaVisivel</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QList&lt;Point&gt; </td><td class="memItemRight bottomAlign"><b><a href="camada.html#listaDePontos-var">listaDePontos</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="camada.html#nColunas-var">nColunas</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="camada.html#nLinhas-var">nLinhas</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool ** </td><td class="memItemRight bottomAlign"><b><a href="camada.html#pontos-var">pontos</a></b></td></tr>
+</table>
+<a name="details"></a>
+<!-- $$$Camada-description -->
+<div class="descr">
+<h2>Detailed Description</h2>
+<p>Class for creating critical points.</p>
+<p>When calculating the best position of the dam, the algorithm can use these points to define regions where it is disadvantageous to have a reservoir.</p>
+</div>
+<!-- @@@Camada -->
+<div class="func">
+<h2>Member Function Documentation</h2>
+<!-- $$$Camada[overload1]$$$Camada -->
+<h3 class="fn"><a name="Camada"></a>Camada::Camada ()</h3>
+<p>Default constructor.</p>
+<p>Set default values to attributes</p>
+<!-- @@@Camada -->
+<!-- $$$Camada$$$CamadaQStringdoubleQColorintint -->
+<h3 class="fn"><a name="Camada-2"></a>Camada::Camada ( QString <i>n</i>, double <i>p</i>, QColor <i>c</i>, int <i>nLinha</i>, int <i>nColun</i> )</h3>
+<p>Constructor.</p>
+<p>Construct an object (Camada) tha will have:</p>
+<p>nome = n</p>
+<p>peso = p</p>
+<p>cor = c</p>
+<!-- @@@Camada -->
+<!-- $$$Camada$$$CamadaCamadaconst& -->
+<h3 class="fn"><a name="Camada-3"></a>Camada::Camada ( Camada const &amp; <i>c</i> )</h3>
+<p>Copy Constructor. Creates an object receiving attributes from c</p>
+<!-- @@@Camada -->
+<!-- $$$~Camada[overload1]$$$~Camada -->
+<h3 class="fn"><a name="dtor.Camada"></a>Camada::~Camada ()</h3>
+<p>Destructor</p>
+<!-- @@@~Camada -->
+<!-- $$$alteraPonto[overload1]$$$alteraPontoPointbool -->
+<h3 class="fn"><a name="alteraPonto"></a>void Camada::alteraPonto ( Point <i>p</i>, bool <i>add</i> )</h3>
+<p>Change status of point p using add. Printed(add==true) or not</p>
+<!-- @@@alteraPonto -->
+<!-- $$$getCorCamada[overload1]$$$getCorCamada -->
+<h3 class="fn"><a name="getCorCamada"></a>QColor Camada::getCorCamada ()</h3>
+<p>Return cor</p>
+<!-- @@@getCorCamada -->
+<!-- $$$getEstaIncluidoNoAlgoritmo[overload1]$$$getEstaIncluidoNoAlgoritmo -->
+<h3 class="fn"><a name="getEstaIncluidoNoAlgoritmo"></a>bool Camada::getEstaIncluidoNoAlgoritmo ()</h3>
+<p>Return <a href="camada.html#estaIncluidoNoAlgoritmo-var">estaIncluidoNoAlgoritmo</a></p>
+<!-- @@@getEstaIncluidoNoAlgoritmo -->
+<!-- $$$getNome[overload1]$$$getNome -->
+<h3 class="fn"><a name="getNome"></a>QString Camada::getNome ()</h3>
+<p>Returns nome</p>
+<!-- @@@getNome -->
+<!-- $$$getPeso[overload1]$$$getPeso -->
+<h3 class="fn"><a name="getPeso"></a>double Camada::getPeso ()</h3>
+<p>Returns peso</p>
+<!-- @@@getPeso -->
+<!-- $$$setCorCamada[overload1]$$$setCorCamadaQColor -->
+<h3 class="fn"><a name="setCorCamada"></a>void Camada::setCorCamada ( QColor <i>c</i> )</h3>
+<p>Set c to cor</p>
+<!-- @@@setCorCamada -->
+<!-- $$$setEstaIncluidoNoAlgoritmo[overload1]$$$setEstaIncluidoNoAlgoritmobool -->
+<h3 class="fn"><a name="setEstaIncluidoNoAlgoritmo"></a>void Camada::setEstaIncluidoNoAlgoritmo ( bool <i>op</i> )</h3>
+<p>Set op to <a href="camada.html#estaIncluidoNoAlgoritmo-var">estaIncluidoNoAlgoritmo</a></p>
+<!-- @@@setEstaIncluidoNoAlgoritmo -->
+<!-- $$$setNome[overload1]$$$setNomeQString -->
+<h3 class="fn"><a name="setNome"></a>void Camada::setNome ( QString <i>n</i> )</h3>
+<p>Set n to nome</p>
+<!-- @@@setNome -->
+<!-- $$$setPeso[overload1]$$$setPesodouble -->
+<h3 class="fn"><a name="setPeso"></a>void Camada::setPeso ( double <i>p</i> )</h3>
+<p>Set p to peso</p>
+<!-- @@@setPeso -->
+<!-- $$$operator=[overload1]$$$operator=Camadaconst& -->
+<h3 class="fn"><a name="operator-eq"></a>Camada &amp; Camada::operator= ( Camada const &amp; <i>c</i> )</h3>
+<p>This function overloads Camada::operator=(Camada const&amp; c).</p>
+<p>The current object camada receive the attributes from c</p>
+<!-- @@@operator= -->
+<!-- $$$operator==[overload1]$$$operator==Camadaconst& -->
+<h3 class="fn"><a name="operator-eq-eq"></a>bool Camada::operator== ( Camada const &amp; <i>c</i> ) const</h3>
+<p>This function overloads Camada::operator==(Camada const&amp; c) const.</p>
+<p>Return if two objects Camada are equal</p>
+<!-- @@@operator== -->
+</div>
+<div class="vars">
+<h2>Member Variable Documentation</h2>
+<!-- $$$estaIncluidoNoAlgoritmo -->
+<h3 class="fn"><a name="estaIncluidoNoAlgoritmo-var"></a>bool Camada::estaIncluidoNoAlgoritmo</h3>
+<p>This variable holds the value if this Camada is insert into algorithm dam positioning.</p>
+<!-- @@@estaIncluidoNoAlgoritmo -->
+<!-- $$$estaVisivel -->
+<h3 class="fn"><a name="estaVisivel-var"></a>bool Camada::estaVisivel</h3>
+<p>This variable holds the value if this Camada is actual showing to user.</p>
+<!-- @@@estaVisivel -->
+<!-- $$$listaDePontos -->
+<h3 class="fn"><a name="listaDePontos-var"></a>QList&lt;Point&gt; Camada::listaDePontos</h3>
+<p>This variable holds the list of critical points.</p>
+<!-- @@@listaDePontos -->
+<!-- $$$nColunas -->
+<h3 class="fn"><a name="nColunas-var"></a>int Camada::nColunas</h3>
+<p>This variable holds the number of lines in matrix.</p>
+<!-- @@@nColunas -->
+<!-- $$$nLinhas -->
+<h3 class="fn"><a name="nLinhas-var"></a>int Camada::nLinhas</h3>
+<p>This variable holds the number of colluns in matrix.</p>
+<!-- @@@nLinhas -->
+<!-- $$$pontos -->
+<h3 class="fn"><a name="pontos-var"></a>bool ** Camada::pontos</h3>
+<p>This variable holds the a pointer to pointer, representing the matrix of critical points (I.e. the reservoir being at these points is (peso) disadvantageous ).</p>
+<!-- @@@pontos -->
+</div>
+<p class="naviNextPrevious footerNavi">
+[Previous: <a href="All Classes">All Classes</a>]
+[Next: <a href="fluxo.html">Fluxo</a>]
+</p>
+</body>
+</html>

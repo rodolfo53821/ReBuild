@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- Fluxo.cpp -->
+  <title>Fluxo Class Reference</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <script src="scripts/jquery.js" type="text/javascript"></script>
+  <script src="scripts/functions.js" type="text/javascript"></script>
+</head>
+<body class="offline narrow creator">
+              <li><a href="modules.html">Modules</a></li>              <li>Fluxo</li>
+  <link rel="prev" href="camada.html" />
+  <link rel="next" href="inundacao.html" />
+  <link rel="start" href="All Classes" />
+<p class="naviNextPrevious headerNavi">
+[Previous: <a href="camada.html">Camada</a>]
+[Next: <a href="inundacao.html">Inundacao</a>]
+</p><p/>
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#public-types">Public Types</a></li>
+<li class="level1"><a href="#public-functions">Public Functions</a></li>
+<li class="level1"><a href="#public-variables">Public Variables</a></li>
+<li class="level1"><a href="#details">Detailed Description</a></li>
+</ul>
+</div>
+<h1 class="title">Fluxo Class Reference</h1>
+<!-- $$$Fluxo-brief -->
+<p>Class for create the drainage network, calculated by the flow directionand flow accumulation <a href="#details">More...</a></p>
+<!-- @@@Fluxo -->
+<pre class="highlightedCode brush: cpp">    #include &lt;Fluxo&gt;</pre><ul>
+<li><a href="fluxo-members.html">List of all members, including inherited members</a></li>
+</ul>
+<a name="public-types"></a>
+<h2>Public Types</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> typedef </td><td class="memItemRight bottomAlign"><b><a href="fluxo.html#ponto-typedef">ponto</a></b></td></tr>
+</table>
+<a name="public-functions"></a>
+<h2>Public Functions</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="fluxo.html#Fluxo">Fluxo</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="fluxo.html#Fluxo-2">Fluxo</a></b> ( int <i>nLinhas</i>, int <i>nColunas</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="fluxo.html#Fluxo-3">Fluxo</a></b> ( Fluxo const &amp; <i>fluxoCopia</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="fluxo.html#dtor.Fluxo">~Fluxo</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="fluxo.html#calculaFluxo">calculaFluxo</a></b> ( short int ** <i>elevacoes</i>, int <i>noData</i> )</td></tr>
+</table>
+<a name="public-variables"></a>
+<h2>Public Variables</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> unsigned char ** </td><td class="memItemRight bottomAlign"><b><a href="fluxo.html#direcao-var">direcao</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int ** </td><td class="memItemRight bottomAlign"><b><a href="fluxo.html#fluxo-var">fluxo</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="fluxo.html#fluxoMinimo-var">fluxoMinimo</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="fluxo.html#nColunas-var">nColunas</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="fluxo.html#nLinhas-var">nLinhas</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="fluxo.html#qtdeCelulasRio-var">qtdeCelulasRio</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool ** </td><td class="memItemRight bottomAlign"><b><a href="fluxo.html#rio-var">rio</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="fluxo.html#valorPadraoFluxo-var">valorPadraoFluxo</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> queue&lt;ponto&gt; </td><td class="memItemRight bottomAlign"><b><a href="fluxo.html#vetorDeFilasDeNiveis-var">vetorDeFilasDeNiveis</a></b> [2 * limiteAltidude]</td></tr>
+</table>
+<a name="details"></a>
+<!-- $$$Fluxo-description -->
+<div class="descr">
+<h2>Detailed Description</h2>
+<p>Class for create the drainage network, calculated by the flow directionand flow accumulation</p>
+</div>
+<!-- @@@Fluxo -->
+<div class="types">
+<h2>Member Type Documentation</h2>
+<!-- $$$ponto -->
+<h3 class="fn"><a name="ponto-typedef"></a>typedef Fluxo::ponto</h3>
+<p>the object to map a cell(point) of MDE easily.</p>
+<!-- @@@ponto -->
+</div>
+<div class="func">
+<h2>Member Function Documentation</h2>
+<!-- $$$Fluxo[overload1]$$$Fluxo -->
+<h3 class="fn"><a name="Fluxo"></a>Fluxo::Fluxo ()</h3>
+<!-- @@@Fluxo -->
+<!-- $$$Fluxo$$$Fluxointint -->
+<h3 class="fn"><a name="Fluxo-2"></a>Fluxo::Fluxo ( int <i>nLinhas</i>, int <i>nColunas</i> )</h3>
+<p>Constructor. Creates an object that have only the variables initialized, no drainage network is calculed yet.</p>
+<!-- @@@Fluxo -->
+<!-- $$$Fluxo$$$FluxoFluxoconst& -->
+<h3 class="fn"><a name="Fluxo-3"></a>Fluxo::Fluxo ( Fluxo const &amp; <i>fluxoCopia</i> )</h3>
+<p>Copy Constructor. Creates an object receiving attributes from fluxoCopia</p>
+<!-- @@@Fluxo -->
+<!-- $$$~Fluxo[overload1]$$$~Fluxo -->
+<h3 class="fn"><a name="dtor.Fluxo"></a>Fluxo::~Fluxo ()</h3>
+<p>Destructor</p>
+<!-- @@@~Fluxo -->
+<!-- $$$calculaFluxo[overload1]$$$calculaFluxoshortint**int -->
+<h3 class="fn"><a name="calculaFluxo"></a>void Fluxo::calculaFluxo ( short int ** <i>elevacoes</i>, int <i>noData</i> )</h3>
+<p>function to calculated the drainage network.</p>
+<p>elevecoes is the matrix with cell`s elevation of terrain. noData is the value representing a invalid cell</p>
+<p>This function use three another private function: setInundacao to identify the flow direction of each cell. setFluxo to identify the flow accumalate of each cell. setRio to identify cells that are in drainage network.</p>
+<!-- @@@calculaFluxo -->
+</div>
+<div class="vars">
+<h2>Member Variable Documentation</h2>
+<!-- $$$direcao -->
+<h3 class="fn"><a name="direcao-var"></a>unsigned char ** Fluxo::direcao</h3>
+<p>This variable holds the pointer to pointer, representing the matrix of flow direction.</p>
+<!-- @@@direcao -->
+<!-- $$$fluxo -->
+<h3 class="fn"><a name="fluxo-var"></a>int ** Fluxo::fluxo</h3>
+<p>This variable holds the pointer to pointer, representing the matrix of flow accumulation.</p>
+<!-- @@@fluxo -->
+<!-- $$$fluxoMinimo -->
+<h3 class="fn"><a name="fluxoMinimo-var"></a>int Fluxo::fluxoMinimo</h3>
+<p>This variable holds the minimum flow to consider a cell in the drainage network. Cell`s value in rio matrix above fluxoMinimo is considering a cell of network drainage.</p>
+<!-- @@@fluxoMinimo -->
+<!-- $$$nColunas -->
+<h3 class="fn"><a name="nColunas-var"></a>int Fluxo::nColunas</h3>
+<p>This variable holds the number of columns of MDE.</p>
+<!-- @@@nColunas -->
+<!-- $$$nLinhas -->
+<h3 class="fn"><a name="nLinhas-var"></a>int Fluxo::nLinhas</h3>
+<p>This variable holds the numbers of lines of MDE.</p>
+<!-- @@@nLinhas -->
+<!-- $$$qtdeCelulasRio -->
+<h3 class="fn"><a name="qtdeCelulasRio-var"></a>int Fluxo::qtdeCelulasRio</h3>
+<p>This variable holds the number of cells that are in drainage network.</p>
+<!-- @@@qtdeCelulasRio -->
+<!-- $$$rio -->
+<h3 class="fn"><a name="rio-var"></a>bool ** Fluxo::rio</h3>
+<p>This variable holds the pointer to pointer, representing the matrix river`s cells (drainage network).</p>
+<!-- @@@rio -->
+<!-- $$$valorPadraoFluxo -->
+<h3 class="fn"><a name="valorPadraoFluxo-var"></a>int Fluxo::valorPadraoFluxo</h3>
+<p>This variable holds the default value for fluxoMinimo.</p>
+<!-- @@@valorPadraoFluxo -->
+<!-- $$$vetorDeFilasDeNiveis -->
+<h3 class="fn"><a name="vetorDeFilasDeNiveis-var"></a>queue&lt;<a href="fluxo.html#ponto-typedef">ponto</a>&gt; Fluxo::vetorDeFilasDeNiveis [2 * limiteAltidude]</h3>
+<p>This variable holds the queue of ponto used to restore the nexts ponto that will be alagado.</p>
+<!-- @@@vetorDeFilasDeNiveis -->
+</div>
+<p class="naviNextPrevious footerNavi">
+[Previous: <a href="camada.html">Camada</a>]
+[Next: <a href="inundacao.html">Inundacao</a>]
+</p>
+</body>
+</html>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- janelaprincipal.cpp -->
+  <title>JanelaPrincipal Class Reference</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <script src="scripts/jquery.js" type="text/javascript"></script>
+  <script src="scripts/functions.js" type="text/javascript"></script>
+</head>
+<body class="offline narrow creator">
+              <li><a href="modules.html">Modules</a></li>              <li>JanelaPrincipal</li>
+  <link rel="prev" href="janelaopcaofb.html" />
+  <link rel="next" href="janelasobre.html" />
+  <link rel="start" href="All Classes" />
+<p class="naviNextPrevious headerNavi">
+[Previous: <a href="janelaopcaofb.html">janelaopcaofb</a>]
+[Next: <a href="janelasobre.html">janelasobre</a>]
+</p><p/>
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#public-functions">Public Functions</a></li>
+<li class="level1"><a href="#public-variables">Public Variables</a></li>
+<li class="level1"><a href="#protected-slots">Protected Slots</a></li>
+<li class="level1"><a href="#details">Detailed Description</a></li>
+</ul>
+</div>
+<h1 class="title">JanelaPrincipal Class Reference</h1>
+<!-- $$$JanelaPrincipal-brief -->
+<p>Class to create the main window <a href="#details">More...</a></p>
+<!-- @@@JanelaPrincipal -->
+<pre class="highlightedCode brush: cpp">    #include &lt;JanelaPrincipal&gt;</pre><ul>
+<li><a href="janelaprincipal-members.html">List of all members, including inherited members</a></li>
+</ul>
+<a name="public-functions"></a>
+<h2>Public Functions</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#JanelaPrincipal">JanelaPrincipal</a></b> ( QWidget * <i>parent</i> = 0 )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#dtor.JanelaPrincipal">~JanelaPrincipal</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#atualizaCamposSaida">atualizaCamposSaida</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QPoint </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#buscaMelhorPonto">buscaMelhorPonto</a></b> ( VisualizacaoMapa <i>viMapa</i>, QList&lt;QPoint&gt; <i>listaPontos</i>, double <i>volumeDesejado</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#criaListaComCamadas">criaListaComCamadas</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#criaVisualizacaoBarragem">criaVisualizacaoBarragem</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#deletaListaComCamadas">deletaListaComCamadas</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#desAbilitandoBotoes">desAbilitandoBotoes</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#habilitandoBotoes">habilitandoBotoes</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#mousePressionadoParaBarragem">mousePressionadoParaBarragem</a></b> ( QMouseEvent * <i>ev</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#mousePressionadoParaCamada">mousePressionadoParaCamada</a></b> ( QMouseEvent * <i>ev</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#pontoDoRioMaisProximo">pontoDoRioMaisProximo</a></b> ( int <i>posX</i>, int <i>posY</i>, int <i>raio</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#preenchePontosContinuo">preenchePontosContinuo</a></b> ( Point <i>pIni</i>, Point <i>pFim</i>, int <i>indCamada</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#preencheSolido">preencheSolido</a></b> ( int <i>posClickY</i>, int <i>posClickX</i>, int <i>indCamada</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#setaTamanhoBarraDeZoom">setaTamanhoBarraDeZoom</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#setaTelaPadrao">setaTelaPadrao</a></b> ()</td></tr>
+</table>
+<a name="public-variables"></a>
+<h2>Public Variables</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#escolhendoPontosCamada-var">escolhendoPontosCamada</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QList&lt;Point&gt; </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#listaDePosicoesMouse-var">listaDePosicoesMouse</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> map&lt;string, VisualizacaoMapa&gt; </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#mapeamentoAreaProjeto-var">mapeamentoAreaProjeto</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#pontosContinuos-var">pontosContinuos</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#posXBarraZoom-var">posXBarraZoom</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#posXBotaoZoomMais-var">posXBotaoZoomMais</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#posXBotaoZoomMenos-var">posXBotaoZoomMenos</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#posYBarraZoom-var">posYBarraZoom</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#posYBotaoZoomMais-var">posYBotaoZoomMais</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#posYBotaoZoomMenos-var">posYBotaoZoomMenos</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#selecaoPontoBarragem-var">selecaoPontoBarragem</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#selecaoPontos-var">selecaoPontos</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QStringList </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#stringAreaProjeto-var">stringAreaProjeto</a></b></td></tr>
+</table>
+<a name="protected-slots"></a>
+<h2>Protected Slots</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#adicionandoPontosACamada">adicionandoPontosACamada</a></b> ( QMouseEvent * <i>evM</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#defineCamada">defineCamada</a></b> ( int <i>a</i>, int <i>b</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#defineInundacao">defineInundacao</a></b> ( QMouseEvent * <i>ev</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#eEntruncamentoDeRios">eEntruncamentoDeRios</a></b> ( int <i>posx</i>, int <i>posy</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#exporCamada">exporCamada</a></b> ( QTableWidgetItem * <i>qtwItem</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#imprimeBarragem">imprimeBarragem</a></b> ( VisualizacaoMapa <i>viMapa</i>, int <i>indBarragem</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#moveBarragem">moveBarragem</a></b> ( QKeyEvent * <i>kev</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#movendoMouse">movendoMouse</a></b> ( QMouseEvent * <i>ev</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#on_actionAbrir_mapa_triggered">on_actionAbrir_mapa_triggered</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#on_barraZoom_sliderMoved">on_barraZoom_sliderMoved</a></b> ( int <i>position</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#on_botaoAtualizarFluxoMinimo_clicked">on_botaoAtualizarFluxoMinimo_clicked</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#on_botaoZoomMais_clicked">on_botaoZoomMais_clicked</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#on_botaoZoomMenos_clicked">on_botaoZoomMenos_clicked</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="janelaprincipal.html#trocaCoordenadas">trocaCoordenadas</a></b> ( QMouseEvent * <i>q</i> )</td></tr>
+</table>
+<a name="details"></a>
+<!-- $$$JanelaPrincipal-description -->
+<div class="descr">
+<h2>Detailed Description</h2>
+<p>Class to create the main window</p>
+</div>
+<!-- @@@JanelaPrincipal -->
+<div class="func">
+<h2>Member Function Documentation</h2>
+<!-- $$$JanelaPrincipal[overload1]$$$JanelaPrincipalQWidget* -->
+<h3 class="fn"><a name="JanelaPrincipal"></a>JanelaPrincipal::JanelaPrincipal ( QWidget * <i>parent</i> = 0 )</h3>
+<!-- @@@JanelaPrincipal -->
+<!-- $$$~JanelaPrincipal[overload1]$$$~JanelaPrincipal -->
+<h3 class="fn"><a name="dtor.JanelaPrincipal"></a>JanelaPrincipal::~JanelaPrincipal ()</h3>
+<p>Destructor</p>
+<!-- @@@~JanelaPrincipal -->
+<!-- $$$adicionandoPontosACamada[overload1]$$$adicionandoPontosACamadaQMouseEvent* -->
+<h3 class="fn"><a name="adicionandoPontosACamada"></a>void JanelaPrincipal::adicionandoPontosACamada ( QMouseEvent * <i>evM</i> )<tt> [protected slot]</tt></h3>
+<p>Slot for when the mouse is released. Used for finish selecting points of the Camada.</p>
+<!-- @@@adicionandoPontosACamada -->
+<!-- $$$atualizaCamposSaida[overload1]$$$atualizaCamposSaida -->
+<h3 class="fn"><a name="atualizaCamposSaida"></a>void JanelaPrincipal::atualizaCamposSaida ()</h3>
+<p>Function to update the fields to show user</p>
+<!-- @@@atualizaCamposSaida -->
+<!-- $$$buscaMelhorPonto[overload1]$$$buscaMelhorPontoVisualizacaoMapaQList<QPoint>double -->
+<h3 class="fn"><a name="buscaMelhorPonto"></a>QPoint JanelaPrincipal::buscaMelhorPonto ( <a href="visualizacaomapa.html">VisualizacaoMapa</a> <i>viMapa</i>, QList&lt;QPoint&gt; <i>listaPontos</i>, double <i>volumeDesejado</i> )</h3>
+<p>Function to find the best dam position in a stretch of drainage network</p>
+<!-- @@@buscaMelhorPonto -->
+<!-- $$$criaListaComCamadas[overload1]$$$criaListaComCamadas -->
+<h3 class="fn"><a name="criaListaComCamadas"></a>void JanelaPrincipal::criaListaComCamadas ()</h3>
+<p>Function to construct the Camada mapping for the current MDE showing in Area de Visualizacao</p>
+<!-- @@@criaListaComCamadas -->
+<!-- $$$criaVisualizacaoBarragem[overload1]$$$criaVisualizacaoBarragem -->
+<h3 class="fn"><a name="criaVisualizacaoBarragem"></a>void JanelaPrincipal::criaVisualizacaoBarragem ()</h3>
+<p>Function to decide and invoke the 2D or 3D visualization</p>
+<!-- @@@criaVisualizacaoBarragem -->
+<!-- $$$defineCamada[overload1]$$$defineCamadaintint -->
+<h3 class="fn"><a name="defineCamada"></a>void JanelaPrincipal::defineCamada ( int <i>a</i>, int <i>b</i> )<tt> [protected slot]</tt></h3>
+<p>Slot for when a cell of Camada map is selected. Is not in use</p>
+<!-- @@@defineCamada -->
+<!-- $$$defineInundacao[overload1]$$$defineInundacaoQMouseEvent* -->
+<h3 class="fn"><a name="defineInundacao"></a>void JanelaPrincipal::defineInundacao ( QMouseEvent * <i>ev</i> )<tt> [protected slot]</tt></h3>
+<p>Slot for when mouse is pressed. It has a selector to decide what function call (the mousePressionadoParaCamada(QMouseEvent * ev) or the mousePressionadoParaBarragem(QMouseEvent * ev))</p>
+<!-- @@@defineInundacao -->
+<!-- $$$deletaListaComCamadas[overload1]$$$deletaListaComCamadas -->
+<h3 class="fn"><a name="deletaListaComCamadas"></a>void JanelaPrincipal::deletaListaComCamadas ()</h3>
+<p>Function to clear the Camada mapping for the current MDE showing in Area de Visualizacao. Doesnt delete the Camada associated with the MDE</p>
+<!-- @@@deletaListaComCamadas -->
+<!-- $$$desAbilitandoBotoes[overload1]$$$desAbilitandoBotoes -->
+<h3 class="fn"><a name="desAbilitandoBotoes"></a>void JanelaPrincipal::desAbilitandoBotoes ()</h3>
+<p>Function to disable the buttons, fields and others.</p>
+<!-- @@@desAbilitandoBotoes -->
+<!-- $$$eEntruncamentoDeRios[overload1]$$$eEntruncamentoDeRiosintint -->
+<h3 class="fn"><a name="eEntruncamentoDeRios"></a>bool JanelaPrincipal::eEntruncamentoDeRios ( int <i>posx</i>, int <i>posy</i> )<tt> [protected slot]</tt></h3>
+<p>Function to define that a cell in drainage network has more than two neighbors that is in drainage network too</p>
+<!-- @@@eEntruncamentoDeRios -->
+<!-- $$$exporCamada[overload1]$$$exporCamadaQTableWidgetItem* -->
+<h3 class="fn"><a name="exporCamada"></a>void JanelaPrincipal::exporCamada ( QTableWidgetItem * <i>qtwItem</i> )<tt> [protected slot]</tt></h3>
+<p>Slot for when item of Camada map`s is changed. Used to show or not the Camada to the user</p>
+<!-- @@@exporCamada -->
+<!-- $$$habilitandoBotoes[overload1]$$$habilitandoBotoes -->
+<h3 class="fn"><a name="habilitandoBotoes"></a>void JanelaPrincipal::habilitandoBotoes ()</h3>
+<p>Function to enable the buttons, fields and others.</p>
+<!-- @@@habilitandoBotoes -->
+<!-- $$$imprimeBarragem[overload1]$$$imprimeBarragemVisualizacaoMapaint -->
+<h3 class="fn"><a name="imprimeBarragem"></a>void JanelaPrincipal::imprimeBarragem ( <a href="visualizacaomapa.html">VisualizacaoMapa</a> <i>viMapa</i>, int <i>indBarragem</i> )<tt> [protected slot]</tt></h3>
+<p>Function to print in a file the MDE with dam characteristics. Used when is necessary to avaliate differents dams</p>
+<!-- @@@imprimeBarragem -->
+<!-- $$$mousePressionadoParaBarragem[overload1]$$$mousePressionadoParaBarragemQMouseEvent* -->
+<h3 class="fn"><a name="mousePressionadoParaBarragem"></a>void JanelaPrincipal::mousePressionadoParaBarragem ( QMouseEvent * <i>ev</i> )</h3>
+<p>Function dedictated for separated the functions that is invoked when the mouse is pressed and the Position Dam is actived</p>
+<!-- @@@mousePressionadoParaBarragem -->
+<!-- $$$mousePressionadoParaCamada[overload1]$$$mousePressionadoParaCamadaQMouseEvent* -->
+<h3 class="fn"><a name="mousePressionadoParaCamada"></a>void JanelaPrincipal::mousePressionadoParaCamada ( QMouseEvent * <i>ev</i> )</h3>
+<p>Function dedictated for separated the functions that is invoked when the mouse is pressed and the Selecting Camada is actived</p>
+<!-- @@@mousePressionadoParaCamada -->
+<!-- $$$moveBarragem[overload1]$$$moveBarragemQKeyEvent* -->
+<h3 class="fn"><a name="moveBarragem"></a>void JanelaPrincipal::moveBarragem ( QKeyEvent * <i>kev</i> )<tt> [protected slot]</tt></h3>
+<p>Slot for receive command when key is pressed. Used to repositioning the dam in new position montante/juzante of the current dam position</p>
+<!-- @@@moveBarragem -->
+<!-- $$$movendoMouse[overload1]$$$movendoMouseQMouseEvent* -->
+<h3 class="fn"><a name="movendoMouse"></a>void JanelaPrincipal::movendoMouse ( QMouseEvent * <i>ev</i> )<tt> [protected slot]</tt></h3>
+<p>Slot for receive command when mouse is moving. Used to create a line for Camada</p>
+<!-- @@@movendoMouse -->
+<!-- $$$on_actionAbrir_mapa_triggered[overload1]$$$on_actionAbrir_mapa_triggered -->
+<h3 class="fn"><a name="on_actionAbrir_mapa_triggered"></a>void JanelaPrincipal::on_actionAbrir_mapa_triggered ()<tt> [protected slot]</tt></h3>
+<p>Slot for when option actionAbrir_mapa is pressed</p>
+<!-- @@@on_actionAbrir_mapa_triggered -->
+<!-- $$$on_barraZoom_sliderMoved[overload1]$$$on_barraZoom_sliderMovedint -->
+<h3 class="fn"><a name="on_barraZoom_sliderMoved"></a>void JanelaPrincipal::on_barraZoom_sliderMoved ( int <i>position</i> )<tt> [protected slot]</tt></h3>
+<p>Slot for when barraZoom is moved</p>
+<!-- @@@on_barraZoom_sliderMoved -->
+<!-- $$$on_botaoAtualizarFluxoMinimo_clicked[overload1]$$$on_botaoAtualizarFluxoMinimo_clicked -->
+<h3 class="fn"><a name="on_botaoAtualizarFluxoMinimo_clicked"></a>void JanelaPrincipal::on_botaoAtualizarFluxoMinimo_clicked ()<tt> [protected slot]</tt></h3>
+<p>Slot for when button botaoAtualizarFluxoMinimo is pressed. Use to update the drainage network based on this value</p>
+<!-- @@@on_botaoAtualizarFluxoMinimo_clicked -->
+<!-- $$$on_botaoZoomMais_clicked[overload1]$$$on_botaoZoomMais_clicked -->
+<h3 class="fn"><a name="on_botaoZoomMais_clicked"></a>void JanelaPrincipal::on_botaoZoomMais_clicked ()<tt> [protected slot]</tt></h3>
+<p>Slot for when button botaoZoomMais is pressed. Zoom in the map</p>
+<!-- @@@on_botaoZoomMais_clicked -->
+<!-- $$$on_botaoZoomMenos_clicked[overload1]$$$on_botaoZoomMenos_clicked -->
+<h3 class="fn"><a name="on_botaoZoomMenos_clicked"></a>void JanelaPrincipal::on_botaoZoomMenos_clicked ()<tt> [protected slot]</tt></h3>
+<p>Slot for when button botaoZoomMenos is pressed. Zoom out the map</p>
+<!-- @@@on_botaoZoomMenos_clicked -->
+<!-- $$$pontoDoRioMaisProximo[overload1]$$$pontoDoRioMaisProximointintint -->
+<h3 class="fn"><a name="pontoDoRioMaisProximo"></a>bool JanelaPrincipal::pontoDoRioMaisProximo ( int <i>posX</i>, int <i>posY</i>, int <i>raio</i> )</h3>
+<p>Function to attract the click of mouse for a drainage network cell</p>
+<!-- @@@pontoDoRioMaisProximo -->
+<!-- $$$preenchePontosContinuo[overload1]$$$preenchePontosContinuoPointPointint -->
+<h3 class="fn"><a name="preenchePontosContinuo"></a>void JanelaPrincipal::preenchePontosContinuo ( Point <i>pIni</i>, Point <i>pFim</i>, int <i>indCamada</i> )</h3>
+<p>Function to help the system for creating a continuos line when user is choosing the cells of Camada</p>
+<!-- @@@preenchePontosContinuo -->
+<!-- $$$preencheSolido[overload1]$$$preencheSolidointintint -->
+<h3 class="fn"><a name="preencheSolido"></a>void JanelaPrincipal::preencheSolido ( int <i>posClickY</i>, int <i>posClickX</i>, int <i>indCamada</i> )</h3>
+<p>Function to fill the solid drawed by user before</p>
+<!-- @@@preencheSolido -->
+<!-- $$$setaTamanhoBarraDeZoom[overload1]$$$setaTamanhoBarraDeZoom -->
+<h3 class="fn"><a name="setaTamanhoBarraDeZoom"></a>void JanelaPrincipal::setaTamanhoBarraDeZoom ()</h3>
+<p>Function to set the size of zoom bar</p>
+<!-- @@@setaTamanhoBarraDeZoom -->
+<!-- $$$setaTelaPadrao[overload1]$$$setaTelaPadrao -->
+<h3 class="fn"><a name="setaTelaPadrao"></a>void JanelaPrincipal::setaTelaPadrao ()</h3>
+<p>Function to set the default window with clear fields, disable buttons and others</p>
+<!-- @@@setaTelaPadrao -->
+<!-- $$$trocaCoordenadas[overload1]$$$trocaCoordenadasQMouseEvent* -->
+<h3 class="fn"><a name="trocaCoordenadas"></a>void JanelaPrincipal::trocaCoordenadas ( QMouseEvent * <i>q</i> )<tt> [protected slot]</tt></h3>
+<p>Slot for when mouse is moved. Used to set the position of the mouse in the main window</p>
+<!-- @@@trocaCoordenadas -->
+</div>
+<div class="vars">
+<h2>Member Variable Documentation</h2>
+<!-- $$$escolhendoPontosCamada -->
+<h3 class="fn"><a name="escolhendoPontosCamada-var"></a>bool JanelaPrincipal::escolhendoPontosCamada</h3>
+<p>This variable holds the flag to control if the user is selecting Camada's points in map or not.</p>
+<!-- @@@escolhendoPontosCamada -->
+<!-- $$$listaDePosicoesMouse -->
+<h3 class="fn"><a name="listaDePosicoesMouse-var"></a>QList&lt;Point&gt; JanelaPrincipal::listaDePosicoesMouse</h3>
+<p>This variable holds the list with mouse positions for helping to create a continuos line. With the last and the before last create a cell's continuos line.</p>
+<!-- @@@listaDePosicoesMouse -->
+<!-- $$$mapeamentoAreaProjeto -->
+<h3 class="fn"><a name="mapeamentoAreaProjeto-var"></a>map&lt;string, <a href="visualizacaomapa.html">VisualizacaoMapa</a>&gt; JanelaPrincipal::mapeamentoAreaProjeto</h3>
+<p>This variable holds a map to mapping stored VisualizacaoMapa in Area de Projeto by its name map to its VisualizacaoMapa.</p>
+<!-- @@@mapeamentoAreaProjeto -->
+<!-- $$$pontosContinuos -->
+<h3 class="fn"><a name="pontosContinuos-var"></a>bool JanelaPrincipal::pontosContinuos</h3>
+<p>This variable holds the flag to control if will have continuos line or not.</p>
+<!-- @@@pontosContinuos -->
+<!-- $$$posXBarraZoom -->
+<h3 class="fn"><a name="posXBarraZoom-var"></a>int JanelaPrincipal::posXBarraZoom</h3>
+<p>This variable holds the position of bar BarraZoom in axis-x. It's help when scroll bar rolls to make always visible.</p>
+<!-- @@@posXBarraZoom -->
+<!-- $$$posXBotaoZoomMais -->
+<h3 class="fn"><a name="posXBotaoZoomMais-var"></a>int JanelaPrincipal::posXBotaoZoomMais</h3>
+<p>This variable holds the position of button BotaoZoomMais in axis-x. It's help when scroll bar rolls to make always visible.</p>
+<!-- @@@posXBotaoZoomMais -->
+<!-- $$$posXBotaoZoomMenos -->
+<h3 class="fn"><a name="posXBotaoZoomMenos-var"></a>int JanelaPrincipal::posXBotaoZoomMenos</h3>
+<p>This variable holds the position of button BotaoZoomMenos in axis-x. It's help when scroll bar rolls to make always visible.</p>
+<!-- @@@posXBotaoZoomMenos -->
+<!-- $$$posYBarraZoom -->
+<h3 class="fn"><a name="posYBarraZoom-var"></a>int JanelaPrincipal::posYBarraZoom</h3>
+<p>This variable holds the position of bar BarraZoom in axis-y. It's help when scroll bar rolls to make always visible.</p>
+<!-- @@@posYBarraZoom -->
+<!-- $$$posYBotaoZoomMais -->
+<h3 class="fn"><a name="posYBotaoZoomMais-var"></a>int JanelaPrincipal::posYBotaoZoomMais</h3>
+<p>This variable holds the position of button BotaoZoomMais in axis-y. It's help when scroll bar rolls to make always visible.</p>
+<!-- @@@posYBotaoZoomMais -->
+<!-- $$$posYBotaoZoomMenos -->
+<h3 class="fn"><a name="posYBotaoZoomMenos-var"></a>int JanelaPrincipal::posYBotaoZoomMenos</h3>
+<p>This variable holds the position of button BotaoZoomMenos in axis-y. It's help when scroll bar rolls to make always visible.</p>
+<!-- @@@posYBotaoZoomMenos -->
+<!-- $$$selecaoPontoBarragem -->
+<h3 class="fn"><a name="selecaoPontoBarragem-var"></a>bool JanelaPrincipal::selecaoPontoBarragem</h3>
+<p>This variable holds the flag to control if user will add point to Camada or choose the dam position when mouse is pressed.</p>
+<!-- @@@selecaoPontoBarragem -->
+<!-- $$$selecaoPontos -->
+<h3 class="fn"><a name="selecaoPontos-var"></a>bool JanelaPrincipal::selecaoPontos</h3>
+<p>This variable holds the flag to control if user will add or sub cells from the Camada.</p>
+<!-- @@@selecaoPontos -->
+<!-- $$$stringAreaProjeto -->
+<h3 class="fn"><a name="stringAreaProjeto-var"></a>QStringList JanelaPrincipal::stringAreaProjeto</h3>
+<p>This variable holds a list with the names in mapeamentoAreaProjeto to help find an element in it.</p>
+<!-- @@@stringAreaProjeto -->
+</div>
+<p class="naviNextPrevious footerNavi">
+[Previous: <a href="janelaopcaofb.html">janelaopcaofb</a>]
+[Next: <a href="janelasobre.html">janelasobre</a>]
+</p>
+</body>
+</html>

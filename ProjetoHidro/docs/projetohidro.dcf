@@ -1,0 +1,262 @@
+<!DOCTYPE DCF>
+<DCF ref="index.html" icon="projetohidro.png" imagedir="../../gif" title="teste">
+<section ref="classes.html" title="Classes">
+    <section ref="camada.html" title="Camada Class Reference">
+        <keyword ref="camada.html">Camada</keyword>
+        <keyword ref="camada.html#alteraPonto">alteraPonto</keyword>
+        <keyword ref="camada.html#getCorCamada">getCorCamada</keyword>
+        <keyword ref="camada.html#getEstaIncluidoNoAlgoritmo">getEstaIncluidoNoAlgoritmo</keyword>
+        <keyword ref="camada.html#getNome">getNome</keyword>
+        <keyword ref="camada.html#getPeso">getPeso</keyword>
+        <keyword ref="camada.html#setCorCamada">setCorCamada</keyword>
+        <keyword ref="camada.html#setEstaIncluidoNoAlgoritmo">setEstaIncluidoNoAlgoritmo</keyword>
+        <keyword ref="camada.html#setNome">setNome</keyword>
+        <keyword ref="camada.html#setPeso">setPeso</keyword>
+        <keyword ref="camada.html#operator-eq">operator=</keyword>
+        <keyword ref="camada.html#operator-eq-eq">operator==</keyword>
+        <keyword ref="camada.html#estaIncluidoNoAlgoritmo-var">estaIncluidoNoAlgoritmo</keyword>
+        <keyword ref="camada.html#estaVisivel-var">estaVisivel</keyword>
+        <keyword ref="camada.html#listaDePontos-var">listaDePontos</keyword>
+        <keyword ref="camada.html#nColunas-var">nColunas</keyword>
+        <keyword ref="camada.html#nLinhas-var">nLinhas</keyword>
+        <keyword ref="camada.html#pontos-var">pontos</keyword>
+        <section ref="camada-members.html" title="List of all members"/>
+    </section>
+    <section ref="fluxo.html" title="Fluxo Class Reference">
+        <keyword ref="fluxo.html">Fluxo</keyword>
+        <keyword ref="fluxo.html#ponto-typedef">ponto</keyword>
+        <keyword ref="fluxo.html#calculaFluxo">calculaFluxo</keyword>
+        <keyword ref="fluxo.html#direcao-var">direcao</keyword>
+        <keyword ref="fluxo.html#fluxo-var">fluxo</keyword>
+        <keyword ref="fluxo.html#fluxoMinimo-var">fluxoMinimo</keyword>
+        <keyword ref="fluxo.html#nColunas-var">nColunas</keyword>
+        <keyword ref="fluxo.html#nLinhas-var">nLinhas</keyword>
+        <keyword ref="fluxo.html#qtdeCelulasRio-var">qtdeCelulasRio</keyword>
+        <keyword ref="fluxo.html#rio-var">rio</keyword>
+        <keyword ref="fluxo.html#valorPadraoFluxo-var">valorPadraoFluxo</keyword>
+        <keyword ref="fluxo.html#vetorDeFilasDeNiveis-var">vetorDeFilasDeNiveis</keyword>
+        <section ref="fluxo-members.html" title="List of all members"/>
+    </section>
+    <section ref="inundacao.html" title="Inundacao Class Reference">
+        <keyword ref="inundacao.html">Inundacao</keyword>
+        <keyword ref="inundacao.html#acertaTamanhoBarragem">acertaTamanhoBarragem</keyword>
+        <keyword ref="inundacao.html#algoritmoDouglasPeucker">algoritmoDouglasPeucker</keyword>
+        <keyword ref="inundacao.html#criaListaParaDouglasPeucker">criaListaParaDouglasPeucker</keyword>
+        <keyword ref="inundacao.html#defineVetorNormalABarragem">defineVetorNormalABarragem</keyword>
+        <keyword ref="inundacao.html#getPosicaoBarragem">getPosicaoBarragem</keyword>
+        <keyword ref="inundacao.html#inicializaBarragem">inicializaBarragem</keyword>
+        <keyword ref="inundacao.html#inunda">inunda</keyword>
+        <keyword ref="inundacao.html#marcaBarragem">marcaBarragem</keyword>
+        <keyword ref="inundacao.html#marcaMontante">marcaMontante</keyword>
+        <keyword ref="inundacao.html#permiteInundacaoEAumentaBarragem">permiteInundacaoEAumentaBarragem</keyword>
+        <keyword ref="inundacao.html#sobeNivelDeAgua">sobeNivelDeAgua</keyword>
+        <keyword ref="inundacao.html#vetorNormalPorDouglasPeucker">vetorNormalPorDouglasPeucker</keyword>
+        <keyword ref="inundacao.html#vetorNormalPorVizinhanca">vetorNormalPorVizinhanca</keyword>
+        <keyword ref="inundacao.html#areaBarragemTocada-var">areaBarragemTocada</keyword>
+        <keyword ref="inundacao.html#areaLaminaAgua-var">areaLaminaAgua</keyword>
+        <keyword ref="inundacao.html#comprimentoBarragemTocada-var">comprimentoBarragemTocada</keyword>
+        <keyword ref="inundacao.html#matrizEstados-var">matrizEstados</keyword>
+        <keyword ref="inundacao.html#nColunas-var">nColunas</keyword>
+        <keyword ref="inundacao.html#nLinhas-var">nLinhas</keyword>
+        <keyword ref="inundacao.html#nivelAgua-var">nivelAgua</keyword>
+        <keyword ref="inundacao.html#posicaoBarragem-var">posicaoBarragem</keyword>
+        <keyword ref="inundacao.html#tamanhoMaximoDaBarragem-var">tamanhoMaximoDaBarragem</keyword>
+        <keyword ref="inundacao.html#vetorNormalABarragem-var">vetorNormalABarragem</keyword>
+        <keyword ref="inundacao.html#volumeAgua-var">volumeAgua</keyword>
+        <keyword ref="inundacao.html#volumeAlvo-var">volumeAlvo</keyword>
+        <section ref="inundacao-members.html" title="List of all members"/>
+    </section>
+    <section ref="janelabarragem.html" title="janelabarragem Class Reference">
+        <keyword ref="janelabarragem.html">janelabarragem</keyword>
+        <section ref="janelabarragem-members.html" title="List of all members"/>
+    </section>
+    <section ref="janelabarragem2d.html" title="janelaBarragem2D Class Reference">
+        <keyword ref="janelabarragem2d.html">janelaBarragem2D</keyword>
+        <keyword ref="janelabarragem2d.html#recarregandoMapa">recarregandoMapa</keyword>
+        <section ref="janelabarragem2d-members.html" title="List of all members"/>
+    </section>
+    <section ref="janelacamadas.html" title="janelaCamadas Class Reference">
+        <keyword ref="janelacamadas.html">janelaCamadas</keyword>
+        <keyword ref="janelacamadas.html#getValores">getValores</keyword>
+        <section ref="janelacamadas-members.html" title="List of all members"/>
+    </section>
+    <section ref="janelaopcaocor.html" title="janelaOpcaoCor Class Reference">
+        <keyword ref="janelaopcaocor.html">janelaOpcaoCor</keyword>
+        <keyword ref="janelaopcaocor.html#getValores">getValores</keyword>
+        <section ref="janelaopcaocor-members.html" title="List of all members"/>
+    </section>
+    <section ref="janelaopcaofb.html" title="janelaopcaofb Class Reference">
+        <keyword ref="janelaopcaofb.html">janelaopcaofb</keyword>
+        <keyword ref="janelaopcaofb.html#getValores">getValores</keyword>
+        <section ref="janelaopcaofb-members.html" title="List of all members"/>
+    </section>
+    <section ref="janelaprincipal.html" title="JanelaPrincipal Class Reference">
+        <keyword ref="janelaprincipal.html">JanelaPrincipal</keyword>
+        <keyword ref="janelaprincipal.html#adicionandoPontosACamada">adicionandoPontosACamada</keyword>
+        <keyword ref="janelaprincipal.html#atualizaCamposSaida">atualizaCamposSaida</keyword>
+        <keyword ref="janelaprincipal.html#buscaMelhorPonto">buscaMelhorPonto</keyword>
+        <keyword ref="janelaprincipal.html#criaListaComCamadas">criaListaComCamadas</keyword>
+        <keyword ref="janelaprincipal.html#criaVisualizacaoBarragem">criaVisualizacaoBarragem</keyword>
+        <keyword ref="janelaprincipal.html#defineCamada">defineCamada</keyword>
+        <keyword ref="janelaprincipal.html#defineInundacao">defineInundacao</keyword>
+        <keyword ref="janelaprincipal.html#deletaListaComCamadas">deletaListaComCamadas</keyword>
+        <keyword ref="janelaprincipal.html#desAbilitandoBotoes">desAbilitandoBotoes</keyword>
+        <keyword ref="janelaprincipal.html#eEntruncamentoDeRios">eEntruncamentoDeRios</keyword>
+        <keyword ref="janelaprincipal.html#exporCamada">exporCamada</keyword>
+        <keyword ref="janelaprincipal.html#habilitandoBotoes">habilitandoBotoes</keyword>
+        <keyword ref="janelaprincipal.html#imprimeBarragem">imprimeBarragem</keyword>
+        <keyword ref="janelaprincipal.html#mousePressionadoParaBarragem">mousePressionadoParaBarragem</keyword>
+        <keyword ref="janelaprincipal.html#mousePressionadoParaCamada">mousePressionadoParaCamada</keyword>
+        <keyword ref="janelaprincipal.html#moveBarragem">moveBarragem</keyword>
+        <keyword ref="janelaprincipal.html#movendoMouse">movendoMouse</keyword>
+        <keyword ref="janelaprincipal.html#on_actionAbrir_mapa_triggered">on_actionAbrir_mapa_triggered</keyword>
+        <keyword ref="janelaprincipal.html#on_barraZoom_sliderMoved">on_barraZoom_sliderMoved</keyword>
+        <keyword ref="janelaprincipal.html#on_botaoAtualizarFluxoMinimo_clicked">on_botaoAtualizarFluxoMinimo_clicked</keyword>
+        <keyword ref="janelaprincipal.html#on_botaoZoomMais_clicked">on_botaoZoomMais_clicked</keyword>
+        <keyword ref="janelaprincipal.html#on_botaoZoomMenos_clicked">on_botaoZoomMenos_clicked</keyword>
+        <keyword ref="janelaprincipal.html#pontoDoRioMaisProximo">pontoDoRioMaisProximo</keyword>
+        <keyword ref="janelaprincipal.html#preenchePontosContinuo">preenchePontosContinuo</keyword>
+        <keyword ref="janelaprincipal.html#preencheSolido">preencheSolido</keyword>
+        <keyword ref="janelaprincipal.html#setaTamanhoBarraDeZoom">setaTamanhoBarraDeZoom</keyword>
+        <keyword ref="janelaprincipal.html#setaTelaPadrao">setaTelaPadrao</keyword>
+        <keyword ref="janelaprincipal.html#trocaCoordenadas">trocaCoordenadas</keyword>
+        <keyword ref="janelaprincipal.html#escolhendoPontosCamada-var">escolhendoPontosCamada</keyword>
+        <keyword ref="janelaprincipal.html#listaDePosicoesMouse-var">listaDePosicoesMouse</keyword>
+        <keyword ref="janelaprincipal.html#mapeamentoAreaProjeto-var">mapeamentoAreaProjeto</keyword>
+        <keyword ref="janelaprincipal.html#pontosContinuos-var">pontosContinuos</keyword>
+        <keyword ref="janelaprincipal.html#posXBarraZoom-var">posXBarraZoom</keyword>
+        <keyword ref="janelaprincipal.html#posXBotaoZoomMais-var">posXBotaoZoomMais</keyword>
+        <keyword ref="janelaprincipal.html#posXBotaoZoomMenos-var">posXBotaoZoomMenos</keyword>
+        <keyword ref="janelaprincipal.html#posYBarraZoom-var">posYBarraZoom</keyword>
+        <keyword ref="janelaprincipal.html#posYBotaoZoomMais-var">posYBotaoZoomMais</keyword>
+        <keyword ref="janelaprincipal.html#posYBotaoZoomMenos-var">posYBotaoZoomMenos</keyword>
+        <keyword ref="janelaprincipal.html#selecaoPontoBarragem-var">selecaoPontoBarragem</keyword>
+        <keyword ref="janelaprincipal.html#selecaoPontos-var">selecaoPontos</keyword>
+        <keyword ref="janelaprincipal.html#stringAreaProjeto-var">stringAreaProjeto</keyword>
+        <section ref="janelaprincipal-members.html" title="List of all members"/>
+    </section>
+    <section ref="janelasobre.html" title="janelasobre Class Reference">
+        <keyword ref="janelasobre.html">janelasobre</keyword>
+        <section ref="janelasobre-members.html" title="List of all members"/>
+    </section>
+    <section ref="mapamde.html" title="MapaMDE Class Reference">
+        <keyword ref="mapamde.html">MapaMDE</keyword>
+        <keyword ref="mapamde.html#getCaminhoArquivo">getCaminhoArquivo</keyword>
+        <keyword ref="mapamde.html#getDadoInvalido">getDadoInvalido</keyword>
+        <keyword ref="mapamde.html#getNColunas">getNColunas</keyword>
+        <keyword ref="mapamde.html#getNLinhas">getNLinhas</keyword>
+        <keyword ref="mapamde.html#getNomeArquivo">getNomeArquivo</keyword>
+        <keyword ref="mapamde.html#getResolucao">getResolucao</keyword>
+        <keyword ref="mapamde.html#matrizDeElevacoes-var">matrizDeElevacoes</keyword>
+        <keyword ref="mapamde.html#maxElev-var">maxElev</keyword>
+        <keyword ref="mapamde.html#minElev-var">minElev</keyword>
+        <section ref="mapamde-members.html" title="List of all members"/>
+    </section>
+    <section ref="painelvisualizacaobarragem2dopengl.html" title="painelvisualizacaobarragem2dopengl Class Reference">
+        <keyword ref="painelvisualizacaobarragem2dopengl.html">painelvisualizacaobarragem2dopengl</keyword>
+        <keyword ref="painelvisualizacaobarragem2dopengl.html#carregandoInformacoes">carregandoInformacoes</keyword>
+        <keyword ref="painelvisualizacaobarragem2dopengl.html#defineBarragem">defineBarragem</keyword>
+        <keyword ref="painelvisualizacaobarragem2dopengl.html#defineOrtho">defineOrtho</keyword>
+        <keyword ref="painelvisualizacaobarragem2dopengl.html#initializeGL">initializeGL</keyword>
+        <keyword ref="painelvisualizacaobarragem2dopengl.html#paintGL">paintGL</keyword>
+        <keyword ref="painelvisualizacaobarragem2dopengl.html#resizeGL">resizeGL</keyword>
+        <section ref="painelvisualizacaobarragem2dopengl-members.html" title="List of all members"/>
+    </section>
+    <section ref="painelvisualizacaobarragemopengl.html" title="PainelVisualizacaoBarragemOpenGL Class Reference">
+        <keyword ref="painelvisualizacaobarragemopengl.html">PainelVisualizacaoBarragemOpenGL</keyword>
+        <keyword ref="painelvisualizacaobarragemopengl.html#carregandoInformacoes">carregandoInformacoes</keyword>
+        <keyword ref="painelvisualizacaobarragemopengl.html#defineOrtho">defineOrtho</keyword>
+        <keyword ref="painelvisualizacaobarragemopengl.html#desenhaTerreno">desenhaTerreno</keyword>
+        <keyword ref="painelvisualizacaobarragemopengl.html#initializeGL">initializeGL</keyword>
+        <keyword ref="painelvisualizacaobarragemopengl.html#keyPressEvent">keyPressEvent</keyword>
+        <keyword ref="painelvisualizacaobarragemopengl.html#paintGL">paintGL</keyword>
+        <keyword ref="painelvisualizacaobarragemopengl.html#resizeGL">resizeGL</keyword>
+        <section ref="painelvisualizacaobarragemopengl-members.html" title="List of all members"/>
+    </section>
+    <section ref="painelvisualizacaoopengl.html" title="PainelVisualizacaoOpenGL Class Reference">
+        <keyword ref="painelvisualizacaoopengl.html">PainelVisualizacaoOpenGL</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#carregandoMapa">carregandoMapa</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#computaFluxo">computaFluxo</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#defineOrtho">defineOrtho</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#getCorGradient">getCorGradient</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#initializeGL">initializeGL</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#keyPressEvent">keyPressEvent</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#mouseMoveEvent">mouseMoveEvent</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#mousePressEvent">mousePressEvent</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#mouseReleaseEvent">mouseReleaseEvent</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#mudaCores">mudaCores</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#paintGL">paintGL</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#pintaCamadas">pintaCamadas</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#pintaEixo">pintaEixo</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#pintaTudo">pintaTudo</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#resizeGL">resizeGL</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#setCoresPadrao">setCoresPadrao</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#zoomMapa">zoomMapa</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#corAlagamento-var">corAlagamento</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#corBarragem-var">corBarragem</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#corMaiorElevacao-var">corMaiorElevacao</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#corMenorElevacao-var">corMenorElevacao</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#corPadraoAlagamento-var">corPadraoAlagamento</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#corPadraoBarragem-var">corPadraoBarragem</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#corPadraoMaiorElevacao-var">corPadraoMaiorElevacao</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#corPadraoMenorElevacao-var">corPadraoMenorElevacao</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#corPadraoRedeDeDrenagem-var">corPadraoRedeDeDrenagem</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#corRedeDeDrenagem-var">corRedeDeDrenagem</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#flagPinta-var">flagPinta</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#mapaEstaCarregado-var">mapaEstaCarregado</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#posClickX-var">posClickX</keyword>
+        <keyword ref="painelvisualizacaoopengl.html#posClickY-var">posClickY</keyword>
+        <section ref="painelvisualizacaoopengl-members.html" title="List of all members"/>
+    </section>
+    <section ref="pontoz.html" title="PontoZ Class Reference">
+        <keyword ref="pontoz.html">PontoZ</keyword>
+        <keyword ref="pontoz.html#operator-lt">operator&lt;</keyword>
+        <section ref="pontoz-members.html" title="List of all members"/>
+    </section>
+    <section ref="visualizacaomapa.html" title="VisualizacaoMapa Class Reference">
+        <keyword ref="visualizacaomapa.html">VisualizacaoMapa</keyword>
+        <keyword ref="visualizacaomapa.html#atualizaCamadasSomadas">atualizaCamadasSomadas</keyword>
+        <keyword ref="visualizacaomapa.html#atualizaPesoCamadas">atualizaPesoCamadas</keyword>
+        <keyword ref="visualizacaomapa.html#atualizaPesos">atualizaPesos</keyword>
+        <keyword ref="visualizacaomapa.html#encontraPontosJusante">encontraPontosJusante</keyword>
+        <keyword ref="visualizacaomapa.html#getFuncaoObjetivo">getFuncaoObjetivo</keyword>
+        <keyword ref="visualizacaomapa.html#getIndCamada">getIndCamada</keyword>
+        <keyword ref="visualizacaomapa.html#getMapa">getMapa</keyword>
+        <keyword ref="visualizacaomapa.html#getProporcaoZoom">getProporcaoZoom</keyword>
+        <keyword ref="visualizacaomapa.html#getZoom">getZoom</keyword>
+        <keyword ref="visualizacaomapa.html#insereCamada">insereCamada</keyword>
+        <keyword ref="visualizacaomapa.html#setInundacao">setInundacao</keyword>
+        <keyword ref="visualizacaomapa.html#setTamanhoPonto">setTamanhoPonto</keyword>
+        <keyword ref="visualizacaomapa.html#setZoom">setZoom</keyword>
+        <keyword ref="visualizacaomapa.html#operator-eq">operator=</keyword>
+        <keyword ref="visualizacaomapa.html#operator-eq-eq">operator==</keyword>
+        <keyword ref="visualizacaomapa.html#camadasSomadas-var">camadasSomadas</keyword>
+        <keyword ref="visualizacaomapa.html#constanteDeProporcaoZoom-var">constanteDeProporcaoZoom</keyword>
+        <keyword ref="visualizacaomapa.html#estaPreSalvo-var">estaPreSalvo</keyword>
+        <keyword ref="visualizacaomapa.html#fluxo-var">fluxo</keyword>
+        <keyword ref="visualizacaomapa.html#inundacao-var">inundacao</keyword>
+        <keyword ref="visualizacaomapa.html#listaDeCamadas-var">listaDeCamadas</keyword>
+        <keyword ref="visualizacaomapa.html#mapa-var">mapa</keyword>
+        <keyword ref="visualizacaomapa.html#marcaFinalX-var">marcaFinalX</keyword>
+        <keyword ref="visualizacaomapa.html#marcaFinalY-var">marcaFinalY</keyword>
+        <keyword ref="visualizacaomapa.html#marcaInicioX-var">marcaInicioX</keyword>
+        <keyword ref="visualizacaomapa.html#marcaInicioY-var">marcaInicioY</keyword>
+        <keyword ref="visualizacaomapa.html#marcouFim-var">marcouFim</keyword>
+        <keyword ref="visualizacaomapa.html#marcouInicio-var">marcouInicio</keyword>
+        <keyword ref="visualizacaomapa.html#maxPointSize-var">maxPointSize</keyword>
+        <keyword ref="visualizacaomapa.html#maxPontosABuscar-var">maxPontosABuscar</keyword>
+        <keyword ref="visualizacaomapa.html#pesoABarragem-var">pesoABarragem</keyword>
+        <keyword ref="visualizacaomapa.html#pesoAreaAlagada-var">pesoAreaAlagada</keyword>
+        <keyword ref="visualizacaomapa.html#pesoCamadas-var">pesoCamadas</keyword>
+        <keyword ref="visualizacaomapa.html#pesoEBarragem-var">pesoEBarragem</keyword>
+        <keyword ref="visualizacaomapa.html#pesoHBarragem-var">pesoHBarragem</keyword>
+        <keyword ref="visualizacaomapa.html#pesoVolume-var">pesoVolume</keyword>
+        <keyword ref="visualizacaomapa.html#proporcaoZoom-var">proporcaoZoom</keyword>
+        <keyword ref="visualizacaomapa.html#tamanhoDaBarraDeZoom-var">tamanhoDaBarraDeZoom</keyword>
+        <keyword ref="visualizacaomapa.html#vetorDeZooms-var">vetorDeZooms</keyword>
+        <section ref="visualizacaomapa-members.html" title="List of all members"/>
+    </section>
+</section>
+<section ref="overviews.html" title="Overviews"/>
+<section ref="examples.html" title="Tutorial &amp; Examples"/>
+</DCF>

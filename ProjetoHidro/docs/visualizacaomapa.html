@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- VisualizacaoMapa.cpp -->
+  <title>VisualizacaoMapa Class Reference</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <script src="scripts/jquery.js" type="text/javascript"></script>
+  <script src="scripts/functions.js" type="text/javascript"></script>
+</head>
+<body class="offline narrow creator">
+              <li><a href="modules.html">Modules</a></li>              <li>VisualizacaoMapa</li>
+  <link rel="prev" href="painelvisualizacaoopengl.html" />
+  <link rel="next" href="All Classes" />
+  <link rel="start" href="All Classes" />
+<p class="naviNextPrevious headerNavi">
+[Previous: <a href="painelvisualizacaoopengl.html">PainelVisualizacaoOpenGL</a>]
+[Next: <a href="All Classes">All Classes</a>]
+</p><p/>
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#public-functions">Public Functions</a></li>
+<li class="level1"><a href="#public-variables">Public Variables</a></li>
+<li class="level1"><a href="#details">Detailed Description</a></li>
+</ul>
+</div>
+<h1 class="title">VisualizacaoMapa Class Reference</h1>
+<!-- $$$VisualizacaoMapa-brief -->
+<p>Class to represent a visualization of all contents in the process of creating a reservoir <a href="#details">More...</a></p>
+<!-- @@@VisualizacaoMapa -->
+<pre class="highlightedCode brush: cpp">    #include &lt;VisualizacaoMapa&gt;</pre><ul>
+<li><a href="visualizacaomapa-members.html">List of all members, including inherited members</a></li>
+</ul>
+<a name="public-functions"></a>
+<h2>Public Functions</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#VisualizacaoMapa">VisualizacaoMapa</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#VisualizacaoMapa-2">VisualizacaoMapa</a></b> ( const char * <i>caminhoMapa</i>, int <i>largura</i>, int <i>altura</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#VisualizacaoMapa-3">VisualizacaoMapa</a></b> ( VisualizacaoMapa const &amp; <i>viMapa</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#dtor.VisualizacaoMapa">~VisualizacaoMapa</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#atualizaCamadasSomadas">atualizaCamadasSomadas</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#atualizaPesoCamadas">atualizaPesoCamadas</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#atualizaPesos">atualizaPesos</a></b> ( int <i>aa</i>, int <i>ab</i>, int <i>c</i>, int <i>eb</i>, int <i>hb</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#encontraPontosJusante">encontraPontosJusante</a></b> ( int <i>x</i>, int <i>y</i>, bool &amp; <i>encontrado</i>, bool ** <i>matrizVisitados</i>, int &amp; <i>pontosBuscados</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#getFuncaoObjetivo">getFuncaoObjetivo</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#getIndCamada">getIndCamada</a></b> ( QString <i>nome</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> MapaMDE * </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#getMapa">getMapa</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> double </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#getProporcaoZoom">getProporcaoZoom</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#getZoom">getZoom</a></b> ()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#insereCamada">insereCamada</a></b> ( Camada <i>c</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#setInundacao">setInundacao</a></b> ( int <i>posX</i>, int <i>posY</i>, int <i>op</i>, int <i>val</i>, int <i>valEp</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#setTamanhoPonto">setTamanhoPonto</a></b> ( int <i>larguraTela</i>, int <i>alturaTela</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#setZoom">setZoom</a></b> ( int <i>zoom</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QList&lt;Camada&gt; &amp; </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#operator-eq">operator=</a></b> ( QList&lt;Camada&gt; const &amp; <i>listaCamada</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> VisualizacaoMapa &amp; </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#operator-eq-2">operator=</a></b> ( VisualizacaoMapa const &amp; <i>viMapa</i> )</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#operator-eq-eq">operator==</a></b> ( QList&lt;Camada&gt; const &amp; )</td></tr>
+</table>
+<a name="public-variables"></a>
+<h2>Public Variables</h2>
+<table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> short int ** </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#camadasSomadas-var">camadasSomadas</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> double </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#constanteDeProporcaoZoom-var">constanteDeProporcaoZoom</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#estaPreSalvo-var">estaPreSalvo</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> Fluxo * </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#fluxo-var">fluxo</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> Inundacao * </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#inundacao-var">inundacao</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QList&lt;Camada&gt; * </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#listaDeCamadas-var">listaDeCamadas</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> MapaMDE * </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#mapa-var">mapa</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#marcaFinalX-var">marcaFinalX</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#marcaFinalY-var">marcaFinalY</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#marcaInicioX-var">marcaInicioX</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#marcaInicioY-var">marcaInicioY</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#marcouFim-var">marcouFim</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#marcouInicio-var">marcouInicio</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#maxPointSize-var">maxPointSize</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#maxPontosABuscar-var">maxPontosABuscar</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#pesoABarragem-var">pesoABarragem</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#pesoAreaAlagada-var">pesoAreaAlagada</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#pesoCamadas-var">pesoCamadas</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#pesoEBarragem-var">pesoEBarragem</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#pesoHBarragem-var">pesoHBarragem</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#pesoVolume-var">pesoVolume</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> double </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#proporcaoZoom-var">proporcaoZoom</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#tamanhoDaBarraDeZoom-var">tamanhoDaBarraDeZoom</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> double ** </td><td class="memItemRight bottomAlign"><b><a href="visualizacaomapa.html#vetorDeZooms-var">vetorDeZooms</a></b></td></tr>
+</table>
+<a name="details"></a>
+<!-- $$$VisualizacaoMapa-description -->
+<div class="descr">
+<h2>Detailed Description</h2>
+<p>Class to represent a visualization of all contents in the process of creating a reservoir</p>
+</div>
+<!-- @@@VisualizacaoMapa -->
+<div class="func">
+<h2>Member Function Documentation</h2>
+<!-- $$$VisualizacaoMapa[overload1]$$$VisualizacaoMapa -->
+<h3 class="fn"><a name="VisualizacaoMapa"></a>VisualizacaoMapa::VisualizacaoMapa ()</h3>
+<p>Default Constructor. Creates a object with its pointers set to null</p>
+<!-- @@@VisualizacaoMapa -->
+<!-- $$$VisualizacaoMapa$$$VisualizacaoMapaconstchar*intint -->
+<h3 class="fn"><a name="VisualizacaoMapa-2"></a>VisualizacaoMapa::VisualizacaoMapa ( const char * <i>caminhoMapa</i>, int <i>largura</i>, int <i>altura</i> )</h3>
+<p>Constructor. Creates a object <a href="visualizacaomapa.html">VisualizacaoMapa</a> for the path caminhoMapa</p>
+<!-- @@@VisualizacaoMapa -->
+<!-- $$$VisualizacaoMapa$$$VisualizacaoMapaVisualizacaoMapaconst& -->
+<h3 class="fn"><a name="VisualizacaoMapa-3"></a>VisualizacaoMapa::VisualizacaoMapa ( VisualizacaoMapa const &amp; <i>viMapa</i> )</h3>
+<p>Copy Constructor. Creates an object receiving attributes from viMapa</p>
+<!-- @@@VisualizacaoMapa -->
+<!-- $$$~VisualizacaoMapa[overload1]$$$~VisualizacaoMapa -->
+<h3 class="fn"><a name="dtor.VisualizacaoMapa"></a>VisualizacaoMapa::~VisualizacaoMapa ()</h3>
+<p>Destructor.</p>
+<!-- @@@~VisualizacaoMapa -->
+<!-- $$$atualizaCamadasSomadas[overload1]$$$atualizaCamadasSomadas -->
+<h3 class="fn"><a name="atualizaCamadasSomadas"></a>void VisualizacaoMapa::atualizaCamadasSomadas ()</h3>
+<p>Function to sum all Camadas in <a href="visualizacaomapa.html#listaDeCamadas-var">listaDeCamadas</a>, cell by cell. The answer is seted in th matrix <a href="visualizacaomapa.html#camadasSomadas-var">camadasSomadas</a></p>
+<!-- @@@atualizaCamadasSomadas -->
+<!-- $$$atualizaPesoCamadas[overload1]$$$atualizaPesoCamadas -->
+<h3 class="fn"><a name="atualizaPesoCamadas"></a>void VisualizacaoMapa::atualizaPesoCamadas ()</h3>
+<p>Function to update the value of the Camada`s weight. Calculate price of all flooded cell.</p>
+<!-- @@@atualizaPesoCamadas -->
+<!-- $$$atualizaPesos[overload1]$$$atualizaPesosintintintintint -->
+<h3 class="fn"><a name="atualizaPesos"></a>void VisualizacaoMapa::atualizaPesos ( int <i>aa</i>, int <i>ab</i>, int <i>c</i>, int <i>eb</i>, int <i>hb</i> )</h3>
+<p>Function to update the value of the weights</p>
+<!-- @@@atualizaPesos -->
+<!-- $$$encontraPontosJusante[overload1]$$$encontraPontosJusanteintintbool&bool**int& -->
+<h3 class="fn"><a name="encontraPontosJusante"></a>void VisualizacaoMapa::encontraPontosJusante ( int <i>x</i>, int <i>y</i>, bool &amp; <i>encontrado</i>, bool ** <i>matrizVisitados</i>, int &amp; <i>pontosBuscados</i> )</h3>
+<p>Function to look for points(and creates the list of candidates to position the dam) until the end point of stretch drainage network is founded.</p>
+<!-- @@@encontraPontosJusante -->
+<!-- $$$getFuncaoObjetivo[overload1]$$$getFuncaoObjetivo -->
+<h3 class="fn"><a name="getFuncaoObjetivo"></a>int VisualizacaoMapa::getFuncaoObjetivo ()</h3>
+<p>Function to return the value of objective function with the weights.</p>
+<!-- @@@getFuncaoObjetivo -->
+<!-- $$$getIndCamada[overload1]$$$getIndCamadaQString -->
+<h3 class="fn"><a name="getIndCamada"></a>int VisualizacaoMapa::getIndCamada ( QString <i>nome</i> )</h3>
+<p>Function to return the index of Camada named as nome in <a href="visualizacaomapa.html#listaDeCamadas-var">listaDeCamadas</a></p>
+<!-- @@@getIndCamada -->
+<!-- $$$getMapa[overload1]$$$getMapa -->
+<h3 class="fn"><a name="getMapa"></a><a href="mapamde.html">MapaMDE</a> * VisualizacaoMapa::getMapa ()</h3>
+<p>Returns mapa</p>
+<!-- @@@getMapa -->
+<!-- $$$getProporcaoZoom[overload1]$$$getProporcaoZoom -->
+<h3 class="fn"><a name="getProporcaoZoom"></a>double VisualizacaoMapa::getProporcaoZoom ()</h3>
+<p>Function to return the proportion of the zoom</p>
+<!-- @@@getProporcaoZoom -->
+<!-- $$$getZoom[overload1]$$$getZoom -->
+<h3 class="fn"><a name="getZoom"></a>int VisualizacaoMapa::getZoom ()</h3>
+<p>Returns zoom</p>
+<!-- @@@getZoom -->
+<!-- $$$insereCamada[overload1]$$$insereCamadaCamada -->
+<h3 class="fn"><a name="insereCamada"></a>void VisualizacaoMapa::insereCamada ( <a href="camada.html">Camada</a> <i>c</i> )</h3>
+<p>Function to insert Camada c in <a href="visualizacaomapa.html#listaDeCamadas-var">listaDeCamadas</a></p>
+<!-- @@@insereCamada -->
+<!-- $$$setInundacao[overload1]$$$setInundacaointintintintint -->
+<h3 class="fn"><a name="setInundacao"></a>void VisualizacaoMapa::setInundacao ( int <i>posX</i>, int <i>posY</i>, int <i>op</i>, int <i>val</i>, int <i>valEp</i> )</h3>
+<p>Function to create a reservoir.</p>
+<!-- @@@setInundacao -->
+<!-- $$$setTamanhoPonto[overload1]$$$setTamanhoPontointint -->
+<h3 class="fn"><a name="setTamanhoPonto"></a>void VisualizacaoMapa::setTamanhoPonto ( int <i>larguraTela</i>, int <i>alturaTela</i> )</h3>
+<p>Function to calculate and set the point size</p>
+<!-- @@@setTamanhoPonto -->
+<!-- $$$setZoom[overload1]$$$setZoomint -->
+<h3 class="fn"><a name="setZoom"></a>void VisualizacaoMapa::setZoom ( int <i>zoom</i> )</h3>
+<p>Function to set the zoom value</p>
+<!-- @@@setZoom -->
+<!-- $$$operator=[overload1]$$$operator=QList<Camada>const& -->
+<h3 class="fn"><a name="operator-eq"></a>QList&lt;<a href="camada.html">Camada</a>&gt; &amp; VisualizacaoMapa::operator= ( QList&lt;<a href="camada.html">Camada</a>&gt; const &amp; <i>listaCamada</i> )</h3>
+<p>This function overloads VisualizacaoMapa::operator=(QList&lt;Camada&gt; const&amp; listaCamada).</p>
+<p>Operator to set listaCamada to variable <a href="visualizacaomapa.html#listaDeCamadas-var">listaDeCamadas</a></p>
+<!-- @@@operator= -->
+<!-- $$$operator=$$$operator=VisualizacaoMapaconst& -->
+<h3 class="fn"><a name="operator-eq-2"></a>VisualizacaoMapa &amp; VisualizacaoMapa::operator= ( VisualizacaoMapa const &amp; <i>viMapa</i> )</h3>
+<p>This function overloads VisualizacaoMapa::operator=(VisualizacaoMapa const&amp; viMapa).</p>
+<p>Overloaded operator to assign the object viMapa to the current object(this)</p>
+<!-- @@@operator= -->
+<!-- $$$operator==[overload1]$$$operator==QList<Camada>const& -->
+<h3 class="fn"><a name="operator-eq-eq"></a>bool VisualizacaoMapa::operator== ( QList&lt;<a href="camada.html">Camada</a>&gt; const &amp; )</h3>
+<!-- @@@operator== -->
+</div>
+<div class="vars">
+<h2>Member Variable Documentation</h2>
+<!-- $$$camadasSomadas -->
+<h3 class="fn"><a name="camadasSomadas-var"></a>short int ** VisualizacaoMapa::camadasSomadas</h3>
+<p>This variable holds a pointer to pointer, representing a matrix of sum of Camadas to help in position algorithm.</p>
+<!-- @@@camadasSomadas -->
+<!-- $$$constanteDeProporcaoZoom -->
+<h3 class="fn"><a name="constanteDeProporcaoZoom-var"></a>double VisualizacaoMapa::constanteDeProporcaoZoom</h3>
+<p>This variable holds the value for a constant variable used in proporcaoZoom.</p>
+<!-- @@@constanteDeProporcaoZoom -->
+<!-- $$$estaPreSalvo -->
+<h3 class="fn"><a name="estaPreSalvo-var"></a>bool VisualizacaoMapa::estaPreSalvo</h3>
+<p>This variable holds the flag to control if this visualization is saved in Area de Projeto.</p>
+<!-- @@@estaPreSalvo -->
+<!-- $$$fluxo -->
+<h3 class="fn"><a name="fluxo-var"></a><a href="fluxo.html">Fluxo</a> * VisualizacaoMapa::fluxo</h3>
+<p>This variable holds a pointer to Fluxo object.</p>
+<!-- @@@fluxo -->
+<!-- $$$inundacao -->
+<h3 class="fn"><a name="inundacao-var"></a><a href="inundacao.html">Inundacao</a> * VisualizacaoMapa::inundacao</h3>
+<p>This variable holds a pointer to Inundacao object.</p>
+<!-- @@@inundacao -->
+<!-- $$$listaDeCamadas -->
+<h3 class="fn"><a name="listaDeCamadas-var"></a>QList&lt;<a href="camada.html">Camada</a>&gt; * VisualizacaoMapa::listaDeCamadas</h3>
+<p>This variable holds a list of Camada to hold the Camadas create by user.</p>
+<!-- @@@listaDeCamadas -->
+<!-- $$$mapa -->
+<h3 class="fn"><a name="mapa-var"></a><a href="mapamde.html">MapaMDE</a> * VisualizacaoMapa::mapa</h3>
+<p>This variable holds a pointer to MapaMDE object.</p>
+<!-- @@@mapa -->
+<!-- $$$marcaFinalX -->
+<h3 class="fn"><a name="marcaFinalX-var"></a>int VisualizacaoMapa::marcaFinalX</h3>
+<p>This variable holds the end position in axis-x of the drainage network's stretch.</p>
+<!-- @@@marcaFinalX -->
+<!-- $$$marcaFinalY -->
+<h3 class="fn"><a name="marcaFinalY-var"></a>int VisualizacaoMapa::marcaFinalY</h3>
+<p>This variable holds the end position in axis-y of the drainage network's stretch.</p>
+<!-- @@@marcaFinalY -->
+<!-- $$$marcaInicioX -->
+<h3 class="fn"><a name="marcaInicioX-var"></a>int VisualizacaoMapa::marcaInicioX</h3>
+<p>This variable holds the start position in axis-x of the drainage network's stretch.</p>
+<!-- @@@marcaInicioX -->
+<!-- $$$marcaInicioY -->
+<h3 class="fn"><a name="marcaInicioY-var"></a>int VisualizacaoMapa::marcaInicioY</h3>
+<p>This variable holds the start position in axis-y of the drainage network's stretch.</p>
+<!-- @@@marcaInicioY -->
+<!-- $$$marcouFim -->
+<h3 class="fn"><a name="marcouFim-var"></a>bool VisualizacaoMapa::marcouFim</h3>
+<p>This variable holds the flag to hold if user has marked the end position of drainage network's stretch.</p>
+<!-- @@@marcouFim -->
+<!-- $$$marcouInicio -->
+<h3 class="fn"><a name="marcouInicio-var"></a>bool VisualizacaoMapa::marcouInicio</h3>
+<p>This variable holds the flag to hold if user has marked the start position of drainage network's stretch.</p>
+<!-- @@@marcouInicio -->
+<!-- $$$maxPointSize -->
+<h3 class="fn"><a name="maxPointSize-var"></a>int VisualizacaoMapa::maxPointSize</h3>
+<p>This variable holds the maximum point's size.</p>
+<!-- @@@maxPointSize -->
+<!-- $$$maxPontosABuscar -->
+<h3 class="fn"><a name="maxPontosABuscar-var"></a>int VisualizacaoMapa::maxPontosABuscar</h3>
+<p>This variable holds the maximun iteration for recursive functions.</p>
+<!-- @@@maxPontosABuscar -->
+<!-- $$$pesoABarragem -->
+<h3 class="fn"><a name="pesoABarragem-var"></a>int VisualizacaoMapa::pesoABarragem</h3>
+<p>This variable holds the value of the weight for dam's area. Used in position algorithm.</p>
+<!-- @@@pesoABarragem -->
+<!-- $$$pesoAreaAlagada -->
+<h3 class="fn"><a name="pesoAreaAlagada-var"></a>int VisualizacaoMapa::pesoAreaAlagada</h3>
+<p>This variable holds the value of the weight for flooded area. Used in position algorithm.</p>
+<!-- @@@pesoAreaAlagada -->
+<!-- $$$pesoCamadas -->
+<h3 class="fn"><a name="pesoCamadas-var"></a>int VisualizacaoMapa::pesoCamadas</h3>
+<p>This variable holds the value of the sum of cell's in camadasSomadas that are in the resorvoir. Used in position algorithm.</p>
+<!-- @@@pesoCamadas -->
+<!-- $$$pesoEBarragem -->
+<h3 class="fn"><a name="pesoEBarragem-var"></a>int VisualizacaoMapa::pesoEBarragem</h3>
+<p>This variable holds the value of the weight for dam's extent. Used in position algorithm.</p>
+<!-- @@@pesoEBarragem -->
+<!-- $$$pesoHBarragem -->
+<h3 class="fn"><a name="pesoHBarragem-var"></a>int VisualizacaoMapa::pesoHBarragem</h3>
+<p>This variable holds the value of the weight for dam's high. Used in position algorithm.</p>
+<!-- @@@pesoHBarragem -->
+<!-- $$$pesoVolume -->
+<h3 class="fn"><a name="pesoVolume-var"></a>int VisualizacaoMapa::pesoVolume</h3>
+<p>This variable holds the value of the weight for reservoir's volume. Used in position algorithm.</p>
+<!-- @@@pesoVolume -->
+<!-- $$$proporcaoZoom -->
+<h3 class="fn"><a name="proporcaoZoom-var"></a>double VisualizacaoMapa::proporcaoZoom</h3>
+<p>This variable holds an internal variable for the proportion of the zoom. It's used to definy the point size.</p>
+<!-- @@@proporcaoZoom -->
+<!-- $$$tamanhoDaBarraDeZoom -->
+<h3 class="fn"><a name="tamanhoDaBarraDeZoom-var"></a>int VisualizacaoMapa::tamanhoDaBarraDeZoom</h3>
+<p>This variable holds the size of zoom bar.</p>
+<!-- @@@tamanhoDaBarraDeZoom -->
+<!-- $$$vetorDeZooms -->
+<h3 class="fn"><a name="vetorDeZooms-var"></a>double ** VisualizacaoMapa::vetorDeZooms</h3>
+<p>This variable holds a pointer to pointer, representig a matrix with the value of zooms possible in this MDE.</p>
+<!-- @@@vetorDeZooms -->
+</div>
+<p class="naviNextPrevious footerNavi">
+[Previous: <a href="painelvisualizacaoopengl.html">PainelVisualizacaoOpenGL</a>]
+[Next: <a href="All Classes">All Classes</a>]
+</p>
+</body>
+</html>
