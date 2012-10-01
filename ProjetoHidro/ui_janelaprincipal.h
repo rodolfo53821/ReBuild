@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'janelaprincipal.ui'
 **
-** Created: Thu 16. Aug 23:00:50 2012
+** Created: Mon 1. Oct 11:20:29 2012
 **      by: Qt User Interface Compiler version 4.7.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
