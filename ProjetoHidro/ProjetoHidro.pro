@@ -6,7 +6,7 @@
 
 QT       += core gui + opengl
 
-TARGET = Re-Build(Beta)
+TARGET = ProjetoHidro
 TEMPLATE = app
 
 

@@ -76,8 +76,8 @@ public:
     void sobeNivelDeAgua(short int** matrizDeEstados, short int** elevacoes);
     void inunda(int posX, int posY, unsigned char** matrizDeDirecoes, short int** elevacoes,bool **rio,int opVetorNormal, int valorVetorNormal,int valEp);
     void defineVetorNormalABarragem(int op,int val,short int **elevacoes,bool **rio,unsigned char**matrizDeDirecoes,int valEp);
-    void vetorNormalPorVizinhanca(int viz,short int **elevacoes,bool**rio,unsigned char**matrizDeDirecoes);
-    void vetorNormalPorMediaDasDirecoes(int viz,short int **elevacoes,bool**rio,unsigned char**matrizDeDirecoes);
+    void vetorNormalPorMediaSimples(int viz,short int **elevacoes,bool**rio,unsigned char**matrizDeDirecoes);
+    void vetorNormalPorMediaPonderada(int viz,short int **elevacoes,bool**rio,unsigned char**matrizDeDirecoes);
     void vetorNormalPorDouglasPeucker(int numElementos,int epsilon,short int **elevacoes,bool**rio,unsigned char**matrizDeDirecoes);
     void criaListaParaDouglasPeucker(int numElementos,QList<PontoZ> &listaASerSimplificada,short int **elevacoes,bool**rio,unsigned char**matrizDeDirecoes);
     QList<PontoZ> algoritmoDouglasPeucker(QList<PontoZ> & ,int,QList<PontoZ> &);

@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'janelaprincipal.h'
 **
-** Created: Thu 16. Aug 23:01:49 2012
+** Created: Mon 1. Oct 21:26:33 2012
 **      by: The Qt Meta Object Compiler version 62 (Qt 4.7.3)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -23,7 +23,7 @@ static const uint qt_meta_data_JanelaPrincipal[] = {
        5,       // revision
        0,       // classname
        0,    0, // classinfo
-      32,   14, // methods
+      38,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -63,6 +63,12 @@ static const uint qt_meta_data_JanelaPrincipal[] = {
      912,   16,   16,   16, 0x08,
      947,   16,   16,   16, 0x08,
      989,   16,   16,   16, 0x08,
+    1015,   16,   16,   16, 0x08,
+    1046,   16,   16,   16, 0x08,
+    1079,   16,   16,   16, 0x08,
+    1111,   16,   16,   16, 0x08,
+    1145,   16,   16,   16, 0x08,
+    1178,   16,   16,   16, 0x08,
 
        0        // eod
 };
@@ -98,6 +104,12 @@ static const char qt_meta_stringdata_JanelaPrincipal[] = {
     "on_actionFunc_Objetivo_triggered()\0"
     "on_caixaApresentaFuncaoObjetivo_clicked()\0"
     "on_radioButtonM_clicked()\0"
+    "on_radioButtonManual_clicked()\0"
+    "on_radioButtonManual45_clicked()\0"
+    "on_radioButtonManual0_clicked()\0"
+    "on_radioButtonManual135_clicked()\0"
+    "on_radioButtonManual90_clicked()\0"
+    "on_botaoFechaManual_clicked()\0"
 };
 
 const QMetaObject JanelaPrincipal::staticMetaObject = {
@@ -162,9 +174,15 @@ int JanelaPrincipal::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         case 29: on_actionFunc_Objetivo_triggered(); break;
         case 30: on_caixaApresentaFuncaoObjetivo_clicked(); break;
         case 31: on_radioButtonM_clicked(); break;
+        case 32: on_radioButtonManual_clicked(); break;
+        case 33: on_radioButtonManual45_clicked(); break;
+        case 34: on_radioButtonManual0_clicked(); break;
+        case 35: on_radioButtonManual135_clicked(); break;
+        case 36: on_radioButtonManual90_clicked(); break;
+        case 37: on_botaoFechaManual_clicked(); break;
         default: ;
         }
-        _id -= 32;
+        _id -= 38;
     }
     return _id;
 }

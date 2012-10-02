@@ -70,7 +70,7 @@ public:
     QPoint buscaMelhorPonto(VisualizacaoMapa,QList<QPoint>,double);//metodo que busca o melhor posicionamento de matriz
     void mousePressionadoParaCamada(QMouseEvent * ev);//metodo que tem os metodos a chamar ao se trabalhar com camada (nao é slot)
     void mousePressionadoParaBarragem(QMouseEvent * ev);//metodo que tem os metodos a chamar ao se trabalhar com barragem (nao é slot)
-
+    int  valorDirecaoVetorNormal();//metodo que obtem o valor da direcao alem de verficar se os campos foram todos preenchidos corretamentes
 
 
 
@@ -115,6 +115,18 @@ private slots:
     void on_caixaApresentaFuncaoObjetivo_clicked();
 
     void on_radioButtonM_clicked();
+
+    void on_radioButtonManual_clicked();
+
+    void on_radioButtonManual45_clicked();
+
+    void on_radioButtonManual0_clicked();
+
+    void on_radioButtonManual135_clicked();
+
+    void on_radioButtonManual90_clicked();
+
+    void on_botaoFechaManual_clicked();
 
 private:
 

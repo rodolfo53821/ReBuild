@@ -464,6 +464,70 @@ void Inundacao::marcaBarragem(short int **matrizDeEstados){
 
 
 
+
+    int ax = vetorNormalABarragem.x;
+    int ay = vetorNormalABarragem.y;
+
+
+
+    if(vetorNormalABarragem.x*vetorNormalABarragem.y == 0){
+
+        if(vetorNormalABarragem.x == 0){
+
+            dy = 0;
+            dx = 1;
+
+            ebx = j;
+            eby = i+1;
+
+
+
+        }else{
+            dy = 1;
+            dx = 0;
+
+            ebx = j+1;
+            eby = i;
+
+
+        }
+
+
+
+
+
+    }else{
+
+
+        if(vetorNormalABarragem.x*vetorNormalABarragem.y>0){
+
+            dx = 1;
+            dy = -1;
+
+
+            ebx = j+1;
+            eby = i;
+
+
+
+
+        }else{
+
+            dx = 1;
+            dy = 1;
+
+            ebx = j+1;
+            eby = i;
+
+
+        }
+
+
+
+
+    }
+
+/*
     if(vetorNormalABarragem.x == 0){
         dy = 0;
         dx = 1;
@@ -496,7 +560,7 @@ void Inundacao::marcaBarragem(short int **matrizDeEstados){
 
     }
 
-
+*/
     ebxIni = ebx;
     ebyIni = eby;
 
@@ -505,6 +569,8 @@ void Inundacao::marcaBarragem(short int **matrizDeEstados){
         visitado[eby][ebx] = true;
 
     }
+
+
 
 
 
@@ -696,7 +762,7 @@ void Inundacao::defineVetorNormalABarragem(int op,int val,short int **elevacoes,
     //se for o algoritmo dos vizinhos
     if(op == 10){
 
-        vetorNormalPorVizinhanca(val,elevacoes,rio,matrizDeDirecoes);
+        vetorNormalPorMediaSimples(val,elevacoes,rio,matrizDeDirecoes);
     }
 
     if(op == 20)
@@ -706,9 +772,41 @@ void Inundacao::defineVetorNormalABarragem(int op,int val,short int **elevacoes,
 
     if(op == 30){
 
-        vetorNormalPorMediaDasDirecoes(val,elevacoes,rio,matrizDeDirecoes);
+        vetorNormalPorMediaPonderada(val,elevacoes,rio,matrizDeDirecoes);
     }
 
+
+    //direcoes manuais,
+    //lembrado que é setado o par (x,y) para o vetor normal
+    // e que o crescimento da barragem é +x pra direita e +y para baixo
+    //direcao manual com dir =0
+
+    if(op == 101){
+        vetorNormalABarragem.x = 0;
+        vetorNormalABarragem.y = 1;
+
+    }
+
+    //direcao manual com dir =45
+    if(op == 102){
+        vetorNormalABarragem.x = 1;
+        vetorNormalABarragem.y = 1;
+
+    }
+
+    //direcao manual com dir =90
+    if(op == 103){
+        vetorNormalABarragem.x = 1;
+        vetorNormalABarragem.y = 0;
+
+    }
+
+    //direcao manual com dir =135
+    if(op == 104){
+        vetorNormalABarragem.x = -1;
+        vetorNormalABarragem.y = 1;
+
+    }
 
 }
 
@@ -972,7 +1070,7 @@ void Inundacao::vetorNormalPorDouglasPeucker(int numElementos,int epsilon,short 
   \fn Inundacao::vetorNormalPorVizinhanca(int viz,short int **elevacoes,bool**rio,unsigned char**matrizDeDirecoes)
   \brief Function to calculate the dam`s normal vector by the simple sum of vector
   */
-void Inundacao::vetorNormalPorVizinhanca(int viz,short int **elevacoes,bool**rio,unsigned char**matrizDeDirecoes){
+void Inundacao::vetorNormalPorMediaSimples(int viz,short int **elevacoes,bool**rio,unsigned char**matrizDeDirecoes){
 
     int numElementos = viz;
 
@@ -1137,18 +1235,20 @@ void Inundacao::vetorNormalPorVizinhanca(int viz,short int **elevacoes,bool**rio
     }
 
 
-    vetorNormalABarragem.x = respI;
-    vetorNormalABarragem.y = respJ;
+    vetorNormalABarragem.x = respI/numElementos;
+    vetorNormalABarragem.y = respJ/numElementos;
 
 
 }
 
 
 
-
-void Inundacao::vetorNormalPorMediaDasDirecoes(int viz,short int **elevacoes,bool**rio,unsigned char**matrizDeDirecoes){
+void Inundacao::vetorNormalPorMediaPonderada(int viz,short int **elevacoes,bool**rio,unsigned char**matrizDeDirecoes){
 
     int numElementos = viz;
+
+    int s = 0;
+    int pesoVizinho = viz;
 
     //
 
@@ -1157,7 +1257,7 @@ void Inundacao::vetorNormalPorMediaDasDirecoes(int viz,short int **elevacoes,boo
     int i = posicaoBarragem.y;
 
     //acha os oito vizinhos a montante que esta contido na rede de drenagem
-
+//achando o primeiro
 
 
 
@@ -1227,8 +1327,13 @@ void Inundacao::vetorNormalPorMediaDasDirecoes(int viz,short int **elevacoes,boo
                                 }
 
 
-    int respI = i - posicaoBarragem.y;
-    int respJ = j - posicaoBarragem.x;
+    int respI = (i - posicaoBarragem.y)*pesoVizinho;
+    int respJ = (j - posicaoBarragem.x)*pesoVizinho;
+
+
+    s += pesoVizinho;
+    pesoVizinho--;
+
 
 
 
@@ -1305,18 +1410,21 @@ void Inundacao::vetorNormalPorMediaDasDirecoes(int viz,short int **elevacoes,boo
 
         //atualiza variavel da soma de vetores para criar o vetor soma
 
-        respI = (respI + i -posicaoBarragem.y)/2;
-        respJ = (respJ + j - posicaoBarragem.x)/2;
+        respI = respI + (i -posicaoBarragem.y)*pesoVizinho;
+        respJ = respJ + (j - posicaoBarragem.x)*pesoVizinho;
+
+
+        s += pesoVizinho;
+        pesoVizinho--;
 
     }
 
 
-    vetorNormalABarragem.x = respI;
-    vetorNormalABarragem.y = respJ;
+    vetorNormalABarragem.x = respI/s;
+    vetorNormalABarragem.y = respJ/s;
 
 
 }
-
 
 
 /*!
@@ -1397,29 +1505,58 @@ void Inundacao::acertaTamanhoBarragem(short int **matrizDeEstados){
 
     int dx,dy;
 
-    if(vetorNormalABarragem.x == 0){
-        dy = 0;
-        dx = 1;
+    if(vetorNormalABarragem.x*vetorNormalABarragem.y == 0){
+
+        if(vetorNormalABarragem.x == 0){
+
+            dy = 0;
+            dx = 1;
+
+
+
+
+
+        }else{
+            dy = 1;
+            dx = 0;
+
+
+
+
+        }
+
+
 
 
 
     }else{
 
-        dx = (-1)*vetorNormalABarragem.x/abs(vetorNormalABarragem.x);
 
-        if(vetorNormalABarragem.y != 0 )
-            dy = vetorNormalABarragem.y/abs(vetorNormalABarragem.y);
+        if(vetorNormalABarragem.x*vetorNormalABarragem.y>0){
+
+            dx = 1;
+            dy = -1;
+
+
+
+
+
+
+        }else{
+
+            dx = 1;
+            dy = 1;
+
+
+
+
+        }
+
 
 
 
     }
 
-    if(vetorNormalABarragem.y == 0){
-        dy = 1;
-        dx = 0;
-
-
-    }
 
 
     //achar o j,i que nao contem mais vizinhos barragem com agua em volta

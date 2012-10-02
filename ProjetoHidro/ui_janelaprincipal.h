@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'janelaprincipal.ui'
 **
-** Created: Mon 1. Oct 11:20:29 2012
+** Created: Mon 1. Oct 21:22:53 2012
 **      by: Qt User Interface Compiler version 4.7.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -75,12 +75,23 @@ public:
     QLineEdit *campoEntradaFluxoMinimo;
     QGroupBox *groupBox_3;
     QRadioButton *radioButtonV;
-    QRadioButton *radioButtonDP;
     QLineEdit *campoEntradaValorAlgoritmo;
     QLabel *label_7;
     QLineEdit *campoEntradaEpislonAlgoritmo;
     QLabel *label_10;
     QRadioButton *radioButtonM;
+    QRadioButton *radioButtonManual;
+    QGroupBox *widgetManual;
+    QRadioButton *radioButtonManual0;
+    QRadioButton *radioButtonManual45;
+    QRadioButton *radioButtonManual90;
+    QRadioButton *radioButtonManual135;
+    QLabel *barragem90;
+    QLabel *barragem0;
+    QLabel *barragem45;
+    QLabel *barragem135;
+    QPushButton *botaoFechaManual;
+    QRadioButton *radioButtonDP;
     QGroupBox *groupBox_7;
     QGridLayout *gridLayout_2;
     QScrollArea *scrollArea;
@@ -150,14 +161,14 @@ public:
     {
         if (JanelaPrincipal->objectName().isEmpty())
             JanelaPrincipal->setObjectName(QString::fromUtf8("JanelaPrincipal"));
-        JanelaPrincipal->resize(1027, 624);
+        JanelaPrincipal->resize(1027, 650);
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(JanelaPrincipal->sizePolicy().hasHeightForWidth());
         JanelaPrincipal->setSizePolicy(sizePolicy);
-        JanelaPrincipal->setMinimumSize(QSize(1027, 624));
-        JanelaPrincipal->setMaximumSize(QSize(1027, 624));
+        JanelaPrincipal->setMinimumSize(QSize(1027, 650));
+        JanelaPrincipal->setMaximumSize(QSize(1027, 650));
         QIcon icon;
         icon.addFile(QString::fromUtf8("../imagens/logo3.png"), QSize(), QIcon::Normal, QIcon::Off);
         JanelaPrincipal->setWindowIcon(icon);
@@ -411,35 +422,105 @@ public:
 
         groupBox_3 = new QGroupBox(centralWidget);
         groupBox_3->setObjectName(QString::fromUtf8("groupBox_3"));
-        groupBox_3->setMinimumSize(QSize(60, 60));
+        sizePolicy.setHeightForWidth(groupBox_3->sizePolicy().hasHeightForWidth());
+        groupBox_3->setSizePolicy(sizePolicy);
+        groupBox_3->setMinimumSize(QSize(163, 100));
+        groupBox_3->setMaximumSize(QSize(163, 100));
         radioButtonV = new QRadioButton(groupBox_3);
         radioButtonV->setObjectName(QString::fromUtf8("radioButtonV"));
-        radioButtonV->setGeometry(QRect(10, 12, 82, 17));
+        radioButtonV->setGeometry(QRect(10, 16, 55, 17));
         QFont font2;
         font2.setFamily(QString::fromUtf8("MS Shell Dlg 2"));
         radioButtonV->setFont(font2);
-        radioButtonDP = new QRadioButton(groupBox_3);
-        radioButtonDP->setObjectName(QString::fromUtf8("radioButtonDP"));
-        radioButtonDP->setGeometry(QRect(10, 42, 82, 17));
         campoEntradaValorAlgoritmo = new QLineEdit(groupBox_3);
         campoEntradaValorAlgoritmo->setObjectName(QString::fromUtf8("campoEntradaValorAlgoritmo"));
-        campoEntradaValorAlgoritmo->setGeometry(QRect(118, 10, 41, 20));
+        campoEntradaValorAlgoritmo->setGeometry(QRect(44, 68, 41, 20));
         sizePolicy.setHeightForWidth(campoEntradaValorAlgoritmo->sizePolicy().hasHeightForWidth());
         campoEntradaValorAlgoritmo->setSizePolicy(sizePolicy);
         label_7 = new QLabel(groupBox_3);
         label_7->setObjectName(QString::fromUtf8("label_7"));
-        label_7->setGeometry(QRect(90, 14, 46, 13));
+        label_7->setGeometry(QRect(10, 70, 46, 13));
         campoEntradaEpislonAlgoritmo = new QLineEdit(groupBox_3);
         campoEntradaEpislonAlgoritmo->setObjectName(QString::fromUtf8("campoEntradaEpislonAlgoritmo"));
-        campoEntradaEpislonAlgoritmo->setGeometry(QRect(118, 35, 41, 20));
+        campoEntradaEpislonAlgoritmo->setGeometry(QRect(110, 68, 41, 20));
         label_10 = new QLabel(groupBox_3);
         label_10->setObjectName(QString::fromUtf8("label_10"));
-        label_10->setGeometry(QRect(98, 28, 51, 31));
+        label_10->setGeometry(QRect(94, 64, 51, 31));
         label_10->setPixmap(QPixmap(QString::fromUtf8("../imagens/eLetra.png")));
         label_10->setScaledContents(false);
         radioButtonM = new QRadioButton(groupBox_3);
         radioButtonM->setObjectName(QString::fromUtf8("radioButtonM"));
-        radioButtonM->setGeometry(QRect(10, 27, 82, 17));
+        radioButtonM->setGeometry(QRect(10, 38, 55, 17));
+        radioButtonManual = new QRadioButton(groupBox_3);
+        radioButtonManual->setObjectName(QString::fromUtf8("radioButtonManual"));
+        radioButtonManual->setGeometry(QRect(100, 16, 59, 17));
+        widgetManual = new QGroupBox(groupBox_3);
+        widgetManual->setObjectName(QString::fromUtf8("widgetManual"));
+        widgetManual->setEnabled(true);
+        widgetManual->setGeometry(QRect(7, 36, 149, 61));
+        widgetManual->setAutoFillBackground(true);
+        widgetManual->setFlat(true);
+        radioButtonManual0 = new QRadioButton(widgetManual);
+        radioButtonManual0->setObjectName(QString::fromUtf8("radioButtonManual0"));
+        radioButtonManual0->setGeometry(QRect(112, 44, 31, 17));
+        radioButtonManual0->setLayoutDirection(Qt::RightToLeft);
+        radioButtonManual45 = new QRadioButton(widgetManual);
+        radioButtonManual45->setObjectName(QString::fromUtf8("radioButtonManual45"));
+        radioButtonManual45->setGeometry(QRect(112, 0, 31, 17));
+        radioButtonManual45->setLayoutDirection(Qt::RightToLeft);
+        radioButtonManual90 = new QRadioButton(widgetManual);
+        radioButtonManual90->setObjectName(QString::fromUtf8("radioButtonManual90"));
+        radioButtonManual90->setGeometry(QRect(6, 2, 31, 17));
+        radioButtonManual90->setLayoutDirection(Qt::LeftToRight);
+        radioButtonManual135 = new QRadioButton(widgetManual);
+        radioButtonManual135->setObjectName(QString::fromUtf8("radioButtonManual135"));
+        radioButtonManual135->setGeometry(QRect(6, 44, 37, 17));
+        radioButtonManual135->setLayoutDirection(Qt::LeftToRight);
+        barragem90 = new QLabel(widgetManual);
+        barragem90->setObjectName(QString::fromUtf8("barragem90"));
+        barragem90->setGeometry(QRect(48, 4, 77, 61));
+        barragem90->setPixmap(QPixmap(QString::fromUtf8("../imagens/barragem90.png")));
+        barragem0 = new QLabel(widgetManual);
+        barragem0->setObjectName(QString::fromUtf8("barragem0"));
+        barragem0->setGeometry(QRect(50, 10, 77, 47));
+        barragem0->setPixmap(QPixmap(QString::fromUtf8("../imagens/barragem0.png")));
+        barragem45 = new QLabel(widgetManual);
+        barragem45->setObjectName(QString::fromUtf8("barragem45"));
+        barragem45->setGeometry(QRect(48, 6, 77, 59));
+        barragem45->setPixmap(QPixmap(QString::fromUtf8("../imagens/barragem45.png")));
+        barragem135 = new QLabel(widgetManual);
+        barragem135->setObjectName(QString::fromUtf8("barragem135"));
+        barragem135->setGeometry(QRect(48, 12, 77, 47));
+        barragem135->setPixmap(QPixmap(QString::fromUtf8("../imagens/barragem135.png")));
+        barragem45->raise();
+        radioButtonManual0->raise();
+        radioButtonManual45->raise();
+        radioButtonManual90->raise();
+        radioButtonManual135->raise();
+        barragem90->raise();
+        barragem0->raise();
+        barragem135->raise();
+        botaoFechaManual = new QPushButton(groupBox_3);
+        botaoFechaManual->setObjectName(QString::fromUtf8("botaoFechaManual"));
+        botaoFechaManual->setGeometry(QRect(14, 16, 17, 16));
+        botaoFechaManual->setAutoFillBackground(false);
+        QIcon icon5;
+        icon5.addFile(QString::fromUtf8("../imagens/fechar.png"), QSize(), QIcon::Normal, QIcon::Off);
+        botaoFechaManual->setIcon(icon5);
+        radioButtonDP = new QRadioButton(groupBox_3);
+        radioButtonDP->setObjectName(QString::fromUtf8("radioButtonDP"));
+        radioButtonDP->setGeometry(QRect(100, 36, 55, 17));
+        radioButtonDP->setAutoExclusive(true);
+        radioButtonDP->raise();
+        radioButtonV->raise();
+        campoEntradaValorAlgoritmo->raise();
+        label_7->raise();
+        campoEntradaEpislonAlgoritmo->raise();
+        label_10->raise();
+        radioButtonM->raise();
+        radioButtonManual->raise();
+        botaoFechaManual->raise();
+        widgetManual->raise();
 
         formLayout->setWidget(2, QFormLayout::SpanningRole, groupBox_3);
 
@@ -920,15 +1001,7 @@ public:
 #ifndef QT_NO_TOOLTIP
         radioButtonV->setToolTip(QApplication::translate("JanelaPrincipal", "Orienta\303\247ao da barragem por soma dos vetores de vizinhos", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
-        radioButtonV->setText(QApplication::translate("JanelaPrincipal", "DIRSV", 0, QApplication::UnicodeUTF8));
-#ifndef QT_NO_TOOLTIP
-        radioButtonDP->setToolTip(QApplication::translate("JanelaPrincipal", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">Orienta\303\247\303\243o da barragem com uso do algoritmo de Douglas-Peucker</span></p></body></html>", 0, QApplication::UnicodeUTF8));
-#endif // QT_NO_TOOLTIP
-        radioButtonDP->setText(QApplication::translate("JanelaPrincipal", "DIRDP", 0, QApplication::UnicodeUTF8));
+        radioButtonV->setText(QApplication::translate("JanelaPrincipal", "DIRMS", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
         campoEntradaValorAlgoritmo->setToolTip(QApplication::translate("JanelaPrincipal", "P\303\242ramentro do algoritmo\n"
 "referente a quantidade de pontos\n"
@@ -943,7 +1016,25 @@ public:
 "</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">Orienta\303\247\303\243o da barragem atrav\303\251s da dire\303\247\303\243o m\303\251dia dos vetores dos vizinhos</span></p></body></html>", 0, QApplication::UnicodeUTF8));
 #endif // QT_NO_TOOLTIP
-        radioButtonM->setText(QApplication::translate("JanelaPrincipal", "DIRMV", 0, QApplication::UnicodeUTF8));
+        radioButtonM->setText(QApplication::translate("JanelaPrincipal", "DIRMP", 0, QApplication::UnicodeUTF8));
+        radioButtonManual->setText(QApplication::translate("JanelaPrincipal", "Manual", 0, QApplication::UnicodeUTF8));
+        radioButtonManual0->setText(QApplication::translate("JanelaPrincipal", "0", 0, QApplication::UnicodeUTF8));
+        radioButtonManual45->setText(QApplication::translate("JanelaPrincipal", "45", 0, QApplication::UnicodeUTF8));
+        radioButtonManual90->setText(QApplication::translate("JanelaPrincipal", "90", 0, QApplication::UnicodeUTF8));
+        radioButtonManual135->setText(QApplication::translate("JanelaPrincipal", "135", 0, QApplication::UnicodeUTF8));
+        barragem90->setText(QString());
+        barragem0->setText(QString());
+        barragem45->setText(QString());
+        barragem135->setText(QString());
+        botaoFechaManual->setText(QString());
+#ifndef QT_NO_TOOLTIP
+        radioButtonDP->setToolTip(QApplication::translate("JanelaPrincipal", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">Orienta\303\247\303\243o da barragem com uso do algoritmo de Douglas-Peucker</span></p></body></html>", 0, QApplication::UnicodeUTF8));
+#endif // QT_NO_TOOLTIP
+        radioButtonDP->setText(QApplication::translate("JanelaPrincipal", "DIRDP", 0, QApplication::UnicodeUTF8));
         groupBox_7->setTitle(QApplication::translate("JanelaPrincipal", "Visualiza\303\247\303\243o", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
         botaoZoomMais->setToolTip(QApplication::translate("JanelaPrincipal", "Zoom +", 0, QApplication::UnicodeUTF8));

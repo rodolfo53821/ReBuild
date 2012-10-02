@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'janelacamadas.ui'
 **
-** Created: Mon 6. Aug 11:20:49 2012
+** Created: Mon 1. Oct 19:01:29 2012
 **      by: Qt User Interface Compiler version 4.7.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!

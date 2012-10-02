@@ -237,6 +237,11 @@ JanelaPrincipal::JanelaPrincipal(QWidget *parent) :
     selecaoPontoBarragem = true;
 
 
+    //escondendo o widget para direcionamento da barragem manualmente
+        ui->widgetManual->setVisible(false);
+        ui->botaoFechaManual->setVisible(false);
+
+
 
 }
 
@@ -407,14 +412,11 @@ void JanelaPrincipal::movendoMouse(QMouseEvent* ev){
   */
 void JanelaPrincipal::moveBarragem(QKeyEvent* kev){
 
-    int opAlgoritmoNBarragem ;
 
-    if(ui->radioButtonV->isChecked())
-        opAlgoritmoNBarragem = 10;
-    if(ui->radioButtonDP->isChecked())
-        opAlgoritmoNBarragem = 20;
-     if(ui->radioButtonM->isChecked())
-         opAlgoritmoNBarragem = 30;
+
+    int opAlgoritmoNBarragem = valorDirecaoVetorNormal();
+
+    if(opAlgoritmoNBarragem ==0 )return;
 
 
     int valEp = ui->campoEntradaEpislonAlgoritmo->text().toInt();
@@ -692,14 +694,7 @@ QPoint JanelaPrincipal::buscaMelhorPonto(VisualizacaoMapa viMapa,QList<QPoint> l
     QList<QPoint>::Iterator it = listaPontos.begin();
 
 
-    int opAlgoritmoNBarragem ;
-
-    if(ui->radioButtonV->isChecked())
-        opAlgoritmoNBarragem = 10;
-    if(ui->radioButtonDP->isChecked())
-        opAlgoritmoNBarragem = 20;
-     if(ui->radioButtonM->isChecked())
-         opAlgoritmoNBarragem = 30;
+    int opAlgoritmoNBarragem = valorDirecaoVetorNormal();
 
 
 
@@ -1046,6 +1041,116 @@ void JanelaPrincipal::mousePressionadoParaCamada(QMouseEvent * ev){
 }
 
 
+/*!
+  \fn JanelaPrincipal::valorDirecaoVetorNormal(QMouseEvent * ev)
+  \brief Function dedictated for fetch the dam direction value and to verifying if all need attributes are seted to create the dam. Returns 0 if some erro occurred or the value that representing the dam direction method
+  10 ----- Simple Average
+  20 ----- Douglas P. + Simple Average
+  30 ----- Weighted Average
+  101 ----- Manual direction 0 degree
+  102 ----- Manual direction 45 degree
+  103 ----- Manual direction 90 degree
+  104 ----- Manual direction 135 degree
+
+  */
+ int  JanelaPrincipal::valorDirecaoVetorNormal(){
+
+
+
+     //verifica se os campos necessarios estao prenchidos
+
+     bool textoOK;
+
+
+     bool orientaOK = true;
+
+     QMessageBox erroFaltaParametros;
+     erroFaltaParametros.setText("Preencha os campos necessários e com valores válidos antes de posicionar a barragem:");
+     erroFaltaParametros.setIcon(QMessageBox::Warning);
+
+
+     //valor da capacidade nao definido
+     if(ui->campoEntradaCapacidadeDesejada->text().toInt(&textoOK,10) == 0){
+
+         erroFaltaParametros.setText( erroFaltaParametros.text()+"\n" + "-Erro em Capacidade Desejada ");
+
+
+     }
+
+
+     //nenhuma metodo de obter direcao escolhido
+
+     if( (!ui->radioButtonV->isChecked()&&!ui->radioButtonDP->isChecked()&&!ui->radioButtonM->isChecked()&&!ui->radioButtonManual->isChecked() ) ){
+
+         erroFaltaParametros.setText(erroFaltaParametros.text()+"\n" +"-Erro em Orientação da Barragem");
+
+
+     }
+
+
+
+     //se nao for a direcao manual escolhido
+
+     if(!ui->radioButtonManual->isChecked()){
+
+         if((ui->radioButtonDP->isChecked() || ui->radioButtonV->isChecked() || ui->radioButtonM->isChecked()) && ui->campoEntradaValorAlgoritmo->text().toInt(&orientaOK,10)== 0){
+
+             erroFaltaParametros.setText(erroFaltaParametros.text() +"\n"+"-Erro em N.Viz.");
+
+
+         }
+
+         if( (ui->campoEntradaEpislonAlgoritmo->text().toInt(&orientaOK,10) == 0 && ui->radioButtonDP->isChecked())){
+
+             erroFaltaParametros.setText(erroFaltaParametros.text()+"\n" +"-Erro em Epsilon");
+
+
+         }
+     }
+
+     if(ui->radioButtonManual->isChecked()){
+         if(!ui->radioButtonManual0->isChecked()&&!ui->radioButtonManual45->isChecked()&&!ui->radioButtonManual90->isChecked()&&!ui->radioButtonManual135->isChecked())
+
+              erroFaltaParametros.setText(erroFaltaParametros.text()+"\n" +"-Erro em direção manual");
+
+     }
+
+     if(QString::compare(erroFaltaParametros.text(),
+                         "Preencha os campos necessários e com valores válidos antes de posicionar a barragem:")!=0){
+
+         erroFaltaParametros.exec();
+         return 0;
+
+     }
+
+
+     int opAlgoritmoNBarragem = 0 ;
+
+     if(ui->radioButtonV->isChecked())
+         opAlgoritmoNBarragem = 10;
+     if(ui->radioButtonDP->isChecked())
+         opAlgoritmoNBarragem = 20;
+     if(ui->radioButtonM->isChecked())
+         opAlgoritmoNBarragem = 30;
+     if(ui->radioButtonManual->isChecked()){
+         opAlgoritmoNBarragem = 100;
+         if(ui->radioButtonManual0->isChecked())
+             opAlgoritmoNBarragem = 101;
+         if(ui->radioButtonManual45->isChecked())
+             opAlgoritmoNBarragem = 102;
+         if(ui->radioButtonManual90->isChecked())
+             opAlgoritmoNBarragem = 103;
+         if(ui->radioButtonManual135->isChecked())
+             opAlgoritmoNBarragem = 104;
+
+
+     }
+
+
+     return opAlgoritmoNBarragem;
+
+
+ }
 
 /*!
   \fn JanelaPrincipal::mousePressionadoParaBarragem(QMouseEvent * ev)
@@ -1055,64 +1160,12 @@ void JanelaPrincipal::mousePressionadoParaCamada(QMouseEvent * ev){
 void JanelaPrincipal::mousePressionadoParaBarragem(QMouseEvent * ev){
 
 
-    //verifica se os campos necessarios estao prenchidos
-
-    bool textoOK;
-
-
-    bool orientaOK = true;
-
-    QMessageBox erroFaltaParametros;
-    erroFaltaParametros.setText("Preencha os campos necessários e com valores válidos antes de posicionar a barragem:");
-    erroFaltaParametros.setIcon(QMessageBox::Warning);
-
-    if(ui->campoEntradaCapacidadeDesejada->text().toInt(&textoOK,10) == 0){
-
-        erroFaltaParametros.setText( erroFaltaParametros.text()+"\n" + "-Erro em Capacidade Desejada ");
-
-
-    }
-
-
-    if( (!ui->radioButtonV->isChecked()&&!ui->radioButtonDP->isChecked()&&!ui->radioButtonM->isChecked() ) ){
-
-        erroFaltaParametros.setText(erroFaltaParametros.text()+"\n" +"-Erro em Orientação da Barragem");
-
-
-    }
 
 
 
-    if((ui->radioButtonDP->isChecked() || ui->radioButtonV->isChecked() || ui->radioButtonM->isChecked()) && ui->campoEntradaValorAlgoritmo->text().toInt(&orientaOK,10)== 0){
+    int opAlgoritmoNBarragem = valorDirecaoVetorNormal();
 
-        erroFaltaParametros.setText(erroFaltaParametros.text() +"\n"+"-Erro em N.Viz.");
-
-
-    }
-
-    if( (ui->campoEntradaEpislonAlgoritmo->text().toInt(&orientaOK,10) == 0 && ui->radioButtonDP->isChecked())){
-
-        erroFaltaParametros.setText(erroFaltaParametros.text()+"\n" +"-Erro em Epsilon");
-
-
-    }
-
-    if(QString::compare(erroFaltaParametros.text(),
-                        "Preencha os campos necessários e com valores válidos antes de posicionar a barragem:")!=0){
-
-        erroFaltaParametros.exec();
-        return;
-
-    }
-
-
-    int opAlgoritmoNBarragem ;
-
-    if(ui->radioButtonV->isChecked())
-        opAlgoritmoNBarragem = 10;
-    if(ui->radioButtonDP->isChecked())
-        opAlgoritmoNBarragem = 20;
-
+    if(opAlgoritmoNBarragem ==0 )return;
 
     int valEp = ui->campoEntradaEpislonAlgoritmo->text().toInt();
 
@@ -2190,11 +2243,14 @@ void JanelaPrincipal::on_selecaoPontosCamada_clicked(){
 
 void JanelaPrincipal::on_radioButtonV_clicked(){
     ui->campoEntradaEpislonAlgoritmo->setEnabled(false);
+        ui->widgetManual->setVisible(false);
 }
 
 void JanelaPrincipal::on_radioButtonDP_clicked()
 {
     ui->campoEntradaEpislonAlgoritmo->setEnabled(true);
+
+        ui->widgetManual->setVisible(false);
 }
 
 void JanelaPrincipal::on_pushButton_clicked()
@@ -2504,4 +2560,94 @@ void JanelaPrincipal::on_caixaApresentaFuncaoObjetivo_clicked()
 void JanelaPrincipal::on_radioButtonM_clicked()
 {
     ui->campoEntradaEpislonAlgoritmo->setEnabled(false);
+    ui->widgetManual->setVisible(false);
+}
+
+void JanelaPrincipal::on_radioButtonManual_clicked()
+{
+
+
+    //escondendo as imagens de barragem enquanto nenhuma direcao eh selecionada
+    ui->barragem0->setVisible(false);
+    ui->barragem45->setVisible(false);
+    ui->barragem90->setVisible(false);
+    ui->barragem135->setVisible(false);
+
+
+    if(ui->radioButtonManual0->isChecked())
+         ui->barragem0->setVisible(true);
+
+
+    if(ui->radioButtonManual45->isChecked())
+         ui->barragem45->setVisible(true);
+
+    if(ui->radioButtonManual90->isChecked())
+         ui->barragem90->setVisible(true);
+
+    if(ui->radioButtonManual135->isChecked())
+         ui->barragem135->setVisible(true);
+
+
+    ui->widgetManual->setVisible(true);
+
+
+    ui->botaoFechaManual->setVisible(true);
+    ui->radioButtonDP->setVisible(false);
+    ui->radioButtonM->setVisible(false);
+    ui->radioButtonV->setVisible(false);
+
+}
+
+void JanelaPrincipal::on_radioButtonManual45_clicked()
+{
+
+    ui->barragem0->setVisible(false);
+    ui->barragem45->setVisible(false);
+    ui->barragem90->setVisible(false);
+    ui->barragem135->setVisible(false);
+    ui->barragem45->setVisible(true);
+}
+
+void JanelaPrincipal::on_radioButtonManual0_clicked()
+{
+
+    ui->barragem0->setVisible(false);
+    ui->barragem45->setVisible(false);
+    ui->barragem90->setVisible(false);
+    ui->barragem135->setVisible(false);
+    ui->barragem0->setVisible(true);
+
+}
+
+void JanelaPrincipal::on_radioButtonManual135_clicked()
+{
+    ui->barragem0->setVisible(false);
+    ui->barragem45->setVisible(false);
+    ui->barragem90->setVisible(false);
+    ui->barragem135->setVisible(false);
+    ui->barragem135->setVisible(true);
+}
+
+void JanelaPrincipal::on_radioButtonManual90_clicked()
+{
+    ui->barragem0->setVisible(false);
+    ui->barragem45->setVisible(false);
+    ui->barragem90->setVisible(false);
+    ui->barragem135->setVisible(false);
+    ui->barragem90->setVisible(true);
+}
+
+
+
+void JanelaPrincipal::on_botaoFechaManual_clicked()
+{
+    ui->botaoFechaManual->setVisible(false);
+    ui->radioButtonDP->setVisible(true);
+    ui->radioButtonM->setVisible(true);
+    ui->radioButtonV->setVisible(true);
+
+    ui->widgetManual->setVisible(false);
+
+
+
 }
